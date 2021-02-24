@@ -1,0 +1,63 @@
+@import "constants";
+
+div.bf-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  &.bf-expanded {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+
+div.basic-filter .bf-selection {
+  padding: @spacing-unit/2;
+  margin-right: @spacing-unit/2;
+  min-width: 160px;
+}
+
+.bf-button-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  margin-right: @spacing-unit/2;
+  margin-left: auto;
+}
+
+.bf-body > select {
+  min-width: 200px;
+  height: 30px;
+  border-radius: @spacing-item;
+  border: 2px solid @grey-border-color;
+  padding: @spacing-item;
+}
+
+.bf-body > form {
+  display: flex;
+  flex-flow: column;
+}
+
+.basic-filter {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: @spacing-unit;
+  flex-basis: auto;
+  padding: @spacing-unit/2;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.med-text {
+  font-size: 16px;
+}
+
+.af-expand {
+  width: 100%;
+}

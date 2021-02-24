@@ -1,0 +1,391 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Basic Filter Container Basic Filter only 1`] = `
+<div
+  className="bf-container section section-light bf-expanded"
+  id=""
+>
+  <div
+    className="basic-filter"
+  >
+    <div
+      className="bf-selection"
+      id="grade-bf"
+      title=""
+    >
+      <div
+        className=""
+      >
+        <label
+          htmlFor="Grade"
+        >
+          <span
+            className=""
+          >
+            Grade
+          </span>
+        </label>
+        <select
+          aria-label="Grade"
+          className="form-control input-sm"
+          disabled={false}
+          id="Grade"
+          onChange={[Function]}
+          tabIndex={undefined}
+          value="default"
+        >
+          <option
+            aria-selected={true}
+            disabled={false}
+            label="Select Grade"
+            value="default"
+          >
+            Select Grade
+          </option>
+          <option
+            aria-selected={false}
+            disabled={false}
+            label="Grades 3-5"
+            value="7"
+          >
+            Grades 3-5
+          </option>
+          <option
+            aria-selected={false}
+            disabled={false}
+            label="Grades 6-8"
+            value="56"
+          >
+            Grades 6-8
+          </option>
+          <option
+            aria-selected={false}
+            disabled={false}
+            label="High School"
+            value="960"
+          >
+            High School
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      className="bf-selection"
+      id="subjects-bf"
+      title=""
+    >
+      <label
+        htmlFor="basic-filter-checkbox"
+      >
+        Subjects
+        <div
+          className="radio"
+        >
+          <label>
+            <input
+              aria-checked={false}
+              aria-label="Select Subjects ELA"
+              checked={false}
+              id="basic-filter-checkbox"
+              name="Subjects"
+              onChange={[Function]}
+              tabIndex={0}
+              type="radio"
+              value="ELA"
+            />
+            English Literacy/ Arts
+          </label>
+        </div>
+        <div
+          className="radio"
+        >
+          <label>
+            <input
+              aria-checked={false}
+              aria-label="Select Subjects Math"
+              checked={false}
+              id="basic-filter-checkbox"
+              name="Subjects"
+              onChange={[Function]}
+              tabIndex={0}
+              type="radio"
+              value="Math"
+            />
+            Mathematics
+          </label>
+        </div>
+      </label>
+    </div>
+    <div
+      className="filter-selection"
+      id="techtype-filter"
+    >
+      <div
+        className="filter-container-header"
+      >
+        <label
+          htmlFor="btn-group-filter"
+        >
+          <span
+            className="tooltip-label"
+            info-label="true"
+          >
+            TechType
+          </span>
+        </label>
+      </div>
+      <div
+        className="nested-btn-group btn-group-sm toggle-group vertical"
+        data-toggle="buttons"
+      >
+        <button
+          aria-checked={true}
+          aria-label="Select All TechType"
+          className="btn btn-primary active"
+          disabled={false}
+          id="btn-group-filter"
+          onClick={[Function]}
+          role="switch"
+        >
+          All
+        </button>
+        <div
+          className="btn-group filter-btn-group"
+        >
+          <button
+            aria-checked={false}
+            aria-label="Select TechType tech2"
+            className="btn btn-primary "
+            disabled={false}
+            id="btn-group-filter"
+            onClick={[Function]}
+            role="switch"
+          >
+            tech2
+          </button>
+          <button
+            aria-checked={false}
+            aria-label="Select TechType tech1"
+            className="btn btn-primary "
+            disabled={false}
+            id="btn-group-filter"
+            onClick={[Function]}
+            role="switch"
+          >
+            tech1
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Basic Filter Container Basic Filter with Advanced filter expansion button 1`] = `
+<div
+  className="bf-container section section-light"
+  id=""
+>
+  <div
+    className="basic-filter"
+  >
+    <div
+      className="bf-selection"
+      id="grade-bf"
+      title=""
+    >
+      <div
+        className=""
+      >
+        <label
+          htmlFor="Grade"
+        >
+          <span
+            className=""
+          >
+            Grade
+          </span>
+        </label>
+        <select
+          aria-label="Grade"
+          className="form-control input-sm"
+          disabled={false}
+          id="Grade"
+          onChange={[Function]}
+          tabIndex={undefined}
+          value="default"
+        >
+          <option
+            aria-selected={true}
+            disabled={false}
+            label="Select Grade"
+            value="default"
+          >
+            Select Grade
+          </option>
+          <option
+            aria-selected={false}
+            disabled={false}
+            label="Grades 3-5"
+            value="7"
+          >
+            Grades 3-5
+          </option>
+          <option
+            aria-selected={false}
+            disabled={false}
+            label="Grades 6-8"
+            value="56"
+          >
+            Grades 6-8
+          </option>
+          <option
+            aria-selected={false}
+            disabled={false}
+            label="High School"
+            value="960"
+          >
+            High School
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      className="bf-selection"
+      id="subjects-bf"
+      title=""
+    >
+      <label
+        htmlFor="basic-filter-checkbox"
+      >
+        Subjects
+        <div
+          className="radio"
+        >
+          <label>
+            <input
+              aria-checked={false}
+              aria-label="Select Subjects ELA"
+              checked={false}
+              id="basic-filter-checkbox"
+              name="Subjects"
+              onChange={[Function]}
+              tabIndex={0}
+              type="radio"
+              value="ELA"
+            />
+            English Literacy/ Arts
+          </label>
+        </div>
+        <div
+          className="radio"
+        >
+          <label>
+            <input
+              aria-checked={false}
+              aria-label="Select Subjects Math"
+              checked={false}
+              id="basic-filter-checkbox"
+              name="Subjects"
+              onChange={[Function]}
+              tabIndex={0}
+              type="radio"
+              value="Math"
+            />
+            Mathematics
+          </label>
+        </div>
+      </label>
+    </div>
+    <div
+      className="filter-selection"
+      id="techtype-filter"
+    >
+      <div
+        className="filter-container-header"
+      >
+        <label
+          htmlFor="btn-group-filter"
+        >
+          <span
+            className="tooltip-label"
+            info-label="true"
+          >
+            TechType
+          </span>
+        </label>
+      </div>
+      <div
+        className="nested-btn-group btn-group-sm toggle-group vertical"
+        data-toggle="buttons"
+      >
+        <button
+          aria-checked={true}
+          aria-label="Select All TechType"
+          className="btn btn-primary active"
+          disabled={false}
+          id="btn-group-filter"
+          onClick={[Function]}
+          role="switch"
+        >
+          All
+        </button>
+        <div
+          className="btn-group filter-btn-group"
+        >
+          <button
+            aria-checked={false}
+            aria-label="Select TechType tech2"
+            className="btn btn-primary "
+            disabled={false}
+            id="btn-group-filter"
+            onClick={[Function]}
+            role="switch"
+          >
+            tech2
+          </button>
+          <button
+            aria-checked={false}
+            aria-label="Select TechType tech1"
+            className="btn btn-primary "
+            disabled={false}
+            id="btn-group-filter"
+            onClick={[Function]}
+            role="switch"
+          >
+            tech1
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="bf-button-container"
+  >
+    <span>
+      <button
+        aria-label="Reset filters"
+        className="btn btn-default filter-button"
+        onClick={undefined}
+        tabIndex={1}
+      >
+        Reset
+      </button>
+    </span>
+    <span>
+      <button
+        aria-label="Advanced filters"
+        className="btn btn-default filter-button af-expand"
+        onClick={[Function]}
+        tabIndex={1}
+      >
+        Advanced Filters 
+        <span
+          aria-hidden="true"
+          className="fa fa-chevron-right"
+        />
+      </button>
+    </span>
+  </div>
+</div>
+`;

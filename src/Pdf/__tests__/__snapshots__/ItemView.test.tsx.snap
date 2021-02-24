@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EvidenceStatement matches snapshot 1`] = `
+<div
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "",
+    }
+  }
+/>
+`;
+
+exports[`EvidenceStatement matches snapshot with html 1`] = `
+<div
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "<div>hello world</div>",
+    }
+  }
+/>
+`;
+
+exports[`EvidenceStatement matches snapshot with picture 1`] = `""`;

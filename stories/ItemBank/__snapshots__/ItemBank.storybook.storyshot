@@ -1,0 +1,594 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Item Bank default 1`] = `
+<div
+  className="site-body"
+  id="site-body"
+>
+  <header
+    role="navigation"
+  >
+    <nav
+      className="nav-container"
+      role="navigation"
+    >
+      <div
+        className="nav-content container"
+      >
+        <div
+          className="nav-titleGroup"
+        >
+          <div
+            className="nav-titleGroup-item"
+          >
+            <a
+              href="https://smartertoolsforteachers.org/"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Smarter Balanced Tools For Teachers"
+            >
+              <img
+                alt="Smarter Balanced Tools for Teachers Logo"
+                src="test-file-stub"
+              />
+            </a>
+          </div>
+          <div
+            className="nav-titleGroup-item"
+          >
+            <h1
+              className="application-title"
+            >
+              Item Bank
+            </h1>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main
+    className="site-content"
+    id="main"
+    role="main"
+  >
+    <div
+      className="item-container container"
+    >
+      <div>
+        <div>
+          <div
+            className="accordion-container"
+          >
+            <div
+              className="accordion-bar"
+              onClick={[Function]}
+              role="button"
+            >
+              <div
+                className="accordion-content"
+              >
+                CSV Entry
+                <span
+                  aria-hidden="true"
+                  className="fa fa-chevron-down carat"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="accordion-container"
+          >
+            <div
+              className="accordion-bar"
+              onClick={[Function]}
+              role="button"
+            >
+              <div
+                className="accordion-content"
+              >
+                Items Entry
+                <span
+                  aria-hidden="true"
+                  className="fa fa-chevron-down carat"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="section revisions-items"
+        >
+          <div
+            className="revisions section section-light section-compact"
+          >
+            <h3
+              className="revisions-header"
+            >
+              Revisions
+            </h3>
+            <ul />
+          </div>
+          <div
+            aria-live="polite"
+            aria-relevant="additions"
+            className="section item-map-iframe"
+          >
+            <div
+              aria-label="Toolbar with button groups"
+              className="item-nav"
+              role="toolbar"
+            >
+              <div
+                aria-label="First group"
+                className="item-nav-left-group"
+                role="group"
+              />
+              <div
+                className="nav-buttons"
+              >
+                <button
+                  className="btn btn-link previous"
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <div
+                    className="nav-button-container"
+                  >
+                    <span
+                      aria-hidden="true"
+                      className="fa fa-arrow-left"
+                    />
+                    <div
+                      className="nav-item-name"
+                    >
+                      Previous
+                    </div>
+                  </div>
+                </button>
+                <div
+                  className="select-dd"
+                >
+                  <label
+                    htmlFor="Items"
+                  >
+                    <span
+                      className="display-none"
+                    >
+                      Items
+                    </span>
+                  </label>
+                  <select
+                    aria-label="Items"
+                    className="form-control item-dropdown"
+                    disabled={undefined}
+                    id="Items"
+                    onChange={[Function]}
+                    tabIndex={undefined}
+                    value="187-1111"
+                  >
+                    <option
+                      aria-selected={false}
+                      disabled={true}
+                      label="Select an Item"
+                      value="N/A"
+                    >
+                      Select an Item
+                    </option>
+                    <option
+                      aria-selected={true}
+                      disabled={undefined}
+                      label="itemreviewviewer:187-1111"
+                      value="187-1111"
+                    >
+                      itemreviewviewer:187-1111
+                    </option>
+                    <option
+                      aria-selected={false}
+                      disabled={undefined}
+                      label="itemreviewviewer:1872-2222"
+                      value="1872-2222"
+                    >
+                      itemreviewviewer:1872-2222
+                    </option>
+                    <option
+                      aria-selected={false}
+                      disabled={undefined}
+                      label="itemreviewviewer:1871-3333"
+                      value="1871-3333"
+                    >
+                      itemreviewviewer:1871-3333
+                    </option>
+                    <option
+                      aria-selected={false}
+                      disabled={undefined}
+                      label=""
+                      value="undefined-undefined"
+                    >
+                      
+                    </option>
+                  </select>
+                </div>
+                <button
+                  className="btn btn-link next"
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <div
+                    className="nav-button-container"
+                  >
+                    <span
+                      aria-hidden="true"
+                      className="fa fa-arrow-right"
+                    />
+                    <div
+                      className="nav-item-name"
+                    >
+                      Next
+                    </div>
+                  </div>
+                </button>
+              </div>
+              <div
+                aria-label="Second group"
+                className="item-nav-right-group"
+                role="group"
+              />
+            </div>
+            <div
+              aria-hidden={false}
+              className="itemViewerFrame"
+              tabIndex={0}
+            >
+              <div
+                className="loader-icon"
+              >
+                <div
+                  className="loader"
+                />
+              </div>
+              <iframe
+                className="itemviewer-iframe"
+                id="itemviewer-iframe"
+                onLoad={[Function]}
+                onLoadStart={[Function]}
+                scrolling="no"
+                src="https://ivs.smarterbalanced.org/items?ids=187-3000"
+                title="item viewer"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer
+    className="footer-container"
+    role="contentinfo"
+  >
+    <div
+      className="footer-content container"
+    >
+      <a
+        className="footer-sbLink footer-practiceTests"
+        href="http://practice.smarterbalanced.org/"
+      >
+        Practice and training tests are available here.
+      </a>
+      <div
+        className="footer-copyright"
+      >
+        <p>
+          © The Regents of the University of California.
+        </p>
+        <a
+          className="footer-sbLink"
+          href="//www.smarterbalanced.org"
+        >
+          www.SmarterBalanced.org
+        </a>
+        <div>
+          <div>
+            <button
+              aria-label="Open Website Privacy Policy Modal"
+              className="btn btn-link btn-sm footer-sbLink"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Website Privacy Policy
+            </button>
+          </div>
+        </div>
+      </div>
+      <div>
+        IAIP v1.0.0
+      </div>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`Storyshots Item Bank default error client 1`] = `
+<div
+  className="site-body"
+  id="site-body"
+>
+  <header
+    role="navigation"
+  >
+    <nav
+      className="nav-container"
+      role="navigation"
+    >
+      <div
+        className="nav-content container"
+      >
+        <div
+          className="nav-titleGroup"
+        >
+          <div
+            className="nav-titleGroup-item"
+          >
+            <a
+              href="https://smartertoolsforteachers.org/"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Smarter Balanced Tools For Teachers"
+            >
+              <img
+                alt="Smarter Balanced Tools for Teachers Logo"
+                src="test-file-stub"
+              />
+            </a>
+          </div>
+          <div
+            className="nav-titleGroup-item"
+          >
+            <h1
+              className="application-title"
+            >
+              Item Bank
+            </h1>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main
+    className="site-content"
+    id="main"
+    role="main"
+  >
+    <div
+      className="item-container container"
+    >
+      <div>
+        <div>
+          <div
+            className="accordion-container"
+          >
+            <div
+              className="accordion-bar"
+              onClick={[Function]}
+              role="button"
+            >
+              <div
+                className="accordion-content"
+              >
+                CSV Entry
+                <span
+                  aria-hidden="true"
+                  className="fa fa-chevron-down carat"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="accordion-container"
+          >
+            <div
+              className="accordion-bar"
+              onClick={[Function]}
+              role="button"
+            >
+              <div
+                className="accordion-content"
+              >
+                Items Entry
+                <span
+                  aria-hidden="true"
+                  className="fa fa-chevron-down carat"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="section revisions-items"
+        >
+          <div
+            className="revisions section section-light section-compact"
+          >
+            <h3
+              className="revisions-header"
+            >
+              Revisions
+            </h3>
+            <ul />
+          </div>
+          <div
+            aria-live="polite"
+            aria-relevant="additions"
+            className="section item-map-iframe"
+          >
+            <div
+              aria-label="Toolbar with button groups"
+              className="item-nav"
+              role="toolbar"
+            >
+              <div
+                aria-label="First group"
+                className="item-nav-left-group"
+                role="group"
+              />
+              <div
+                className="nav-buttons"
+              >
+                <button
+                  className="btn btn-link previous"
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <div
+                    className="nav-button-container"
+                  >
+                    <span
+                      aria-hidden="true"
+                      className="fa fa-arrow-left"
+                    />
+                    <div
+                      className="nav-item-name"
+                    >
+                      Previous
+                    </div>
+                  </div>
+                </button>
+                <div
+                  className="select-dd"
+                >
+                  <label
+                    htmlFor="Items"
+                  >
+                    <span
+                      className="display-none"
+                    >
+                      Items
+                    </span>
+                  </label>
+                  <select
+                    aria-label="Items"
+                    className="form-control item-dropdown"
+                    disabled={undefined}
+                    id="Items"
+                    onChange={[Function]}
+                    tabIndex={undefined}
+                    value="187-1111"
+                  >
+                    <option
+                      aria-selected={false}
+                      disabled={true}
+                      label="Select an Item"
+                      value="N/A"
+                    >
+                      Select an Item
+                    </option>
+                    <option
+                      aria-selected={true}
+                      disabled={undefined}
+                      label="itemreviewviewer:187-1111"
+                      value="187-1111"
+                    >
+                      itemreviewviewer:187-1111
+                    </option>
+                    <option
+                      aria-selected={false}
+                      disabled={undefined}
+                      label="itemreviewviewer:1872-2222"
+                      value="1872-2222"
+                    >
+                      itemreviewviewer:1872-2222
+                    </option>
+                    <option
+                      aria-selected={false}
+                      disabled={undefined}
+                      label=""
+                      value="undefined-undefined"
+                    >
+                      
+                    </option>
+                  </select>
+                </div>
+                <button
+                  className="btn btn-link next"
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <div
+                    className="nav-button-container"
+                  >
+                    <span
+                      aria-hidden="true"
+                      className="fa fa-arrow-right"
+                    />
+                    <div
+                      className="nav-item-name"
+                    >
+                      Next
+                    </div>
+                  </div>
+                </button>
+              </div>
+              <div
+                aria-label="Second group"
+                className="item-nav-right-group"
+                role="group"
+              />
+            </div>
+            <div
+              className="no-item"
+            >
+              <p>
+                No Item Found
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer
+    className="footer-container"
+    role="contentinfo"
+  >
+    <div
+      className="footer-content container"
+    >
+      <a
+        className="footer-sbLink footer-practiceTests"
+        href="http://practice.smarterbalanced.org/"
+      >
+        Practice and training tests are available here.
+      </a>
+      <div
+        className="footer-copyright"
+      >
+        <p>
+          © The Regents of the University of California.
+        </p>
+        <a
+          className="footer-sbLink"
+          href="//www.smarterbalanced.org"
+        >
+          www.SmarterBalanced.org
+        </a>
+        <div>
+          <div>
+            <button
+              aria-label="Open Website Privacy Policy Modal"
+              className="btn btn-link btn-sm footer-sbLink"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Website Privacy Policy
+            </button>
+          </div>
+        </div>
+      </div>
+      <div>
+        IAIP v1.0.0
+      </div>
+    </div>
+  </footer>
+</div>
+`;

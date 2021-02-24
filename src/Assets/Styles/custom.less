@@ -1,0 +1,87 @@
+﻿//** Layout styles and overrides for bootstrap
+
+@import "constants";
+
+.collapsible-body {
+  padding-left: 14px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+  max-width: 280px;
+  max-width: fit-content;
+}
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute !important;
+}
+
+.form-group {
+  margin-bottom: 0px;
+}
+
+.collapsible-body {
+  padding-left: 14px;
+}
+
+.link-button,
+a.link-button:hover,
+a.link-button:active,
+a.link-button:visited {
+  color: black;
+  text-decoration: none !important;
+}
+
+.collapsible-label,
+a.collapsible-label:hover,
+a.collapsible-label:active,
+a.collapsible-label:visited {
+  font-size: 1.2em;
+  text-decoration: none !important;
+}
+
+a,
+p,
+.card,
+input,
+select,
+label,
+li {
+  &:focus:not(:hover) {
+    background-color: #e5f3f7;
+    outline: 2px dotted #008ab1;
+    outline-offset: 3px;
+  }
+}
+
+button {
+  &:focus:not(:hover) {
+    outline: 2px dotted #008ab1;
+    outline-offset: 3px;
+  }
+}
+
+//## To hide content but allows screen reader,
+//## https://webaim.org/techniques/css/invisiblecontent/
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.display-none {
+  display: none;
+}
+
+select:hover {
+  cursor: pointer;
+}

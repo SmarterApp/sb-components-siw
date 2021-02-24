@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EvidenceStatement matches snapshot 1`] = `
+<div
+  className="item"
+>
+  <p
+    className="question-title"
+  >
+    Passage for
+     
+    items
+     
+    187-1234, 187-1235
+  </p>
+  <ItemView
+    view={
+      Object {
+        "captured": true,
+        "html": undefined,
+        "id": "12334",
+        "picturePath": undefined,
+        "type": 1,
+      }
+    }
+  />
+</div>
+`;

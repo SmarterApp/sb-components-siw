@@ -1,0 +1,3187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResultContainer card to table transition 1`] = `
+<div
+  className="search-result-container"
+>
+  <React.Fragment>
+    <PrintCartModal
+      StatusMessage=""
+      associatedItemsInPrintCart={
+        Object {
+          "3206": Array [
+            Array [
+              Object {
+                "availableBrailleTypes": Array [
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECN",
+                    "selectionCode": "TDS_BT_ECN",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "DS BT UCB Label",
+                    "selectionCode": "TDS_BT_UCB",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECL label",
+                    "selectionCode": "TDS_BT_ECL",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TTDS BT EXN Label",
+                    "selectionCode": "TTDS_BT_EXN",
+                  },
+                ],
+                "bankKey": 187,
+                "brailleOnlyItem": false,
+                "calculator": false,
+                "claimCode": "ELA1",
+                "claimLabel": "1.Reading",
+                "commonCoreStandardId": "3.R.2a",
+                "grade": 1,
+                "gradeLabel": "Grade 3",
+                "interactionTypeCode": "MC",
+                "interactionTypeLabel": "Multiple Choice",
+                "isPerformanceItem": true,
+                "itemDifficulty": "Easy",
+                "itemKey": 3163,
+                "stimulusKey": 58679,
+                "subjectCode": "ELA",
+                "subjectLabel": "ELA/literacy",
+                "targetDescription": "Target B description",
+                "targetHash": 1039,
+                "targetId": "B",
+                "targetShortName": "Key Details",
+                "testName": "Test-Name-1",
+                "testNameInPrintCart": "Test-Name-1",
+                "testOrder": 2,
+                "testOrderInPrintCart": 2,
+                "title": "ELA/ literacy Grade 3 Claim 1",
+              },
+            ],
+            Array [
+              Object {
+                "availableBrailleTypes": Array [
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECN",
+                    "selectionCode": "TDS_BT_ECN",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "DS BT UCB Label",
+                    "selectionCode": "TDS_BT_UCB",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECL label",
+                    "selectionCode": "TDS_BT_ECL",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TTDS BT EXN Label",
+                    "selectionCode": "TTDS_BT_EXN",
+                  },
+                ],
+                "bankKey": 187,
+                "brailleOnlyItem": false,
+                "calculator": true,
+                "claimCode": "MATH1",
+                "claimLabel": "1.Concepts and Procedures and Logical",
+                "commonCoreStandardId": "6.M.1a",
+                "grade": 8,
+                "gradeLabel": "Grade 6",
+                "interactionTypeCode": "EQ",
+                "interactionTypeLabel": "Equation Multiple Choice choice",
+                "isPerformanceItem": true,
+                "itemDifficulty": "Moderate",
+                "itemKey": 3206,
+                "selected": true,
+                "selectionIndex": 0,
+                "stimulusKey": 56900,
+                "subjectCode": "MATH",
+                "subjectLabel": "Math",
+                "targetDescription": "Target A description with extra text for testing",
+                "targetHash": 100,
+                "targetId": "A",
+                "targetShortName": "",
+                "testName": "Test-Name-1",
+                "testNameInPrintCart": "Test-Name-1",
+                "testOrder": 1,
+                "testOrderInPrintCart": 1,
+                "title": "Math Grade 6 Claim 1",
+              },
+            ],
+            Array [
+              Object {
+                "availableBrailleTypes": Array [
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECN",
+                    "selectionCode": "TDS_BT_ECN",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "DS BT UCB Label",
+                    "selectionCode": "TDS_BT_UCB",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECL label",
+                    "selectionCode": "TDS_BT_ECL",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TTDS BT EXN Label",
+                    "selectionCode": "TTDS_BT_EXN",
+                  },
+                ],
+                "bankKey": 187,
+                "brailleOnlyItem": false,
+                "claimCode": "MATH4",
+                "claimLabel": "3.Modeling/Data Analysis",
+                "commonCoreStandardId": "6.M.2b",
+                "grade": 8,
+                "gradeLabel": "Grade 6",
+                "interactionTypeCode": "MS",
+                "interactionTypeLabel": "Multi Select",
+                "isPerformanceItem": true,
+                "itemDifficulty": "",
+                "itemKey": 3615,
+                "stimulusKey": 23461,
+                "subjectCode": "MATH",
+                "subjectLabel": "Math",
+                "targetDescription": "target C description",
+                "targetHash": 0,
+                "targetId": "C",
+                "targetShortName": "",
+                "testName": "Test-Name-1",
+                "testNameInPrintCart": "Test-Name-1",
+                "testOrder": 3,
+                "testOrderInPrintCart": 3,
+                "title": "Math Grade 6 Claim 4",
+              },
+            ],
+          ],
+        }
+      }
+      handleUpdateItemsinPrintCart={[Function]}
+      isInterimSite={true}
+      isSelectedItemsHaveMathItem={true}
+      itemIdToTestNameMap={
+        Object {
+          "2928": Object {
+            "testName": "Test-Name-2",
+            "testOrder": 1,
+          },
+          "3163": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 2,
+          },
+          "3206": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 1,
+          },
+          "3615": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 3,
+          },
+        }
+      }
+      itemsInCart={
+        Array [
+          Object {
+            "availableBrailleTypes": Array [
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECN",
+                "selectionCode": "TDS_BT_ECN",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "DS BT UCB Label",
+                "selectionCode": "TDS_BT_UCB",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECL label",
+                "selectionCode": "TDS_BT_ECL",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TTDS BT EXN Label",
+                "selectionCode": "TTDS_BT_EXN",
+              },
+            ],
+            "bankKey": 187,
+            "brailleOnlyItem": false,
+            "calculator": true,
+            "claimCode": "MATH1",
+            "claimLabel": "1.Concepts and Procedures and Logical",
+            "commonCoreStandardId": "6.M.1a",
+            "grade": 8,
+            "gradeLabel": "Grade 6",
+            "interactionTypeCode": "EQ",
+            "interactionTypeLabel": "Equation Multiple Choice choice",
+            "isPerformanceItem": true,
+            "itemDifficulty": "Moderate",
+            "itemKey": 3206,
+            "selected": true,
+            "selectionIndex": 0,
+            "stimulusKey": 56900,
+            "subjectCode": "MATH",
+            "subjectLabel": "Math",
+            "targetDescription": "Target A description with extra text for testing",
+            "targetHash": 100,
+            "targetId": "A",
+            "targetShortName": "",
+            "testName": "Test-Name-1",
+            "testNameInPrintCart": "Test-Name-1",
+            "testOrder": 1,
+            "testOrderInPrintCart": 1,
+            "title": "Math Grade 6 Claim 1",
+          },
+          Object {
+            "availableBrailleTypes": Array [
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECN",
+                "selectionCode": "TDS_BT_ECN",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "DS BT UCB Label",
+                "selectionCode": "TDS_BT_UCB",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECL label",
+                "selectionCode": "TDS_BT_ECL",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TTDS BT EXN Label",
+                "selectionCode": "TTDS_BT_EXN",
+              },
+            ],
+            "bankKey": 187,
+            "brailleOnlyItem": false,
+            "claimCode": "ELA4",
+            "claimLabel": "4.Research/Inquiry",
+            "commonCoreStandardId": "4.E.4a",
+            "grade": 2,
+            "gradeLabel": "Grade 4",
+            "interactionTypeCode": "MS",
+            "interactionTypeLabel": "Multi Select",
+            "isPerformanceItem": false,
+            "itemDifficulty": "Hard",
+            "itemKey": 2928,
+            "selected": true,
+            "selectionIndex": 1,
+            "stimulusKey": 87679,
+            "subjectCode": "ELA",
+            "subjectLabel": "ELA/literacy",
+            "targetDescription": "target D description",
+            "targetHash": 2832,
+            "targetId": "D",
+            "targetShortName": "Evaluate Information/ sources",
+            "testName": "",
+            "testNameInPrintCart": "",
+            "testOrder": 2,
+            "testOrderInPrintCart": 2,
+            "title": "ELA/ literacy Grade 4 Claim 4",
+          },
+        ]
+      }
+      onAddOrRemoveSelectedItems={[Function]}
+      onChangeModelState={[Function]}
+      onItemsReorder={[Function]}
+      onSubmitPrint={[Function]}
+      showModal={false}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+      totalSelectedItemsCount={4}
+    />
+    <ErrorMessageModal
+      StatusMessage=""
+      onChangeErrorModelState={[Function]}
+      showModal={false}
+    />
+  </React.Fragment>
+  <React.Fragment>
+    <BrailleCartModal
+      StatusMessage=""
+      associatedItemsInPrintCart={
+        Object {
+          "3206": Array [
+            Array [
+              Object {
+                "availableBrailleTypes": Array [
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECN",
+                    "selectionCode": "TDS_BT_ECN",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "DS BT UCB Label",
+                    "selectionCode": "TDS_BT_UCB",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECL label",
+                    "selectionCode": "TDS_BT_ECL",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TTDS BT EXN Label",
+                    "selectionCode": "TTDS_BT_EXN",
+                  },
+                ],
+                "bankKey": 187,
+                "brailleOnlyItem": false,
+                "calculator": false,
+                "claimCode": "ELA1",
+                "claimLabel": "1.Reading",
+                "commonCoreStandardId": "3.R.2a",
+                "grade": 1,
+                "gradeLabel": "Grade 3",
+                "interactionTypeCode": "MC",
+                "interactionTypeLabel": "Multiple Choice",
+                "isPerformanceItem": true,
+                "itemDifficulty": "Easy",
+                "itemKey": 3163,
+                "stimulusKey": 58679,
+                "subjectCode": "ELA",
+                "subjectLabel": "ELA/literacy",
+                "targetDescription": "Target B description",
+                "targetHash": 1039,
+                "targetId": "B",
+                "targetShortName": "Key Details",
+                "testName": "Test-Name-1",
+                "testNameInPrintCart": "Test-Name-1",
+                "testOrder": 2,
+                "testOrderInPrintCart": 2,
+                "title": "ELA/ literacy Grade 3 Claim 1",
+              },
+            ],
+            Array [
+              Object {
+                "availableBrailleTypes": Array [
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECN",
+                    "selectionCode": "TDS_BT_ECN",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "DS BT UCB Label",
+                    "selectionCode": "TDS_BT_UCB",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECL label",
+                    "selectionCode": "TDS_BT_ECL",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TTDS BT EXN Label",
+                    "selectionCode": "TTDS_BT_EXN",
+                  },
+                ],
+                "bankKey": 187,
+                "brailleOnlyItem": false,
+                "calculator": true,
+                "claimCode": "MATH1",
+                "claimLabel": "1.Concepts and Procedures and Logical",
+                "commonCoreStandardId": "6.M.1a",
+                "grade": 8,
+                "gradeLabel": "Grade 6",
+                "interactionTypeCode": "EQ",
+                "interactionTypeLabel": "Equation Multiple Choice choice",
+                "isPerformanceItem": true,
+                "itemDifficulty": "Moderate",
+                "itemKey": 3206,
+                "selected": true,
+                "selectionIndex": 0,
+                "stimulusKey": 56900,
+                "subjectCode": "MATH",
+                "subjectLabel": "Math",
+                "targetDescription": "Target A description with extra text for testing",
+                "targetHash": 100,
+                "targetId": "A",
+                "targetShortName": "",
+                "testName": "Test-Name-1",
+                "testNameInPrintCart": "Test-Name-1",
+                "testOrder": 1,
+                "testOrderInPrintCart": 1,
+                "title": "Math Grade 6 Claim 1",
+              },
+            ],
+            Array [
+              Object {
+                "availableBrailleTypes": Array [
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECN",
+                    "selectionCode": "TDS_BT_ECN",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "DS BT UCB Label",
+                    "selectionCode": "TDS_BT_UCB",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECL label",
+                    "selectionCode": "TDS_BT_ECL",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TTDS BT EXN Label",
+                    "selectionCode": "TTDS_BT_EXN",
+                  },
+                ],
+                "bankKey": 187,
+                "brailleOnlyItem": false,
+                "claimCode": "MATH4",
+                "claimLabel": "3.Modeling/Data Analysis",
+                "commonCoreStandardId": "6.M.2b",
+                "grade": 8,
+                "gradeLabel": "Grade 6",
+                "interactionTypeCode": "MS",
+                "interactionTypeLabel": "Multi Select",
+                "isPerformanceItem": true,
+                "itemDifficulty": "",
+                "itemKey": 3615,
+                "stimulusKey": 23461,
+                "subjectCode": "MATH",
+                "subjectLabel": "Math",
+                "targetDescription": "target C description",
+                "targetHash": 0,
+                "targetId": "C",
+                "targetShortName": "",
+                "testName": "Test-Name-1",
+                "testNameInPrintCart": "Test-Name-1",
+                "testOrder": 3,
+                "testOrderInPrintCart": 3,
+                "title": "Math Grade 6 Claim 4",
+              },
+            ],
+          ],
+        }
+      }
+      handleUpdateItemsinPrintCart={[Function]}
+      isInterimSite={true}
+      itemIdToTestNameMap={
+        Object {
+          "2928": Object {
+            "testName": "Test-Name-2",
+            "testOrder": 1,
+          },
+          "3163": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 2,
+          },
+          "3206": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 1,
+          },
+          "3615": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 3,
+          },
+        }
+      }
+      itemsInCart={
+        Array [
+          Object {
+            "availableBrailleTypes": Array [
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECN",
+                "selectionCode": "TDS_BT_ECN",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "DS BT UCB Label",
+                "selectionCode": "TDS_BT_UCB",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECL label",
+                "selectionCode": "TDS_BT_ECL",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TTDS BT EXN Label",
+                "selectionCode": "TTDS_BT_EXN",
+              },
+            ],
+            "bankKey": 187,
+            "brailleOnlyItem": false,
+            "calculator": true,
+            "claimCode": "MATH1",
+            "claimLabel": "1.Concepts and Procedures and Logical",
+            "commonCoreStandardId": "6.M.1a",
+            "grade": 8,
+            "gradeLabel": "Grade 6",
+            "interactionTypeCode": "EQ",
+            "interactionTypeLabel": "Equation Multiple Choice choice",
+            "isPerformanceItem": true,
+            "itemDifficulty": "Moderate",
+            "itemKey": 3206,
+            "selected": true,
+            "selectionIndex": 0,
+            "stimulusKey": 56900,
+            "subjectCode": "MATH",
+            "subjectLabel": "Math",
+            "targetDescription": "Target A description with extra text for testing",
+            "targetHash": 100,
+            "targetId": "A",
+            "targetShortName": "",
+            "testName": "Test-Name-1",
+            "testNameInPrintCart": "Test-Name-1",
+            "testOrder": 1,
+            "testOrderInPrintCart": 1,
+            "title": "Math Grade 6 Claim 1",
+          },
+          Object {
+            "availableBrailleTypes": Array [
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECN",
+                "selectionCode": "TDS_BT_ECN",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "DS BT UCB Label",
+                "selectionCode": "TDS_BT_UCB",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECL label",
+                "selectionCode": "TDS_BT_ECL",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TTDS BT EXN Label",
+                "selectionCode": "TTDS_BT_EXN",
+              },
+            ],
+            "bankKey": 187,
+            "brailleOnlyItem": false,
+            "claimCode": "ELA4",
+            "claimLabel": "4.Research/Inquiry",
+            "commonCoreStandardId": "4.E.4a",
+            "grade": 2,
+            "gradeLabel": "Grade 4",
+            "interactionTypeCode": "MS",
+            "interactionTypeLabel": "Multi Select",
+            "isPerformanceItem": false,
+            "itemDifficulty": "Hard",
+            "itemKey": 2928,
+            "selected": true,
+            "selectionIndex": 1,
+            "stimulusKey": 87679,
+            "subjectCode": "ELA",
+            "subjectLabel": "ELA/literacy",
+            "targetDescription": "target D description",
+            "targetHash": 2832,
+            "targetId": "D",
+            "targetShortName": "Evaluate Information/ sources",
+            "testName": "",
+            "testNameInPrintCart": "",
+            "testOrder": 2,
+            "testOrderInPrintCart": 2,
+            "title": "ELA/ literacy Grade 4 Claim 4",
+          },
+        ]
+      }
+      onAddOrRemoveSelectedItems={[Function]}
+      onChangeModelState={[Function]}
+      onDownloadBraille={[Function]}
+      onItemsReorder={[Function]}
+      showModal={false}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+      totalSelectedItemsCount={4}
+    />
+    <ErrorMessageModal
+      StatusMessage=""
+      onChangeErrorModelState={[Function]}
+      showModal={false}
+    />
+  </React.Fragment>
+  <div
+    className="row search-result-header-row"
+  >
+    <div
+      className="col-sm-4 header-grid-div header-print-button-groups"
+    >
+      <button
+        aria-label="Select all to print"
+        className="btn btn-default search-result-container-header-button disabled "
+        onClick={[Function]}
+        title="Select all to print"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-check"
+        />
+         Select All
+      </button>
+    </div>
+    <div
+      className="col-sm-3 header-grid-div  "
+    >
+      <button
+        aria-label="table view toggle"
+        className="btn btn-white"
+        onClick={[Function]}
+        value={0}
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-table"
+        />
+      </button>
+      <button
+        aria-label="item card view toggle"
+        className="btn btn-gray"
+        onClick={[Function]}
+        value={1}
+      >
+        <i
+          aria-hidden="true"
+          className="glyphicon glyphicon-th-large glyphicon-pad"
+        />
+      </button>
+    </div>
+    <div
+      className="col-sm-5 header-grid-div header-print-button-groups"
+    >
+      <button
+        aria-label="Clear items from print cart"
+        className="btn btn-default search-result-container-header-button btn-sm"
+        onClick={[Function]}
+        title="Clear items from print cart"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-eraser"
+        />
+         Clear
+      </button>
+      <PrintCartButton
+        itemsInCart={4}
+        label="Print Cart"
+        onClick={[Function]}
+      />
+      <button
+        aria-label="Open barille cart modal"
+        className="btn btn-default btn-sm "
+        onClick={[Function]}
+        title="Open barille cart modal"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-braille"
+        />
+         Braille Cart
+      </button>
+    </div>
+  </div>
+  <div
+    className="search-result-body"
+  >
+    <ItemCard
+      associatedItems={
+        Object {
+          "3206": Array [
+            Array [
+              Object {
+                "availableBrailleTypes": Array [
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECN",
+                    "selectionCode": "TDS_BT_ECN",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "DS BT UCB Label",
+                    "selectionCode": "TDS_BT_UCB",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECL label",
+                    "selectionCode": "TDS_BT_ECL",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TTDS BT EXN Label",
+                    "selectionCode": "TTDS_BT_EXN",
+                  },
+                ],
+                "bankKey": 187,
+                "brailleOnlyItem": false,
+                "calculator": false,
+                "claimCode": "ELA1",
+                "claimLabel": "1.Reading",
+                "commonCoreStandardId": "3.R.2a",
+                "grade": 1,
+                "gradeLabel": "Grade 3",
+                "interactionTypeCode": "MC",
+                "interactionTypeLabel": "Multiple Choice",
+                "isPerformanceItem": true,
+                "itemDifficulty": "Easy",
+                "itemKey": 3163,
+                "stimulusKey": 58679,
+                "subjectCode": "ELA",
+                "subjectLabel": "ELA/literacy",
+                "targetDescription": "Target B description",
+                "targetHash": 1039,
+                "targetId": "B",
+                "targetShortName": "Key Details",
+                "testName": "Test-Name-1",
+                "testNameInPrintCart": "Test-Name-1",
+                "testOrder": 2,
+                "testOrderInPrintCart": 2,
+                "title": "ELA/ literacy Grade 3 Claim 1",
+              },
+            ],
+            Array [
+              Object {
+                "availableBrailleTypes": Array [
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECN",
+                    "selectionCode": "TDS_BT_ECN",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "DS BT UCB Label",
+                    "selectionCode": "TDS_BT_UCB",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECL label",
+                    "selectionCode": "TDS_BT_ECL",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TTDS BT EXN Label",
+                    "selectionCode": "TTDS_BT_EXN",
+                  },
+                ],
+                "bankKey": 187,
+                "brailleOnlyItem": false,
+                "calculator": true,
+                "claimCode": "MATH1",
+                "claimLabel": "1.Concepts and Procedures and Logical",
+                "commonCoreStandardId": "6.M.1a",
+                "grade": 8,
+                "gradeLabel": "Grade 6",
+                "interactionTypeCode": "EQ",
+                "interactionTypeLabel": "Equation Multiple Choice choice",
+                "isPerformanceItem": true,
+                "itemDifficulty": "Moderate",
+                "itemKey": 3206,
+                "selected": true,
+                "selectionIndex": 0,
+                "stimulusKey": 56900,
+                "subjectCode": "MATH",
+                "subjectLabel": "Math",
+                "targetDescription": "Target A description with extra text for testing",
+                "targetHash": 100,
+                "targetId": "A",
+                "targetShortName": "",
+                "testName": "Test-Name-1",
+                "testNameInPrintCart": "Test-Name-1",
+                "testOrder": 1,
+                "testOrderInPrintCart": 1,
+                "title": "Math Grade 6 Claim 1",
+              },
+            ],
+            Array [
+              Object {
+                "availableBrailleTypes": Array [
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECN",
+                    "selectionCode": "TDS_BT_ECN",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "DS BT UCB Label",
+                    "selectionCode": "TDS_BT_UCB",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECL label",
+                    "selectionCode": "TDS_BT_ECL",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TTDS BT EXN Label",
+                    "selectionCode": "TTDS_BT_EXN",
+                  },
+                ],
+                "bankKey": 187,
+                "brailleOnlyItem": false,
+                "claimCode": "MATH4",
+                "claimLabel": "3.Modeling/Data Analysis",
+                "commonCoreStandardId": "6.M.2b",
+                "grade": 8,
+                "gradeLabel": "Grade 6",
+                "interactionTypeCode": "MS",
+                "interactionTypeLabel": "Multi Select",
+                "isPerformanceItem": true,
+                "itemDifficulty": "",
+                "itemKey": 3615,
+                "stimulusKey": 23461,
+                "subjectCode": "MATH",
+                "subjectLabel": "Math",
+                "targetDescription": "target C description",
+                "targetHash": 0,
+                "targetId": "C",
+                "targetShortName": "",
+                "testName": "Test-Name-1",
+                "testNameInPrintCart": "Test-Name-1",
+                "testOrder": 3,
+                "testOrderInPrintCart": 3,
+                "title": "Math Grade 6 Claim 4",
+              },
+            ],
+          ],
+        }
+      }
+      countNumberOfItemsAfterSelection={[Function]}
+      getSelectedItemCount={[Function]}
+      isInterimSite={true}
+      isPrintLimitEnabled={true}
+      key="187 - 3206"
+      onRowSelect={[Function]}
+      rowData={
+        Object {
+          "availableBrailleTypes": Array [
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TDS BT ECN",
+              "selectionCode": "TDS_BT_ECN",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "DS BT UCB Label",
+              "selectionCode": "TDS_BT_UCB",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TDS BT ECL label",
+              "selectionCode": "TDS_BT_ECL",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TTDS BT EXN Label",
+              "selectionCode": "TTDS_BT_EXN",
+            },
+          ],
+          "bankKey": 187,
+          "brailleOnlyItem": false,
+          "calculator": true,
+          "claimCode": "MATH1",
+          "claimLabel": "1.Concepts and Procedures and Logical",
+          "commonCoreStandardId": "6.M.1a",
+          "grade": 8,
+          "gradeLabel": "Grade 6",
+          "interactionTypeCode": "EQ",
+          "interactionTypeLabel": "Equation Multiple Choice choice",
+          "isPerformanceItem": true,
+          "itemDifficulty": "Moderate",
+          "itemKey": 3206,
+          "selected": true,
+          "selectionIndex": 0,
+          "stimulusKey": 56900,
+          "subjectCode": "MATH",
+          "subjectLabel": "Math",
+          "targetDescription": "Target A description with extra text for testing",
+          "targetHash": 100,
+          "targetId": "A",
+          "targetShortName": "",
+          "testName": "Test-Name-1",
+          "testNameInPrintCart": "Test-Name-1",
+          "testOrder": 1,
+          "testOrderInPrintCart": 1,
+          "title": "Math Grade 6 Claim 1",
+        }
+      }
+      showErrorModalOnPrintItemsCountExceeded={[Function]}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+    />
+    <ItemCard
+      associatedItems={
+        Object {
+          "3206": Array [
+            Array [
+              Object {
+                "availableBrailleTypes": Array [
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECN",
+                    "selectionCode": "TDS_BT_ECN",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "DS BT UCB Label",
+                    "selectionCode": "TDS_BT_UCB",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECL label",
+                    "selectionCode": "TDS_BT_ECL",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TTDS BT EXN Label",
+                    "selectionCode": "TTDS_BT_EXN",
+                  },
+                ],
+                "bankKey": 187,
+                "brailleOnlyItem": false,
+                "calculator": false,
+                "claimCode": "ELA1",
+                "claimLabel": "1.Reading",
+                "commonCoreStandardId": "3.R.2a",
+                "grade": 1,
+                "gradeLabel": "Grade 3",
+                "interactionTypeCode": "MC",
+                "interactionTypeLabel": "Multiple Choice",
+                "isPerformanceItem": true,
+                "itemDifficulty": "Easy",
+                "itemKey": 3163,
+                "stimulusKey": 58679,
+                "subjectCode": "ELA",
+                "subjectLabel": "ELA/literacy",
+                "targetDescription": "Target B description",
+                "targetHash": 1039,
+                "targetId": "B",
+                "targetShortName": "Key Details",
+                "testName": "Test-Name-1",
+                "testNameInPrintCart": "Test-Name-1",
+                "testOrder": 2,
+                "testOrderInPrintCart": 2,
+                "title": "ELA/ literacy Grade 3 Claim 1",
+              },
+            ],
+            Array [
+              Object {
+                "availableBrailleTypes": Array [
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECN",
+                    "selectionCode": "TDS_BT_ECN",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "DS BT UCB Label",
+                    "selectionCode": "TDS_BT_UCB",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECL label",
+                    "selectionCode": "TDS_BT_ECL",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TTDS BT EXN Label",
+                    "selectionCode": "TTDS_BT_EXN",
+                  },
+                ],
+                "bankKey": 187,
+                "brailleOnlyItem": false,
+                "calculator": true,
+                "claimCode": "MATH1",
+                "claimLabel": "1.Concepts and Procedures and Logical",
+                "commonCoreStandardId": "6.M.1a",
+                "grade": 8,
+                "gradeLabel": "Grade 6",
+                "interactionTypeCode": "EQ",
+                "interactionTypeLabel": "Equation Multiple Choice choice",
+                "isPerformanceItem": true,
+                "itemDifficulty": "Moderate",
+                "itemKey": 3206,
+                "selected": true,
+                "selectionIndex": 0,
+                "stimulusKey": 56900,
+                "subjectCode": "MATH",
+                "subjectLabel": "Math",
+                "targetDescription": "Target A description with extra text for testing",
+                "targetHash": 100,
+                "targetId": "A",
+                "targetShortName": "",
+                "testName": "Test-Name-1",
+                "testNameInPrintCart": "Test-Name-1",
+                "testOrder": 1,
+                "testOrderInPrintCart": 1,
+                "title": "Math Grade 6 Claim 1",
+              },
+            ],
+            Array [
+              Object {
+                "availableBrailleTypes": Array [
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECN",
+                    "selectionCode": "TDS_BT_ECN",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "DS BT UCB Label",
+                    "selectionCode": "TDS_BT_UCB",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECL label",
+                    "selectionCode": "TDS_BT_ECL",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TTDS BT EXN Label",
+                    "selectionCode": "TTDS_BT_EXN",
+                  },
+                ],
+                "bankKey": 187,
+                "brailleOnlyItem": false,
+                "claimCode": "MATH4",
+                "claimLabel": "3.Modeling/Data Analysis",
+                "commonCoreStandardId": "6.M.2b",
+                "grade": 8,
+                "gradeLabel": "Grade 6",
+                "interactionTypeCode": "MS",
+                "interactionTypeLabel": "Multi Select",
+                "isPerformanceItem": true,
+                "itemDifficulty": "",
+                "itemKey": 3615,
+                "stimulusKey": 23461,
+                "subjectCode": "MATH",
+                "subjectLabel": "Math",
+                "targetDescription": "target C description",
+                "targetHash": 0,
+                "targetId": "C",
+                "targetShortName": "",
+                "testName": "Test-Name-1",
+                "testNameInPrintCart": "Test-Name-1",
+                "testOrder": 3,
+                "testOrderInPrintCart": 3,
+                "title": "Math Grade 6 Claim 4",
+              },
+            ],
+          ],
+        }
+      }
+      countNumberOfItemsAfterSelection={[Function]}
+      getSelectedItemCount={[Function]}
+      isInterimSite={true}
+      isPrintLimitEnabled={true}
+      key="187 - 3163"
+      onRowSelect={[Function]}
+      rowData={
+        Object {
+          "availableBrailleTypes": Array [
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TDS BT ECN",
+              "selectionCode": "TDS_BT_ECN",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "DS BT UCB Label",
+              "selectionCode": "TDS_BT_UCB",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TDS BT ECL label",
+              "selectionCode": "TDS_BT_ECL",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TTDS BT EXN Label",
+              "selectionCode": "TTDS_BT_EXN",
+            },
+          ],
+          "bankKey": 187,
+          "brailleOnlyItem": false,
+          "calculator": false,
+          "claimCode": "ELA1",
+          "claimLabel": "1.Reading",
+          "commonCoreStandardId": "3.R.2a",
+          "grade": 1,
+          "gradeLabel": "Grade 3",
+          "interactionTypeCode": "MC",
+          "interactionTypeLabel": "Multiple Choice",
+          "isPerformanceItem": true,
+          "itemDifficulty": "Easy",
+          "itemKey": 3163,
+          "stimulusKey": 58679,
+          "subjectCode": "ELA",
+          "subjectLabel": "ELA/literacy",
+          "targetDescription": "Target B description",
+          "targetHash": 1039,
+          "targetId": "B",
+          "targetShortName": "Key Details",
+          "testName": "Test-Name-1",
+          "testNameInPrintCart": "Test-Name-1",
+          "testOrder": 2,
+          "testOrderInPrintCart": 2,
+          "title": "ELA/ literacy Grade 3 Claim 1",
+        }
+      }
+      showErrorModalOnPrintItemsCountExceeded={[Function]}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+    />
+    <ItemCard
+      associatedItems={
+        Object {
+          "3206": Array [
+            Array [
+              Object {
+                "availableBrailleTypes": Array [
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECN",
+                    "selectionCode": "TDS_BT_ECN",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "DS BT UCB Label",
+                    "selectionCode": "TDS_BT_UCB",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECL label",
+                    "selectionCode": "TDS_BT_ECL",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TTDS BT EXN Label",
+                    "selectionCode": "TTDS_BT_EXN",
+                  },
+                ],
+                "bankKey": 187,
+                "brailleOnlyItem": false,
+                "calculator": false,
+                "claimCode": "ELA1",
+                "claimLabel": "1.Reading",
+                "commonCoreStandardId": "3.R.2a",
+                "grade": 1,
+                "gradeLabel": "Grade 3",
+                "interactionTypeCode": "MC",
+                "interactionTypeLabel": "Multiple Choice",
+                "isPerformanceItem": true,
+                "itemDifficulty": "Easy",
+                "itemKey": 3163,
+                "stimulusKey": 58679,
+                "subjectCode": "ELA",
+                "subjectLabel": "ELA/literacy",
+                "targetDescription": "Target B description",
+                "targetHash": 1039,
+                "targetId": "B",
+                "targetShortName": "Key Details",
+                "testName": "Test-Name-1",
+                "testNameInPrintCart": "Test-Name-1",
+                "testOrder": 2,
+                "testOrderInPrintCart": 2,
+                "title": "ELA/ literacy Grade 3 Claim 1",
+              },
+            ],
+            Array [
+              Object {
+                "availableBrailleTypes": Array [
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECN",
+                    "selectionCode": "TDS_BT_ECN",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "DS BT UCB Label",
+                    "selectionCode": "TDS_BT_UCB",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECL label",
+                    "selectionCode": "TDS_BT_ECL",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TTDS BT EXN Label",
+                    "selectionCode": "TTDS_BT_EXN",
+                  },
+                ],
+                "bankKey": 187,
+                "brailleOnlyItem": false,
+                "calculator": true,
+                "claimCode": "MATH1",
+                "claimLabel": "1.Concepts and Procedures and Logical",
+                "commonCoreStandardId": "6.M.1a",
+                "grade": 8,
+                "gradeLabel": "Grade 6",
+                "interactionTypeCode": "EQ",
+                "interactionTypeLabel": "Equation Multiple Choice choice",
+                "isPerformanceItem": true,
+                "itemDifficulty": "Moderate",
+                "itemKey": 3206,
+                "selected": true,
+                "selectionIndex": 0,
+                "stimulusKey": 56900,
+                "subjectCode": "MATH",
+                "subjectLabel": "Math",
+                "targetDescription": "Target A description with extra text for testing",
+                "targetHash": 100,
+                "targetId": "A",
+                "targetShortName": "",
+                "testName": "Test-Name-1",
+                "testNameInPrintCart": "Test-Name-1",
+                "testOrder": 1,
+                "testOrderInPrintCart": 1,
+                "title": "Math Grade 6 Claim 1",
+              },
+            ],
+            Array [
+              Object {
+                "availableBrailleTypes": Array [
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECN",
+                    "selectionCode": "TDS_BT_ECN",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "DS BT UCB Label",
+                    "selectionCode": "TDS_BT_UCB",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECL label",
+                    "selectionCode": "TDS_BT_ECL",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TTDS BT EXN Label",
+                    "selectionCode": "TTDS_BT_EXN",
+                  },
+                ],
+                "bankKey": 187,
+                "brailleOnlyItem": false,
+                "claimCode": "MATH4",
+                "claimLabel": "3.Modeling/Data Analysis",
+                "commonCoreStandardId": "6.M.2b",
+                "grade": 8,
+                "gradeLabel": "Grade 6",
+                "interactionTypeCode": "MS",
+                "interactionTypeLabel": "Multi Select",
+                "isPerformanceItem": true,
+                "itemDifficulty": "",
+                "itemKey": 3615,
+                "stimulusKey": 23461,
+                "subjectCode": "MATH",
+                "subjectLabel": "Math",
+                "targetDescription": "target C description",
+                "targetHash": 0,
+                "targetId": "C",
+                "targetShortName": "",
+                "testName": "Test-Name-1",
+                "testNameInPrintCart": "Test-Name-1",
+                "testOrder": 3,
+                "testOrderInPrintCart": 3,
+                "title": "Math Grade 6 Claim 4",
+              },
+            ],
+          ],
+        }
+      }
+      countNumberOfItemsAfterSelection={[Function]}
+      getSelectedItemCount={[Function]}
+      isInterimSite={true}
+      isPrintLimitEnabled={true}
+      key="187 - 3615"
+      onRowSelect={[Function]}
+      rowData={
+        Object {
+          "availableBrailleTypes": Array [
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TDS BT ECN",
+              "selectionCode": "TDS_BT_ECN",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "DS BT UCB Label",
+              "selectionCode": "TDS_BT_UCB",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TDS BT ECL label",
+              "selectionCode": "TDS_BT_ECL",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TTDS BT EXN Label",
+              "selectionCode": "TTDS_BT_EXN",
+            },
+          ],
+          "bankKey": 187,
+          "brailleOnlyItem": false,
+          "claimCode": "MATH4",
+          "claimLabel": "3.Modeling/Data Analysis",
+          "commonCoreStandardId": "6.M.2b",
+          "grade": 8,
+          "gradeLabel": "Grade 6",
+          "interactionTypeCode": "MS",
+          "interactionTypeLabel": "Multi Select",
+          "isPerformanceItem": true,
+          "itemDifficulty": "",
+          "itemKey": 3615,
+          "stimulusKey": 23461,
+          "subjectCode": "MATH",
+          "subjectLabel": "Math",
+          "targetDescription": "target C description",
+          "targetHash": 0,
+          "targetId": "C",
+          "targetShortName": "",
+          "testName": "Test-Name-1",
+          "testNameInPrintCart": "Test-Name-1",
+          "testOrder": 3,
+          "testOrderInPrintCart": 3,
+          "title": "Math Grade 6 Claim 4",
+        }
+      }
+      showErrorModalOnPrintItemsCountExceeded={[Function]}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+    />
+    <ItemCard
+      associatedItems={
+        Object {
+          "3206": Array [
+            Array [
+              Object {
+                "availableBrailleTypes": Array [
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECN",
+                    "selectionCode": "TDS_BT_ECN",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "DS BT UCB Label",
+                    "selectionCode": "TDS_BT_UCB",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECL label",
+                    "selectionCode": "TDS_BT_ECL",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TTDS BT EXN Label",
+                    "selectionCode": "TTDS_BT_EXN",
+                  },
+                ],
+                "bankKey": 187,
+                "brailleOnlyItem": false,
+                "calculator": false,
+                "claimCode": "ELA1",
+                "claimLabel": "1.Reading",
+                "commonCoreStandardId": "3.R.2a",
+                "grade": 1,
+                "gradeLabel": "Grade 3",
+                "interactionTypeCode": "MC",
+                "interactionTypeLabel": "Multiple Choice",
+                "isPerformanceItem": true,
+                "itemDifficulty": "Easy",
+                "itemKey": 3163,
+                "stimulusKey": 58679,
+                "subjectCode": "ELA",
+                "subjectLabel": "ELA/literacy",
+                "targetDescription": "Target B description",
+                "targetHash": 1039,
+                "targetId": "B",
+                "targetShortName": "Key Details",
+                "testName": "Test-Name-1",
+                "testNameInPrintCart": "Test-Name-1",
+                "testOrder": 2,
+                "testOrderInPrintCart": 2,
+                "title": "ELA/ literacy Grade 3 Claim 1",
+              },
+            ],
+            Array [
+              Object {
+                "availableBrailleTypes": Array [
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECN",
+                    "selectionCode": "TDS_BT_ECN",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "DS BT UCB Label",
+                    "selectionCode": "TDS_BT_UCB",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECL label",
+                    "selectionCode": "TDS_BT_ECL",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TTDS BT EXN Label",
+                    "selectionCode": "TTDS_BT_EXN",
+                  },
+                ],
+                "bankKey": 187,
+                "brailleOnlyItem": false,
+                "calculator": true,
+                "claimCode": "MATH1",
+                "claimLabel": "1.Concepts and Procedures and Logical",
+                "commonCoreStandardId": "6.M.1a",
+                "grade": 8,
+                "gradeLabel": "Grade 6",
+                "interactionTypeCode": "EQ",
+                "interactionTypeLabel": "Equation Multiple Choice choice",
+                "isPerformanceItem": true,
+                "itemDifficulty": "Moderate",
+                "itemKey": 3206,
+                "selected": true,
+                "selectionIndex": 0,
+                "stimulusKey": 56900,
+                "subjectCode": "MATH",
+                "subjectLabel": "Math",
+                "targetDescription": "Target A description with extra text for testing",
+                "targetHash": 100,
+                "targetId": "A",
+                "targetShortName": "",
+                "testName": "Test-Name-1",
+                "testNameInPrintCart": "Test-Name-1",
+                "testOrder": 1,
+                "testOrderInPrintCart": 1,
+                "title": "Math Grade 6 Claim 1",
+              },
+            ],
+            Array [
+              Object {
+                "availableBrailleTypes": Array [
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECN",
+                    "selectionCode": "TDS_BT_ECN",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "DS BT UCB Label",
+                    "selectionCode": "TDS_BT_UCB",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TDS BT ECL label",
+                    "selectionCode": "TDS_BT_ECL",
+                  },
+                  Object {
+                    "disabled": false,
+                    "hidden": false,
+                    "label": "TTDS BT EXN Label",
+                    "selectionCode": "TTDS_BT_EXN",
+                  },
+                ],
+                "bankKey": 187,
+                "brailleOnlyItem": false,
+                "claimCode": "MATH4",
+                "claimLabel": "3.Modeling/Data Analysis",
+                "commonCoreStandardId": "6.M.2b",
+                "grade": 8,
+                "gradeLabel": "Grade 6",
+                "interactionTypeCode": "MS",
+                "interactionTypeLabel": "Multi Select",
+                "isPerformanceItem": true,
+                "itemDifficulty": "",
+                "itemKey": 3615,
+                "stimulusKey": 23461,
+                "subjectCode": "MATH",
+                "subjectLabel": "Math",
+                "targetDescription": "target C description",
+                "targetHash": 0,
+                "targetId": "C",
+                "targetShortName": "",
+                "testName": "Test-Name-1",
+                "testNameInPrintCart": "Test-Name-1",
+                "testOrder": 3,
+                "testOrderInPrintCart": 3,
+                "title": "Math Grade 6 Claim 4",
+              },
+            ],
+          ],
+        }
+      }
+      countNumberOfItemsAfterSelection={[Function]}
+      getSelectedItemCount={[Function]}
+      isInterimSite={true}
+      isPrintLimitEnabled={true}
+      key="187 - 2928"
+      onRowSelect={[Function]}
+      rowData={
+        Object {
+          "availableBrailleTypes": Array [
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TDS BT ECN",
+              "selectionCode": "TDS_BT_ECN",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "DS BT UCB Label",
+              "selectionCode": "TDS_BT_UCB",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TDS BT ECL label",
+              "selectionCode": "TDS_BT_ECL",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TTDS BT EXN Label",
+              "selectionCode": "TTDS_BT_EXN",
+            },
+          ],
+          "bankKey": 187,
+          "brailleOnlyItem": false,
+          "claimCode": "ELA4",
+          "claimLabel": "4.Research/Inquiry",
+          "commonCoreStandardId": "4.E.4a",
+          "grade": 2,
+          "gradeLabel": "Grade 4",
+          "interactionTypeCode": "MS",
+          "interactionTypeLabel": "Multi Select",
+          "isPerformanceItem": false,
+          "itemDifficulty": "Hard",
+          "itemKey": 2928,
+          "selected": true,
+          "selectionIndex": 1,
+          "stimulusKey": 87679,
+          "subjectCode": "ELA",
+          "subjectLabel": "ELA/literacy",
+          "targetDescription": "target D description",
+          "targetHash": 2832,
+          "targetId": "D",
+          "targetShortName": "Evaluate Information/ sources",
+          "testName": "",
+          "testNameInPrintCart": "",
+          "testOrder": 2,
+          "testOrderInPrintCart": 2,
+          "title": "ELA/ literacy Grade 4 Claim 4",
+        }
+      }
+      showErrorModalOnPrintItemsCountExceeded={[Function]}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`SearchResultContainer empty itemCards 1`] = `
+<div
+  className="search-result-container"
+>
+  <React.Fragment>
+    <PrintCartModal
+      StatusMessage=""
+      associatedItemsInPrintCart={Object {}}
+      handleUpdateItemsinPrintCart={[Function]}
+      isInterimSite={true}
+      isSelectedItemsHaveMathItem={false}
+      itemIdToTestNameMap={
+        Object {
+          "2928": Object {
+            "testName": "Test-Name-2",
+            "testOrder": 1,
+          },
+          "3163": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 2,
+          },
+          "3206": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 1,
+          },
+          "3615": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 3,
+          },
+        }
+      }
+      itemsInCart={Array []}
+      onAddOrRemoveSelectedItems={[Function]}
+      onChangeModelState={[Function]}
+      onItemsReorder={[Function]}
+      onSubmitPrint={[Function]}
+      showModal={false}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+      totalSelectedItemsCount={0}
+    />
+    <ErrorMessageModal
+      StatusMessage=""
+      onChangeErrorModelState={[Function]}
+      showModal={false}
+    />
+  </React.Fragment>
+  <React.Fragment>
+    <BrailleCartModal
+      StatusMessage=""
+      associatedItemsInPrintCart={Object {}}
+      handleUpdateItemsinPrintCart={[Function]}
+      isInterimSite={true}
+      itemIdToTestNameMap={
+        Object {
+          "2928": Object {
+            "testName": "Test-Name-2",
+            "testOrder": 1,
+          },
+          "3163": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 2,
+          },
+          "3206": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 1,
+          },
+          "3615": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 3,
+          },
+        }
+      }
+      itemsInCart={Array []}
+      onAddOrRemoveSelectedItems={[Function]}
+      onChangeModelState={[Function]}
+      onDownloadBraille={[Function]}
+      onItemsReorder={[Function]}
+      showModal={false}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+      totalSelectedItemsCount={0}
+    />
+    <ErrorMessageModal
+      StatusMessage=""
+      onChangeErrorModelState={[Function]}
+      showModal={false}
+    />
+  </React.Fragment>
+  <div
+    className="row search-result-header-row"
+  >
+    <div
+      className="col-sm-4 header-grid-div header-print-button-groups"
+    >
+      <button
+        aria-label="Select all to print"
+        className="btn btn-default search-result-container-header-button disabled "
+        onClick={[Function]}
+        title="Select all to print"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-check"
+        />
+         Select All
+      </button>
+    </div>
+    <div
+      className="col-sm-3 header-grid-div  "
+    >
+      <button
+        aria-label="table view toggle"
+        className="btn btn-white"
+        onClick={[Function]}
+        value={0}
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-table"
+        />
+      </button>
+      <button
+        aria-label="item card view toggle"
+        className="btn btn-gray"
+        onClick={[Function]}
+        value={1}
+      >
+        <i
+          aria-hidden="true"
+          className="glyphicon glyphicon-th-large glyphicon-pad"
+        />
+      </button>
+    </div>
+    <div
+      className="col-sm-5 header-grid-div header-print-button-groups"
+    >
+      <button
+        aria-label="Clear items from print cart"
+        className="btn btn-default search-result-container-header-button disabled btn-sm"
+        onClick={[Function]}
+        title="Clear items from print cart"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-eraser"
+        />
+         Clear
+      </button>
+      <PrintCartButton
+        itemsInCart={0}
+        label="Print Cart"
+        onClick={[Function]}
+      />
+      <button
+        aria-label="Open barille cart modal"
+        className="btn btn-default btn-sm "
+        onClick={[Function]}
+        title="Open barille cart modal"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-braille"
+        />
+         Braille Cart
+      </button>
+    </div>
+  </div>
+  <div
+    className="search-result-body"
+  >
+    <div
+      className="loader"
+    />
+  </div>
+</div>
+`;
+
+exports[`SearchResultContainer onload matches snapshot ItemCards 1`] = `
+<div
+  className="search-result-container"
+>
+  <React.Fragment>
+    <PrintCartModal
+      StatusMessage=""
+      associatedItemsInPrintCart={Object {}}
+      handleUpdateItemsinPrintCart={[Function]}
+      isInterimSite={true}
+      isSelectedItemsHaveMathItem={false}
+      itemIdToTestNameMap={
+        Object {
+          "2928": Object {
+            "testName": "Test-Name-2",
+            "testOrder": 1,
+          },
+          "3163": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 2,
+          },
+          "3206": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 1,
+          },
+          "3615": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 3,
+          },
+        }
+      }
+      itemsInCart={Array []}
+      onAddOrRemoveSelectedItems={[Function]}
+      onChangeModelState={[Function]}
+      onItemsReorder={[Function]}
+      onSubmitPrint={[Function]}
+      showModal={false}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+      totalSelectedItemsCount={0}
+    />
+    <ErrorMessageModal
+      StatusMessage=""
+      onChangeErrorModelState={[Function]}
+      showModal={false}
+    />
+  </React.Fragment>
+  <React.Fragment>
+    <BrailleCartModal
+      StatusMessage=""
+      associatedItemsInPrintCart={Object {}}
+      handleUpdateItemsinPrintCart={[Function]}
+      isInterimSite={true}
+      itemIdToTestNameMap={
+        Object {
+          "2928": Object {
+            "testName": "Test-Name-2",
+            "testOrder": 1,
+          },
+          "3163": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 2,
+          },
+          "3206": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 1,
+          },
+          "3615": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 3,
+          },
+        }
+      }
+      itemsInCart={Array []}
+      onAddOrRemoveSelectedItems={[Function]}
+      onChangeModelState={[Function]}
+      onDownloadBraille={[Function]}
+      onItemsReorder={[Function]}
+      showModal={false}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+      totalSelectedItemsCount={0}
+    />
+    <ErrorMessageModal
+      StatusMessage=""
+      onChangeErrorModelState={[Function]}
+      showModal={false}
+    />
+  </React.Fragment>
+  <div
+    className="row search-result-header-row"
+  >
+    <div
+      className="col-sm-4 header-grid-div header-print-button-groups"
+    >
+      <button
+        aria-label="Select all to print"
+        className="btn btn-default search-result-container-header-button  "
+        onClick={[Function]}
+        title="Select all to print"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-check"
+        />
+         Select All
+      </button>
+    </div>
+    <div
+      className="col-sm-3 header-grid-div  "
+    >
+      <button
+        aria-label="table view toggle"
+        className="btn btn-white"
+        onClick={[Function]}
+        value={0}
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-table"
+        />
+      </button>
+      <button
+        aria-label="item card view toggle"
+        className="btn btn-gray"
+        onClick={[Function]}
+        value={1}
+      >
+        <i
+          aria-hidden="true"
+          className="glyphicon glyphicon-th-large glyphicon-pad"
+        />
+      </button>
+    </div>
+    <div
+      className="col-sm-5 header-grid-div header-print-button-groups"
+    >
+      <button
+        aria-label="Clear items from print cart"
+        className="btn btn-default search-result-container-header-button disabled btn-sm"
+        onClick={[Function]}
+        title="Clear items from print cart"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-eraser"
+        />
+         Clear
+      </button>
+      <PrintCartButton
+        itemsInCart={0}
+        label="Print Cart"
+        onClick={[Function]}
+      />
+      <button
+        aria-label="Open barille cart modal"
+        className="btn btn-default btn-sm "
+        onClick={[Function]}
+        title="Open barille cart modal"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-braille"
+        />
+         Braille Cart
+      </button>
+    </div>
+  </div>
+  <div
+    className="search-result-body"
+  >
+    <ItemCard
+      associatedItems={Object {}}
+      countNumberOfItemsAfterSelection={[Function]}
+      getSelectedItemCount={[Function]}
+      isInterimSite={true}
+      isPrintLimitEnabled={true}
+      key="187 - 3206"
+      onRowSelect={[Function]}
+      rowData={
+        Object {
+          "availableBrailleTypes": Array [
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TDS BT ECN",
+              "selectionCode": "TDS_BT_ECN",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "DS BT UCB Label",
+              "selectionCode": "TDS_BT_UCB",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TDS BT ECL label",
+              "selectionCode": "TDS_BT_ECL",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TTDS BT EXN Label",
+              "selectionCode": "TTDS_BT_EXN",
+            },
+          ],
+          "bankKey": 187,
+          "brailleOnlyItem": false,
+          "calculator": true,
+          "claimCode": "MATH1",
+          "claimLabel": "1.Concepts and Procedures and Logical",
+          "commonCoreStandardId": "6.M.1a",
+          "grade": 8,
+          "gradeLabel": "Grade 6",
+          "interactionTypeCode": "EQ",
+          "interactionTypeLabel": "Equation Multiple Choice choice",
+          "isPerformanceItem": true,
+          "itemDifficulty": "Moderate",
+          "itemKey": 3206,
+          "stimulusKey": 56900,
+          "subjectCode": "MATH",
+          "subjectLabel": "Math",
+          "targetDescription": "Target A description with extra text for testing",
+          "targetHash": 100,
+          "targetId": "A",
+          "targetShortName": "",
+          "testName": "Test-Name-1",
+          "testOrder": 1,
+          "title": "Math Grade 6 Claim 1",
+        }
+      }
+      showErrorModalOnPrintItemsCountExceeded={[Function]}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+    />
+    <ItemCard
+      associatedItems={Object {}}
+      countNumberOfItemsAfterSelection={[Function]}
+      getSelectedItemCount={[Function]}
+      isInterimSite={true}
+      isPrintLimitEnabled={true}
+      key="187 - 3163"
+      onRowSelect={[Function]}
+      rowData={
+        Object {
+          "availableBrailleTypes": Array [
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TDS BT ECN",
+              "selectionCode": "TDS_BT_ECN",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "DS BT UCB Label",
+              "selectionCode": "TDS_BT_UCB",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TDS BT ECL label",
+              "selectionCode": "TDS_BT_ECL",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TTDS BT EXN Label",
+              "selectionCode": "TTDS_BT_EXN",
+            },
+          ],
+          "bankKey": 187,
+          "brailleOnlyItem": false,
+          "calculator": false,
+          "claimCode": "ELA1",
+          "claimLabel": "1.Reading",
+          "commonCoreStandardId": "3.R.2a",
+          "grade": 1,
+          "gradeLabel": "Grade 3",
+          "interactionTypeCode": "MC",
+          "interactionTypeLabel": "Multiple Choice",
+          "isPerformanceItem": true,
+          "itemDifficulty": "Easy",
+          "itemKey": 3163,
+          "stimulusKey": 58679,
+          "subjectCode": "ELA",
+          "subjectLabel": "ELA/literacy",
+          "targetDescription": "Target B description",
+          "targetHash": 1039,
+          "targetId": "B",
+          "targetShortName": "Key Details",
+          "testName": "Test-Name-1",
+          "testOrder": 2,
+          "title": "ELA/ literacy Grade 3 Claim 1",
+        }
+      }
+      showErrorModalOnPrintItemsCountExceeded={[Function]}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+    />
+    <ItemCard
+      associatedItems={Object {}}
+      countNumberOfItemsAfterSelection={[Function]}
+      getSelectedItemCount={[Function]}
+      isInterimSite={true}
+      isPrintLimitEnabled={true}
+      key="187 - 3615"
+      onRowSelect={[Function]}
+      rowData={
+        Object {
+          "availableBrailleTypes": Array [
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TDS BT ECN",
+              "selectionCode": "TDS_BT_ECN",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "DS BT UCB Label",
+              "selectionCode": "TDS_BT_UCB",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TDS BT ECL label",
+              "selectionCode": "TDS_BT_ECL",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TTDS BT EXN Label",
+              "selectionCode": "TTDS_BT_EXN",
+            },
+          ],
+          "bankKey": 187,
+          "brailleOnlyItem": false,
+          "claimCode": "MATH4",
+          "claimLabel": "3.Modeling/Data Analysis",
+          "commonCoreStandardId": "6.M.2b",
+          "grade": 8,
+          "gradeLabel": "Grade 6",
+          "interactionTypeCode": "MS",
+          "interactionTypeLabel": "Multi Select",
+          "isPerformanceItem": true,
+          "itemDifficulty": "",
+          "itemKey": 3615,
+          "stimulusKey": 23461,
+          "subjectCode": "MATH",
+          "subjectLabel": "Math",
+          "targetDescription": "target C description",
+          "targetHash": 0,
+          "targetId": "C",
+          "targetShortName": "",
+          "testName": "Test-Name-1",
+          "testOrder": 3,
+          "title": "Math Grade 6 Claim 4",
+        }
+      }
+      showErrorModalOnPrintItemsCountExceeded={[Function]}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+    />
+    <ItemCard
+      associatedItems={Object {}}
+      countNumberOfItemsAfterSelection={[Function]}
+      getSelectedItemCount={[Function]}
+      isInterimSite={true}
+      isPrintLimitEnabled={true}
+      key="187 - 2928"
+      onRowSelect={[Function]}
+      rowData={
+        Object {
+          "availableBrailleTypes": Array [
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TDS BT ECN",
+              "selectionCode": "TDS_BT_ECN",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "DS BT UCB Label",
+              "selectionCode": "TDS_BT_UCB",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TDS BT ECL label",
+              "selectionCode": "TDS_BT_ECL",
+            },
+            Object {
+              "disabled": false,
+              "hidden": false,
+              "label": "TTDS BT EXN Label",
+              "selectionCode": "TTDS_BT_EXN",
+            },
+          ],
+          "bankKey": 187,
+          "brailleOnlyItem": false,
+          "claimCode": "ELA4",
+          "claimLabel": "4.Research/Inquiry",
+          "commonCoreStandardId": "4.E.4a",
+          "grade": 2,
+          "gradeLabel": "Grade 4",
+          "interactionTypeCode": "MS",
+          "interactionTypeLabel": "Multi Select",
+          "isPerformanceItem": false,
+          "itemDifficulty": "Hard",
+          "itemKey": 2928,
+          "stimulusKey": 87679,
+          "subjectCode": "ELA",
+          "subjectLabel": "ELA/literacy",
+          "targetDescription": "target D description",
+          "targetHash": 2832,
+          "targetId": "D",
+          "targetShortName": "Evaluate Information/ sources",
+          "testName": "",
+          "testOrder": 2,
+          "title": "ELA/ literacy Grade 4 Claim 4",
+        }
+      }
+      showErrorModalOnPrintItemsCountExceeded={[Function]}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`SearchResultContainer onload matches snapshot table 1`] = `
+<div
+  className="search-result-container"
+>
+  <React.Fragment>
+    <PrintCartModal
+      StatusMessage=""
+      associatedItemsInPrintCart={Object {}}
+      handleUpdateItemsinPrintCart={[Function]}
+      isInterimSite={true}
+      isSelectedItemsHaveMathItem={false}
+      itemIdToTestNameMap={
+        Object {
+          "2928": Object {
+            "testName": "Test-Name-2",
+            "testOrder": 1,
+          },
+          "3163": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 2,
+          },
+          "3206": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 1,
+          },
+          "3615": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 3,
+          },
+        }
+      }
+      itemsInCart={Array []}
+      onAddOrRemoveSelectedItems={[Function]}
+      onChangeModelState={[Function]}
+      onItemsReorder={[Function]}
+      onSubmitPrint={[Function]}
+      showModal={false}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+      totalSelectedItemsCount={0}
+    />
+    <ErrorMessageModal
+      StatusMessage=""
+      onChangeErrorModelState={[Function]}
+      showModal={false}
+    />
+  </React.Fragment>
+  <React.Fragment>
+    <BrailleCartModal
+      StatusMessage=""
+      associatedItemsInPrintCart={Object {}}
+      handleUpdateItemsinPrintCart={[Function]}
+      isInterimSite={true}
+      itemIdToTestNameMap={
+        Object {
+          "2928": Object {
+            "testName": "Test-Name-2",
+            "testOrder": 1,
+          },
+          "3163": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 2,
+          },
+          "3206": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 1,
+          },
+          "3615": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 3,
+          },
+        }
+      }
+      itemsInCart={Array []}
+      onAddOrRemoveSelectedItems={[Function]}
+      onChangeModelState={[Function]}
+      onDownloadBraille={[Function]}
+      onItemsReorder={[Function]}
+      showModal={false}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+      totalSelectedItemsCount={0}
+    />
+    <ErrorMessageModal
+      StatusMessage=""
+      onChangeErrorModelState={[Function]}
+      showModal={false}
+    />
+  </React.Fragment>
+  <div
+    className="row search-result-header-row"
+  >
+    <div
+      className="col-sm-4 header-grid-div header-print-button-groups"
+    >
+      <button
+        aria-label="Select all to print"
+        className="btn btn-default search-result-container-header-button  "
+        onClick={[Function]}
+        title="Select all to print"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-check"
+        />
+         Select All
+      </button>
+    </div>
+    <div
+      className="col-sm-3 header-grid-div  "
+    >
+      <button
+        aria-label="table view toggle"
+        className="btn btn-gray"
+        onClick={[Function]}
+        value={0}
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-table"
+        />
+      </button>
+      <button
+        aria-label="item card view toggle"
+        className="btn btn-white"
+        onClick={[Function]}
+        value={1}
+      >
+        <i
+          aria-hidden="true"
+          className="glyphicon glyphicon-th-large glyphicon-pad"
+        />
+      </button>
+    </div>
+    <div
+      className="col-sm-5 header-grid-div header-print-button-groups"
+    >
+      <button
+        aria-label="Clear items from print cart"
+        className="btn btn-default search-result-container-header-button disabled btn-sm"
+        onClick={[Function]}
+        title="Clear items from print cart"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-eraser"
+        />
+         Clear
+      </button>
+      <PrintCartButton
+        itemsInCart={0}
+        label="Print Cart"
+        onClick={[Function]}
+      />
+      <button
+        aria-label="Open barille cart modal"
+        className="btn btn-default btn-sm "
+        onClick={[Function]}
+        title="Open barille cart modal"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-braille"
+        />
+         Braille Cart
+      </button>
+    </div>
+  </div>
+  <div
+    className="search-result-body"
+  >
+    <ItemTableContainer
+      associatedItems={Object {}}
+      countNumberOfItemsAfterSelection={[Function]}
+      getSelectedItemCount={[Function]}
+      isInterimSite={true}
+      isLinkTable={false}
+      item={
+        Object {
+          "kind": "none",
+        }
+      }
+      itemCards={
+        Array [
+          Object {
+            "availableBrailleTypes": Array [
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECN",
+                "selectionCode": "TDS_BT_ECN",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "DS BT UCB Label",
+                "selectionCode": "TDS_BT_UCB",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECL label",
+                "selectionCode": "TDS_BT_ECL",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TTDS BT EXN Label",
+                "selectionCode": "TTDS_BT_EXN",
+              },
+            ],
+            "bankKey": 187,
+            "brailleOnlyItem": false,
+            "calculator": true,
+            "claimCode": "MATH1",
+            "claimLabel": "1.Concepts and Procedures and Logical",
+            "commonCoreStandardId": "6.M.1a",
+            "grade": 8,
+            "gradeLabel": "Grade 6",
+            "interactionTypeCode": "EQ",
+            "interactionTypeLabel": "Equation Multiple Choice choice",
+            "isPerformanceItem": true,
+            "itemDifficulty": "Moderate",
+            "itemKey": 3206,
+            "stimulusKey": 56900,
+            "subjectCode": "MATH",
+            "subjectLabel": "Math",
+            "targetDescription": "Target A description with extra text for testing",
+            "targetHash": 100,
+            "targetId": "A",
+            "targetShortName": "",
+            "testName": "Test-Name-1",
+            "testOrder": 1,
+            "title": "Math Grade 6 Claim 1",
+          },
+          Object {
+            "availableBrailleTypes": Array [
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECN",
+                "selectionCode": "TDS_BT_ECN",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "DS BT UCB Label",
+                "selectionCode": "TDS_BT_UCB",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECL label",
+                "selectionCode": "TDS_BT_ECL",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TTDS BT EXN Label",
+                "selectionCode": "TTDS_BT_EXN",
+              },
+            ],
+            "bankKey": 187,
+            "brailleOnlyItem": false,
+            "calculator": false,
+            "claimCode": "ELA1",
+            "claimLabel": "1.Reading",
+            "commonCoreStandardId": "3.R.2a",
+            "grade": 1,
+            "gradeLabel": "Grade 3",
+            "interactionTypeCode": "MC",
+            "interactionTypeLabel": "Multiple Choice",
+            "isPerformanceItem": true,
+            "itemDifficulty": "Easy",
+            "itemKey": 3163,
+            "stimulusKey": 58679,
+            "subjectCode": "ELA",
+            "subjectLabel": "ELA/literacy",
+            "targetDescription": "Target B description",
+            "targetHash": 1039,
+            "targetId": "B",
+            "targetShortName": "Key Details",
+            "testName": "Test-Name-1",
+            "testOrder": 2,
+            "title": "ELA/ literacy Grade 3 Claim 1",
+          },
+          Object {
+            "availableBrailleTypes": Array [
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECN",
+                "selectionCode": "TDS_BT_ECN",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "DS BT UCB Label",
+                "selectionCode": "TDS_BT_UCB",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECL label",
+                "selectionCode": "TDS_BT_ECL",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TTDS BT EXN Label",
+                "selectionCode": "TTDS_BT_EXN",
+              },
+            ],
+            "bankKey": 187,
+            "brailleOnlyItem": false,
+            "claimCode": "MATH4",
+            "claimLabel": "3.Modeling/Data Analysis",
+            "commonCoreStandardId": "6.M.2b",
+            "grade": 8,
+            "gradeLabel": "Grade 6",
+            "interactionTypeCode": "MS",
+            "interactionTypeLabel": "Multi Select",
+            "isPerformanceItem": true,
+            "itemDifficulty": "",
+            "itemKey": 3615,
+            "stimulusKey": 23461,
+            "subjectCode": "MATH",
+            "subjectLabel": "Math",
+            "targetDescription": "target C description",
+            "targetHash": 0,
+            "targetId": "C",
+            "targetShortName": "",
+            "testName": "Test-Name-1",
+            "testOrder": 3,
+            "title": "Math Grade 6 Claim 4",
+          },
+          Object {
+            "availableBrailleTypes": Array [
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECN",
+                "selectionCode": "TDS_BT_ECN",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "DS BT UCB Label",
+                "selectionCode": "TDS_BT_UCB",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECL label",
+                "selectionCode": "TDS_BT_ECL",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TTDS BT EXN Label",
+                "selectionCode": "TTDS_BT_EXN",
+              },
+            ],
+            "bankKey": 187,
+            "brailleOnlyItem": false,
+            "claimCode": "ELA4",
+            "claimLabel": "4.Research/Inquiry",
+            "commonCoreStandardId": "4.E.4a",
+            "grade": 2,
+            "gradeLabel": "Grade 4",
+            "interactionTypeCode": "MS",
+            "interactionTypeLabel": "Multi Select",
+            "isPerformanceItem": false,
+            "itemDifficulty": "Hard",
+            "itemKey": 2928,
+            "stimulusKey": 87679,
+            "subjectCode": "ELA",
+            "subjectLabel": "ELA/literacy",
+            "targetDescription": "target D description",
+            "targetHash": 2832,
+            "targetId": "D",
+            "targetShortName": "Evaluate Information/ sources",
+            "testName": "",
+            "testOrder": 2,
+            "title": "ELA/ literacy Grade 4 Claim 4",
+          },
+        ]
+      }
+      numberOfSelectedItem={0}
+      onCountNumberOfItemSelection={[Function]}
+      onItemSelection={[Function]}
+      onRowSelection={[Function]}
+      showErrorModalOnPrintItemsCountExceeded={[Function]}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`SearchResultContainer table to card transition 1`] = `
+<div
+  className="search-result-container"
+>
+  <React.Fragment>
+    <PrintCartModal
+      StatusMessage=""
+      associatedItemsInPrintCart={Object {}}
+      handleUpdateItemsinPrintCart={[Function]}
+      isInterimSite={true}
+      isSelectedItemsHaveMathItem={false}
+      itemIdToTestNameMap={
+        Object {
+          "2928": Object {
+            "testName": "Test-Name-2",
+            "testOrder": 1,
+          },
+          "3163": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 2,
+          },
+          "3206": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 1,
+          },
+          "3615": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 3,
+          },
+        }
+      }
+      itemsInCart={Array []}
+      onAddOrRemoveSelectedItems={[Function]}
+      onChangeModelState={[Function]}
+      onItemsReorder={[Function]}
+      onSubmitPrint={[Function]}
+      showModal={false}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+      totalSelectedItemsCount={0}
+    />
+    <ErrorMessageModal
+      StatusMessage=""
+      onChangeErrorModelState={[Function]}
+      showModal={false}
+    />
+  </React.Fragment>
+  <React.Fragment>
+    <BrailleCartModal
+      StatusMessage=""
+      associatedItemsInPrintCart={Object {}}
+      handleUpdateItemsinPrintCart={[Function]}
+      isInterimSite={true}
+      itemIdToTestNameMap={
+        Object {
+          "2928": Object {
+            "testName": "Test-Name-2",
+            "testOrder": 1,
+          },
+          "3163": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 2,
+          },
+          "3206": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 1,
+          },
+          "3615": Object {
+            "testName": "Test-Name-1",
+            "testOrder": 3,
+          },
+        }
+      }
+      itemsInCart={Array []}
+      onAddOrRemoveSelectedItems={[Function]}
+      onChangeModelState={[Function]}
+      onDownloadBraille={[Function]}
+      onItemsReorder={[Function]}
+      showModal={false}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+      totalSelectedItemsCount={0}
+    />
+    <ErrorMessageModal
+      StatusMessage=""
+      onChangeErrorModelState={[Function]}
+      showModal={false}
+    />
+  </React.Fragment>
+  <div
+    className="row search-result-header-row"
+  >
+    <div
+      className="col-sm-4 header-grid-div header-print-button-groups"
+    >
+      <button
+        aria-label="Select all to print"
+        className="btn btn-default search-result-container-header-button  "
+        onClick={[Function]}
+        title="Select all to print"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-check"
+        />
+         Select All
+      </button>
+    </div>
+    <div
+      className="col-sm-3 header-grid-div  "
+    >
+      <button
+        aria-label="table view toggle"
+        className="btn btn-gray"
+        onClick={[Function]}
+        value={0}
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-table"
+        />
+      </button>
+      <button
+        aria-label="item card view toggle"
+        className="btn btn-white"
+        onClick={[Function]}
+        value={1}
+      >
+        <i
+          aria-hidden="true"
+          className="glyphicon glyphicon-th-large glyphicon-pad"
+        />
+      </button>
+    </div>
+    <div
+      className="col-sm-5 header-grid-div header-print-button-groups"
+    >
+      <button
+        aria-label="Clear items from print cart"
+        className="btn btn-default search-result-container-header-button disabled btn-sm"
+        onClick={[Function]}
+        title="Clear items from print cart"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-eraser"
+        />
+         Clear
+      </button>
+      <PrintCartButton
+        itemsInCart={0}
+        label="Print Cart"
+        onClick={[Function]}
+      />
+      <button
+        aria-label="Open barille cart modal"
+        className="btn btn-default btn-sm "
+        onClick={[Function]}
+        title="Open barille cart modal"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-braille"
+        />
+         Braille Cart
+      </button>
+    </div>
+  </div>
+  <div
+    className="search-result-body"
+  >
+    <ItemTableContainer
+      associatedItems={Object {}}
+      countNumberOfItemsAfterSelection={[Function]}
+      getSelectedItemCount={[Function]}
+      isInterimSite={true}
+      isLinkTable={false}
+      item={
+        Object {
+          "kind": "none",
+        }
+      }
+      itemCards={
+        Array [
+          Object {
+            "availableBrailleTypes": Array [
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECN",
+                "selectionCode": "TDS_BT_ECN",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "DS BT UCB Label",
+                "selectionCode": "TDS_BT_UCB",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECL label",
+                "selectionCode": "TDS_BT_ECL",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TTDS BT EXN Label",
+                "selectionCode": "TTDS_BT_EXN",
+              },
+            ],
+            "bankKey": 187,
+            "brailleOnlyItem": false,
+            "calculator": true,
+            "claimCode": "MATH1",
+            "claimLabel": "1.Concepts and Procedures and Logical",
+            "commonCoreStandardId": "6.M.1a",
+            "grade": 8,
+            "gradeLabel": "Grade 6",
+            "interactionTypeCode": "EQ",
+            "interactionTypeLabel": "Equation Multiple Choice choice",
+            "isPerformanceItem": true,
+            "itemDifficulty": "Moderate",
+            "itemKey": 3206,
+            "stimulusKey": 56900,
+            "subjectCode": "MATH",
+            "subjectLabel": "Math",
+            "targetDescription": "Target A description with extra text for testing",
+            "targetHash": 100,
+            "targetId": "A",
+            "targetShortName": "",
+            "testName": "Test-Name-1",
+            "testOrder": 1,
+            "title": "Math Grade 6 Claim 1",
+          },
+          Object {
+            "availableBrailleTypes": Array [
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECN",
+                "selectionCode": "TDS_BT_ECN",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "DS BT UCB Label",
+                "selectionCode": "TDS_BT_UCB",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECL label",
+                "selectionCode": "TDS_BT_ECL",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TTDS BT EXN Label",
+                "selectionCode": "TTDS_BT_EXN",
+              },
+            ],
+            "bankKey": 187,
+            "brailleOnlyItem": false,
+            "calculator": false,
+            "claimCode": "ELA1",
+            "claimLabel": "1.Reading",
+            "commonCoreStandardId": "3.R.2a",
+            "grade": 1,
+            "gradeLabel": "Grade 3",
+            "interactionTypeCode": "MC",
+            "interactionTypeLabel": "Multiple Choice",
+            "isPerformanceItem": true,
+            "itemDifficulty": "Easy",
+            "itemKey": 3163,
+            "stimulusKey": 58679,
+            "subjectCode": "ELA",
+            "subjectLabel": "ELA/literacy",
+            "targetDescription": "Target B description",
+            "targetHash": 1039,
+            "targetId": "B",
+            "targetShortName": "Key Details",
+            "testName": "Test-Name-1",
+            "testOrder": 2,
+            "title": "ELA/ literacy Grade 3 Claim 1",
+          },
+          Object {
+            "availableBrailleTypes": Array [
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECN",
+                "selectionCode": "TDS_BT_ECN",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "DS BT UCB Label",
+                "selectionCode": "TDS_BT_UCB",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECL label",
+                "selectionCode": "TDS_BT_ECL",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TTDS BT EXN Label",
+                "selectionCode": "TTDS_BT_EXN",
+              },
+            ],
+            "bankKey": 187,
+            "brailleOnlyItem": false,
+            "claimCode": "MATH4",
+            "claimLabel": "3.Modeling/Data Analysis",
+            "commonCoreStandardId": "6.M.2b",
+            "grade": 8,
+            "gradeLabel": "Grade 6",
+            "interactionTypeCode": "MS",
+            "interactionTypeLabel": "Multi Select",
+            "isPerformanceItem": true,
+            "itemDifficulty": "",
+            "itemKey": 3615,
+            "stimulusKey": 23461,
+            "subjectCode": "MATH",
+            "subjectLabel": "Math",
+            "targetDescription": "target C description",
+            "targetHash": 0,
+            "targetId": "C",
+            "targetShortName": "",
+            "testName": "Test-Name-1",
+            "testOrder": 3,
+            "title": "Math Grade 6 Claim 4",
+          },
+          Object {
+            "availableBrailleTypes": Array [
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECN",
+                "selectionCode": "TDS_BT_ECN",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "DS BT UCB Label",
+                "selectionCode": "TDS_BT_UCB",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TDS BT ECL label",
+                "selectionCode": "TDS_BT_ECL",
+              },
+              Object {
+                "disabled": false,
+                "hidden": false,
+                "label": "TTDS BT EXN Label",
+                "selectionCode": "TTDS_BT_EXN",
+              },
+            ],
+            "bankKey": 187,
+            "brailleOnlyItem": false,
+            "claimCode": "ELA4",
+            "claimLabel": "4.Research/Inquiry",
+            "commonCoreStandardId": "4.E.4a",
+            "grade": 2,
+            "gradeLabel": "Grade 4",
+            "interactionTypeCode": "MS",
+            "interactionTypeLabel": "Multi Select",
+            "isPerformanceItem": false,
+            "itemDifficulty": "Hard",
+            "itemKey": 2928,
+            "stimulusKey": 87679,
+            "subjectCode": "ELA",
+            "subjectLabel": "ELA/literacy",
+            "targetDescription": "target D description",
+            "targetHash": 2832,
+            "targetId": "D",
+            "targetShortName": "Evaluate Information/ sources",
+            "testName": "",
+            "testOrder": 2,
+            "title": "ELA/ literacy Grade 4 Claim 4",
+          },
+        ]
+      }
+      numberOfSelectedItem={0}
+      onCountNumberOfItemSelection={[Function]}
+      onItemSelection={[Function]}
+      onRowSelection={[Function]}
+      showErrorModalOnPrintItemsCountExceeded={[Function]}
+      testCodeToLabelMap={
+        Object {
+          "Test-Name-1": "Test 1",
+          "Test-Name-2": "Test 2",
+        }
+      }
+    />
+  </div>
+</div>
+`;

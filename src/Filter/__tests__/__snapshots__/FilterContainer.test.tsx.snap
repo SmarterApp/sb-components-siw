@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterContainer expands the advanced filter 1`] = `
+<div
+  className="filter-component-wrapper"
+>
+  <BasicFilterContainer
+    containsAdvancedFilter={true}
+    filterCategories={
+      Array [
+        Object {
+          "code": "Grade",
+          "disabled": false,
+          "filterOptions": Array [
+            Object {
+              "filterType": "Grade",
+              "isSelected": false,
+              "key": "7",
+              "label": "Grades 3-5",
+            },
+            Object {
+              "filterType": "Grade",
+              "isSelected": false,
+              "key": "56",
+              "label": "Grades 6-8",
+            },
+            Object {
+              "filterType": "Grade",
+              "isSelected": false,
+              "key": "960",
+              "label": "High School",
+            },
+          ],
+          "label": "Grade",
+          "optionType": 3,
+          "show": true,
+        },
+        Object {
+          "code": "Subject",
+          "disabled": false,
+          "filterOptions": Array [
+            Object {
+              "filterType": "Subject",
+              "isSelected": false,
+              "key": "ELA",
+              "label": "English Literacy/ Arts",
+            },
+            Object {
+              "filterType": "Subject",
+              "isSelected": false,
+              "key": "Math",
+              "label": "Mathematics",
+            },
+          ],
+          "label": "Subjects",
+          "optionType": 2,
+          "show": true,
+        },
+        Object {
+          "code": "TechnologyType",
+          "disabled": false,
+          "filterOptions": Array [
+            Object {
+              "filterType": "TechnologyType",
+              "isSelected": false,
+              "key": "tech1",
+              "label": "tech1",
+            },
+            Object {
+              "filterType": "TechnologyType",
+              "isSelected": false,
+              "key": "tech2",
+              "label": "tech2",
+            },
+          ],
+          "label": "TechType",
+          "optionType": 4,
+          "show": true,
+        },
+      ]
+    }
+    handleAdvancedFilterExpand={[Function]}
+    onUpdateFilter={[Function]}
+  />
+</div>
+`;
+
+exports[`FilterContainer expands the advanced filter 2`] = `
+<div
+  className="filter-component-wrapper"
+>
+  <BasicFilterContainer
+    containsAdvancedFilter={true}
+    filterCategories={
+      Array [
+        Object {
+          "code": "Grade",
+          "disabled": false,
+          "filterOptions": Array [
+            Object {
+              "filterType": "Grade",
+              "isSelected": false,
+              "key": "7",
+              "label": "Grades 3-5",
+            },
+            Object {
+              "filterType": "Grade",
+              "isSelected": false,
+              "key": "56",
+              "label": "Grades 6-8",
+            },
+            Object {
+              "filterType": "Grade",
+              "isSelected": false,
+              "key": "960",
+              "label": "High School",
+            },
+          ],
+          "label": "Grade",
+          "optionType": 3,
+          "show": true,
+        },
+        Object {
+          "code": "Subject",
+          "disabled": false,
+          "filterOptions": Array [
+            Object {
+              "filterType": "Subject",
+              "isSelected": false,
+              "key": "ELA",
+              "label": "English Literacy/ Arts",
+            },
+            Object {
+              "filterType": "Subject",
+              "isSelected": false,
+              "key": "Math",
+              "label": "Mathematics",
+            },
+          ],
+          "label": "Subjects",
+          "optionType": 2,
+          "show": true,
+        },
+        Object {
+          "code": "TechnologyType",
+          "disabled": false,
+          "filterOptions": Array [
+            Object {
+              "filterType": "TechnologyType",
+              "isSelected": false,
+              "key": "tech1",
+              "label": "tech1",
+            },
+            Object {
+              "filterType": "TechnologyType",
+              "isSelected": false,
+              "key": "tech2",
+              "label": "tech2",
+            },
+          ],
+          "label": "TechType",
+          "optionType": 4,
+          "show": true,
+        },
+      ]
+    }
+    handleAdvancedFilterExpand={[Function]}
+    onUpdateFilter={[Function]}
+  />
+</div>
+`;
+
+exports[`FilterContainer expands the advanced filter 3`] = `
+<div
+  className="filter-component-wrapper"
+>
+  <BasicFilterContainer
+    containsAdvancedFilter={true}
+    filterCategories={
+      Array [
+        Object {
+          "code": "Grade",
+          "disabled": false,
+          "filterOptions": Array [
+            Object {
+              "filterType": "Grade",
+              "isSelected": false,
+              "key": "7",
+              "label": "Grades 3-5",
+            },
+            Object {
+              "filterType": "Grade",
+              "isSelected": false,
+              "key": "56",
+              "label": "Grades 6-8",
+            },
+            Object {
+              "filterType": "Grade",
+              "isSelected": false,
+              "key": "960",
+              "label": "High School",
+            },
+          ],
+          "label": "Grade",
+          "optionType": 3,
+          "show": true,
+        },
+        Object {
+          "code": "Subject",
+          "disabled": false,
+          "filterOptions": Array [
+            Object {
+              "filterType": "Subject",
+              "isSelected": false,
+              "key": "ELA",
+              "label": "English Literacy/ Arts",
+            },
+            Object {
+              "filterType": "Subject",
+              "isSelected": false,
+              "key": "Math",
+              "label": "Mathematics",
+            },
+          ],
+          "label": "Subjects",
+          "optionType": 2,
+          "show": true,
+        },
+        Object {
+          "code": "TechnologyType",
+          "disabled": false,
+          "filterOptions": Array [
+            Object {
+              "filterType": "TechnologyType",
+              "isSelected": false,
+              "key": "tech1",
+              "label": "tech1",
+            },
+            Object {
+              "filterType": "TechnologyType",
+              "isSelected": false,
+              "key": "tech2",
+              "label": "tech2",
+            },
+          ],
+          "label": "TechType",
+          "optionType": 4,
+          "show": true,
+        },
+      ]
+    }
+    handleAdvancedFilterExpand={[Function]}
+    onUpdateFilter={[Function]}
+  />
+</div>
+`;

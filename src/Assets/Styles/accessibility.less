@@ -1,0 +1,115 @@
+@import "constants";
+
+.accessibility-groups {
+  display: flex;
+  flex-direction: column;
+}
+
+.green-title {
+  color: @green-dark;
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.accessibility-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.accessibility-dropdowns {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: auto;
+}
+
+.accessibility-dropdown > .form-control {
+  min-width: 100%;
+}
+
+.accessibility-resource-type {
+  margin-bottom: @spacing-item;
+}
+
+.accessibility-dropdown {
+  padding: 7px;
+  flex-basis: 250px;
+  min-width: 250px;
+}
+
+.accessibility-modal {
+  max-width: @modal-max-width;
+}
+
+.expand-button {
+  cursor: pointer;
+}
+
+.option-disabled {
+  background: rgb(
+    128,
+    128,
+    128
+  ); /* Fallback for browsers without support for rgba() */
+  background: rgba(128, 128, 128, 0.4);
+}
+.selection-disabled {
+  opacity: 0.5;
+}
+.readonly-select {
+  user-select: all;
+}
+.disabled {
+  background: rgb(128, 128, 128);
+  background: rgba(128, 128, 128, 0.4);
+  pointer-events: none;
+}
+.status-message-print {
+  color: green;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 16px;
+  font-weight: 400;
+}
+.header-message-print-cart {
+  color: green;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 16px;
+}
+.header-print-cart {
+  margin-top: 20px;
+}
+.error-message {
+  color: red;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.print-cart-table-row-unselected {
+  color: lightgrey;
+}
+.print-cart-table-row-selected {
+  color: black;
+}
+.accessibility-form-heading {
+  color: @green-dark;
+  font-weight: bold;
+}
+.select-print-accessibility {
+  min-width: 235px;
+}
+.font-italic {
+  font-style: italic;
+}
+.error-msg-print-cart {
+  color: red;
+  margin-top: 36px;
+}
+.error-msg-print {
+  margin-top: 38px;
+}
+.pdf-option {
+  padding-top: 5px !important;
+}

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionDataTable matches snapshot 1`] = `
+<div
+  className="item"
+>
+  <p
+    className="question-title"
+  >
+    Question #
+    1
+  </p>
+  <ItemView
+    view={
+      Object {
+        "captured": true,
+        "html": undefined,
+        "id": "12334",
+        "picturePath": undefined,
+        "type": 1,
+      }
+    }
+  />
+  <hr />
+</div>
+`;

@@ -1,0 +1,123 @@
+@import "constants";
+
+.item-page {
+  width: 100%;
+}
+
+.sample-response {
+  margin-left: 10px;
+}
+
+.url-display {
+  font-family: monospace;
+  margin-bottom: 10px;
+  overflow: auto;
+  padding: @spacing-item;
+  padding-top: 75px;
+  width: auto;
+  word-wrap: break-word;
+}
+
+.item-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: @spacing-item; //sb
+  margin-bottom: @spacing-item*2; //sb
+}
+
+.item-nav-left-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.item-nav-right-group {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.item-nav-long-label {
+  display: inherit;
+}
+
+@media (max-width: @small) {
+  .item-nav-long-label {
+    display: none;
+  }
+}
+
+.more-like-this {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.more-like-this-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+
+.more-like-this-modal {
+  max-width: @modal-max-width;
+}
+
+.more-like-this-modal h3 {
+  margin-top: 0px;
+}
+
+//share modal specfic styles
+.share-modal > .modal-wrapper {
+  max-width: @modal-min-width;
+}
+
+#copy-button {
+  margin: auto;
+  white-space: nowrap;
+}
+
+@-webkit-keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}

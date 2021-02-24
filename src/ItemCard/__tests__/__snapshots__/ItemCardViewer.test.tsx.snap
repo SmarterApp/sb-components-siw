@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemCardViewer renders information tab 1`] = `
+<div
+  className="item-card"
+>
+  <ItemTabs
+    changedTab={[Function]}
+    selectedTab="information"
+    showRubricTab={true}
+  />
+  <div>
+     
+    <div
+      className="item-content"
+    >
+      <div>
+        <AboutThisItemDetail
+          commonCoreStandardsDescription="A-123-BC"
+          depthOfKnowledge="3"
+          educationalDifficulty="5"
+          evidenceStatement="This is a sample evidence statement"
+          itemCardViewModel={
+            Object {
+              "availableBrailleTypes": Array [
+                Object {
+                  "disabled": false,
+                  "hidden": false,
+                  "label": "EBAE-Contracted",
+                  "selectionCode": "EABE",
+                },
+                Object {
+                  "disabled": false,
+                  "hidden": false,
+                  "label": "BAET-Contracted",
+                  "selectionCode": "BAET",
+                },
+              ],
+              "bankKey": 187,
+              "brailleOnlyItem": false,
+              "calculator": false,
+              "ccssDescription": "this is the common core description",
+              "claimCode": "ELA3",
+              "claimLabel": "Claim",
+              "commonCoreStandardId": "AB-123",
+              "depthOfKnowledge": "2",
+              "domain": "domain",
+              "grade": 4,
+              "gradeLabel": "Grade 4",
+              "interactionTypeCode": "GI",
+              "interactionTypeLabel": "Item Type",
+              "isPerformanceItem": false,
+              "itemDifficulty": "Hard",
+              "itemKey": 3434,
+              "selected": false,
+              "subjectCode": "ELA",
+              "subjectLabel": "ELA",
+              "targetDescription": "target description right here",
+              "targetHash": 33434,
+              "targetId": "dfas",
+              "targetShortName": "target short name",
+              "title": "ELA Grade 4",
+            }
+          }
+          sampleItemScoring={
+            Object {
+              "answerKey": "x = 5",
+              "hasMachineRubric": false,
+              "rubrics": Array [
+                Object {
+                  "language": "en-us",
+                  "rubricEntries": Array [
+                    Object {
+                      "name": "No points",
+                      "scorepoint": "0",
+                      "value": "Student did not do the problem",
+                    },
+                    Object {
+                      "name": "Half points",
+                      "scorepoint": "1",
+                      "value": "Student tried to do the problem, but got it wrong",
+                    },
+                    Object {
+                      "name": "No points",
+                      "scorepoint": "2",
+                      "value": "Student did the problem correctly",
+                    },
+                  ],
+                  "samples": Array [
+                    Object {
+                      "maxValue": "0",
+                      "minValue": "0",
+                      "sampleResponses": Array [
+                        Object {
+                          "name": "0pts",
+                          "purpose": "idk",
+                          "sampleContent": "x = _",
+                          "scorePoint": "0",
+                        },
+                      ],
+                    },
+                    Object {
+                      "maxValue": "1",
+                      "minValue": "1",
+                      "sampleResponses": Array [
+                        Object {
+                          "name": "1pt",
+                          "purpose": "idk",
+                          "sampleContent": "x = 10 + 5 = 15",
+                          "scorePoint": "1",
+                        },
+                        Object {
+                          "name": "1pt",
+                          "purpose": "idk",
+                          "sampleContent": "x = 10 - 5 = a million",
+                          "scorePoint": "1",
+                        },
+                      ],
+                    },
+                    Object {
+                      "maxValue": "2",
+                      "minValue": "2",
+                      "sampleResponses": Array [
+                        Object {
+                          "name": "2pts",
+                          "purpose": "idk",
+                          "sampleContent": "x = 10 - 5 = 5",
+                          "scorePoint": "2",
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+              "scoringOptions": Array [],
+            }
+          }
+          targetDescription="Solve equations"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ItemCardViewer renders rubric tab 1`] = `
+<div
+  className="item-card"
+>
+  <ItemTabs
+    changedTab={[Function]}
+    selectedTab="rubric"
+    showRubricTab={true}
+  />
+  <div>
+     
+    <div
+      className="item-content"
+    >
+      <RubricTable
+        rubrics={
+          Array [
+            Object {
+              "language": "en-us",
+              "rubricEntries": Array [
+                Object {
+                  "name": "No points",
+                  "scorepoint": "0",
+                  "value": "Student did not do the problem",
+                },
+                Object {
+                  "name": "Half points",
+                  "scorepoint": "1",
+                  "value": "Student tried to do the problem, but got it wrong",
+                },
+                Object {
+                  "name": "No points",
+                  "scorepoint": "2",
+                  "value": "Student did the problem correctly",
+                },
+              ],
+              "samples": Array [
+                Object {
+                  "maxValue": "0",
+                  "minValue": "0",
+                  "sampleResponses": Array [
+                    Object {
+                      "name": "0pts",
+                      "purpose": "idk",
+                      "sampleContent": "x = _",
+                      "scorePoint": "0",
+                    },
+                  ],
+                },
+                Object {
+                  "maxValue": "1",
+                  "minValue": "1",
+                  "sampleResponses": Array [
+                    Object {
+                      "name": "1pt",
+                      "purpose": "idk",
+                      "sampleContent": "x = 10 + 5 = 15",
+                      "scorePoint": "1",
+                    },
+                    Object {
+                      "name": "1pt",
+                      "purpose": "idk",
+                      "sampleContent": "x = 10 - 5 = a million",
+                      "scorePoint": "1",
+                    },
+                  ],
+                },
+                Object {
+                  "maxValue": "2",
+                  "minValue": "2",
+                  "sampleResponses": Array [
+                    Object {
+                      "name": "2pts",
+                      "purpose": "idk",
+                      "sampleContent": "x = 10 - 5 = 5",
+                      "scorePoint": "2",
+                    },
+                  ],
+                },
+              ],
+            },
+          ]
+        }
+      />
+    </div>
+     
+  </div>
+</div>
+`;
+
+exports[`ItemCardViewer renders viewer tab 1`] = `
+<div
+  className="item-card"
+>
+  <ItemTabs
+    changedTab={[Function]}
+    selectedTab="viewer"
+    showRubricTab={true}
+  />
+  <div>
+     
+    <div
+      className="item-content"
+    >
+      <ItemViewerFrame
+        url="http://ivs.smarterbalanced.org/items?ids=187-3434"
+      />
+    </div>
+     
+  </div>
+</div>
+`;

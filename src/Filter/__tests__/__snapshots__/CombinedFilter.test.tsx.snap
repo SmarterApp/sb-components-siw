@@ -1,0 +1,4448 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterContainer filter updates 1`] = `undefined`;
+
+exports[`FilterContainer renders 1`] = `
+<CombinedFilter
+  advancedFilter={
+    Array [
+      Object {
+        "code": "Grade",
+        "disabled": false,
+        "displayAllButton": true,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "7",
+            "label": "Grades 3-5",
+          },
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "56",
+            "label": "Grades 6-8",
+          },
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "960",
+            "label": "High School",
+          },
+        ],
+        "helpText": "Grade Help",
+        "isMultiSelect": false,
+        "label": "Grade",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": false,
+        "displayAllButton": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "EL&A",
+            "label": "English Literacy & Arts",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Mth",
+            "label": "Maths",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": true,
+        "label": "Multi",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": true,
+        "displayAllButton": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Eng",
+            "label": "English",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Chem",
+            "label": "Chemistry",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": false,
+        "label": "Disabled",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": true,
+        "displayAllButton": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Read",
+            "label": "Reading",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Hist",
+            "label": "History",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": true,
+        "label": "Disabled Multi",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": false,
+        "displayAllButton": true,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "USh",
+            "label": "US History",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Wh",
+            "label": "World History",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": true,
+        "label": "Multi All",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": false,
+        "displayAllButton": true,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Calc",
+            "label": "Calculus",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Geom",
+            "label": "Geometry",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": true,
+        "label": "Multi All Disabled",
+        "show": true,
+      },
+    ]
+  }
+  basicFilter={
+    Array [
+      Object {
+        "code": "Grade",
+        "disabled": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "7",
+            "label": "Grades 3-5",
+          },
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "56",
+            "label": "Grades 6-8",
+          },
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "960",
+            "label": "High School",
+          },
+        ],
+        "label": "Grade",
+        "optionType": 3,
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "ELA",
+            "label": "English Literacy/ Arts",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Math",
+            "label": "Mathematics",
+          },
+        ],
+        "label": "Subjects",
+        "optionType": 2,
+        "show": true,
+      },
+      Object {
+        "code": "TechnologyType",
+        "disabled": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "TechnologyType",
+            "isSelected": false,
+            "key": "tech2",
+            "label": "tech2",
+          },
+          Object {
+            "filterType": "TechnologyType",
+            "isSelected": false,
+            "key": "tech1",
+            "label": "tech1",
+          },
+        ],
+        "label": "TechType",
+        "optionType": 4,
+        "show": true,
+      },
+    ]
+  }
+  onFilterUpdated={[MockFunction]}
+  searchAPI={Object {}}
+>
+  <div
+    className="filter-component-wrapper"
+  >
+    <BasicFilterContainer
+      containsAdvancedFilter={true}
+      filterCategories={
+        Array [
+          Object {
+            "code": "Grade",
+            "disabled": false,
+            "filterOptions": Array [
+              Object {
+                "filterType": "Grade",
+                "isSelected": false,
+                "key": "7",
+                "label": "Grades 3-5",
+              },
+              Object {
+                "filterType": "Grade",
+                "isSelected": false,
+                "key": "56",
+                "label": "Grades 6-8",
+              },
+              Object {
+                "filterType": "Grade",
+                "isSelected": false,
+                "key": "960",
+                "label": "High School",
+              },
+            ],
+            "label": "Grade",
+            "optionType": 3,
+            "show": true,
+          },
+          Object {
+            "code": "Subject",
+            "disabled": false,
+            "filterOptions": Array [
+              Object {
+                "filterType": "Subject",
+                "isSelected": false,
+                "key": "ELA",
+                "label": "English Literacy/ Arts",
+              },
+              Object {
+                "filterType": "Subject",
+                "isSelected": false,
+                "key": "Math",
+                "label": "Mathematics",
+              },
+            ],
+            "label": "Subjects",
+            "optionType": 2,
+            "show": true,
+          },
+          Object {
+            "code": "TechnologyType",
+            "disabled": false,
+            "filterOptions": Array [
+              Object {
+                "filterType": "TechnologyType",
+                "isSelected": false,
+                "key": "tech2",
+                "label": "tech2",
+              },
+              Object {
+                "filterType": "TechnologyType",
+                "isSelected": false,
+                "key": "tech1",
+                "label": "tech1",
+              },
+            ],
+            "label": "TechType",
+            "optionType": 4,
+            "show": true,
+          },
+        ]
+      }
+      filterId=""
+      handleAdvancedFilterExpand={[Function]}
+      onUpdateFilter={[Function]}
+      resetHandler={[Function]}
+    >
+      <div
+        className="bf-container section section-light"
+        id=""
+      >
+        <div
+          className="basic-filter"
+        >
+          <BasicFilter
+            code="Grade"
+            disabled={false}
+            filterOptions={
+              Array [
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "7",
+                  "label": "Grades 3-5",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "56",
+                  "label": "Grades 6-8",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "960",
+                  "label": "High School",
+                },
+              ]
+            }
+            key="0"
+            label="Grade"
+            optionType={3}
+            selectedHandler={[Function]}
+            show={true}
+          >
+            <div
+              className="bf-selection"
+              id="grade-bf"
+              title=""
+            >
+              <Component
+                className="input-sm"
+                disabled={false}
+                key="Grade"
+                label="Grade"
+                onChange={[Function]}
+                options={
+                  Array [
+                    Object {
+                      "disabled": false,
+                      "label": "Select Grade",
+                      "selected": true,
+                      "value": "default",
+                    },
+                    Object {
+                      "disabled": false,
+                      "label": "Grades 3-5",
+                      "selected": false,
+                      "value": "7",
+                    },
+                    Object {
+                      "disabled": false,
+                      "label": "Grades 6-8",
+                      "selected": false,
+                      "value": "56",
+                    },
+                    Object {
+                      "disabled": false,
+                      "label": "High School",
+                      "selected": false,
+                      "value": "960",
+                    },
+                  ]
+                }
+                selected="default"
+              >
+                <div
+                  className=""
+                >
+                  <label
+                    htmlFor="Grade"
+                  >
+                    <span
+                      className=""
+                    >
+                      Grade
+                    </span>
+                  </label>
+                  <select
+                    aria-label="Grade"
+                    className="form-control input-sm"
+                    disabled={false}
+                    id="Grade"
+                    onChange={[Function]}
+                    value="default"
+                  >
+                    <Component
+                      disabled={false}
+                      key="default"
+                      label="Select Grade"
+                      selected={true}
+                      value="default"
+                    >
+                      <option
+                        aria-selected={true}
+                        disabled={false}
+                        label="Select Grade"
+                        value="default"
+                      >
+                        Select Grade
+                      </option>
+                    </Component>
+                    <Component
+                      disabled={false}
+                      key="7"
+                      label="Grades 3-5"
+                      selected={false}
+                      value="7"
+                    >
+                      <option
+                        aria-selected={false}
+                        disabled={false}
+                        label="Grades 3-5"
+                        value="7"
+                      >
+                        Grades 3-5
+                      </option>
+                    </Component>
+                    <Component
+                      disabled={false}
+                      key="56"
+                      label="Grades 6-8"
+                      selected={false}
+                      value="56"
+                    >
+                      <option
+                        aria-selected={false}
+                        disabled={false}
+                        label="Grades 6-8"
+                        value="56"
+                      >
+                        Grades 6-8
+                      </option>
+                    </Component>
+                    <Component
+                      disabled={false}
+                      key="960"
+                      label="High School"
+                      selected={false}
+                      value="960"
+                    >
+                      <option
+                        aria-selected={false}
+                        disabled={false}
+                        label="High School"
+                        value="960"
+                      >
+                        High School
+                      </option>
+                    </Component>
+                  </select>
+                </div>
+              </Component>
+            </div>
+          </BasicFilter>
+          <BasicFilter
+            code="Subject"
+            disabled={false}
+            filterOptions={
+              Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "ELA",
+                  "label": "English Literacy/ Arts",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Math",
+                  "label": "Mathematics",
+                },
+              ]
+            }
+            key="1"
+            label="Subjects"
+            optionType={2}
+            selectedHandler={[Function]}
+            show={true}
+          >
+            <div
+              className="bf-selection"
+              id="subjects-bf"
+              title=""
+            >
+              <label
+                htmlFor="basic-filter-checkbox"
+              >
+                Subjects
+                <div
+                  className="radio"
+                  key="ELA"
+                >
+                  <label>
+                    <input
+                      aria-checked={false}
+                      aria-label="Select Subjects ELA"
+                      checked={false}
+                      id="basic-filter-checkbox"
+                      name="Subjects"
+                      onChange={[Function]}
+                      tabIndex={0}
+                      type="radio"
+                      value="ELA"
+                    />
+                    English Literacy/ Arts
+                  </label>
+                </div>
+                <div
+                  className="radio"
+                  key="Math"
+                >
+                  <label>
+                    <input
+                      aria-checked={false}
+                      aria-label="Select Subjects Math"
+                      checked={false}
+                      id="basic-filter-checkbox"
+                      name="Subjects"
+                      onChange={[Function]}
+                      tabIndex={0}
+                      type="radio"
+                      value="Math"
+                    />
+                    Mathematics
+                  </label>
+                </div>
+              </label>
+            </div>
+          </BasicFilter>
+          <AdvancedFilter
+            code="TechnologyType"
+            disabled={false}
+            displayAllButton={true}
+            filterOptions={
+              Array [
+                Object {
+                  "filterType": "TechnologyType",
+                  "isSelected": false,
+                  "key": "tech2",
+                  "label": "tech2",
+                },
+                Object {
+                  "filterType": "TechnologyType",
+                  "isSelected": false,
+                  "key": "tech1",
+                  "label": "tech1",
+                },
+              ]
+            }
+            isMultiSelect={true}
+            key="2"
+            label="TechType"
+            onFilterOptionSelect={[Function]}
+            optionType={4}
+            show={true}
+          >
+            <div
+              className="filter-selection"
+              id="techtype-filter"
+            >
+              <div
+                className="filter-container-header"
+              >
+                <label
+                  htmlFor="btn-group-filter"
+                >
+                  <span
+                    className="tooltip-label"
+                    info-label="true"
+                  >
+                    TechType
+                  </span>
+                </label>
+              </div>
+              <div
+                className="nested-btn-group btn-group-sm toggle-group vertical"
+                data-toggle="buttons"
+              >
+                <Component
+                  ariaLabel="Select All TechType"
+                  disabled={false}
+                  label="All"
+                  onClick={[Function]}
+                  selected={true}
+                >
+                  <button
+                    aria-checked={true}
+                    aria-label="Select All TechType"
+                    className="btn btn-primary active"
+                    disabled={false}
+                    id="btn-group-filter"
+                    onClick={[Function]}
+                    role="switch"
+                  >
+                    All
+                  </button>
+                </Component>
+                <div
+                  className="btn-group filter-btn-group"
+                >
+                  <Component
+                    ariaLabel="Select TechType tech2"
+                    disabled={false}
+                    key="tech2"
+                    label="tech2"
+                    onClick={[Function]}
+                    selected={false}
+                  >
+                    <button
+                      aria-checked={false}
+                      aria-label="Select TechType tech2"
+                      className="btn btn-primary "
+                      disabled={false}
+                      id="btn-group-filter"
+                      onClick={[Function]}
+                      role="switch"
+                    >
+                      tech2
+                    </button>
+                  </Component>
+                  <Component
+                    ariaLabel="Select TechType tech1"
+                    disabled={false}
+                    key="tech1"
+                    label="tech1"
+                    onClick={[Function]}
+                    selected={false}
+                  >
+                    <button
+                      aria-checked={false}
+                      aria-label="Select TechType tech1"
+                      className="btn btn-primary "
+                      disabled={false}
+                      id="btn-group-filter"
+                      onClick={[Function]}
+                      role="switch"
+                    >
+                      tech1
+                    </button>
+                  </Component>
+                </div>
+              </div>
+            </div>
+          </AdvancedFilter>
+        </div>
+        <div
+          className="bf-button-container"
+        >
+          <span>
+            <button
+              aria-label="Reset filters"
+              className="btn btn-default filter-button"
+              onClick={[Function]}
+              tabIndex={1}
+            >
+              Reset
+            </button>
+          </span>
+          <span>
+            <button
+              aria-label="Advanced filters"
+              className="btn btn-default filter-button af-expand"
+              onClick={[Function]}
+              tabIndex={1}
+            >
+              Advanced Filters 
+              <span
+                aria-hidden="true"
+                className="fa fa-chevron-right"
+              />
+            </button>
+          </span>
+        </div>
+      </div>
+    </BasicFilterContainer>
+  </div>
+</CombinedFilter>
+`;
+
+exports[`FilterContainer toggles the advanced filter 1`] = `
+<CombinedFilter
+  advancedFilter={
+    Array [
+      Object {
+        "code": "Grade",
+        "disabled": false,
+        "displayAllButton": true,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "7",
+            "label": "Grades 3-5",
+          },
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "56",
+            "label": "Grades 6-8",
+          },
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "960",
+            "label": "High School",
+          },
+        ],
+        "helpText": "Grade Help",
+        "isMultiSelect": false,
+        "label": "Grade",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": false,
+        "displayAllButton": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "EL&A",
+            "label": "English Literacy & Arts",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Mth",
+            "label": "Maths",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": true,
+        "label": "Multi",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": true,
+        "displayAllButton": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Eng",
+            "label": "English",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Chem",
+            "label": "Chemistry",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": false,
+        "label": "Disabled",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": true,
+        "displayAllButton": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Read",
+            "label": "Reading",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Hist",
+            "label": "History",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": true,
+        "label": "Disabled Multi",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": false,
+        "displayAllButton": true,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "USh",
+            "label": "US History",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Wh",
+            "label": "World History",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": true,
+        "label": "Multi All",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": false,
+        "displayAllButton": true,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Calc",
+            "label": "Calculus",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Geom",
+            "label": "Geometry",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": true,
+        "label": "Multi All Disabled",
+        "show": true,
+      },
+    ]
+  }
+  basicFilter={
+    Array [
+      Object {
+        "code": "Grade",
+        "disabled": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "7",
+            "label": "Grades 3-5",
+          },
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "56",
+            "label": "Grades 6-8",
+          },
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "960",
+            "label": "High School",
+          },
+        ],
+        "label": "Grade",
+        "optionType": 3,
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "ELA",
+            "label": "English Literacy/ Arts",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Math",
+            "label": "Mathematics",
+          },
+        ],
+        "label": "Subjects",
+        "optionType": 2,
+        "show": true,
+      },
+      Object {
+        "code": "TechnologyType",
+        "disabled": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "TechnologyType",
+            "isSelected": false,
+            "key": "tech2",
+            "label": "tech2",
+          },
+          Object {
+            "filterType": "TechnologyType",
+            "isSelected": false,
+            "key": "tech1",
+            "label": "tech1",
+          },
+        ],
+        "label": "TechType",
+        "optionType": 4,
+        "show": true,
+      },
+    ]
+  }
+  onFilterUpdated={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "catOnly": true,
+            "claims": Array [
+              "t1",
+              "t2",
+            ],
+            "gradeLevels": 3,
+            "interactionTypes": Array [
+              "t1",
+              "t2",
+            ],
+            "itemId": "item1",
+            "performanceOnly": true,
+            "subjects": Array [
+              "t1",
+              "t2",
+            ],
+            "targets": Array [
+              "A",
+              "B",
+            ],
+          },
+          Array [
+            Object {
+              "code": "Grade",
+              "disabled": false,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "7",
+                  "label": "Grades 3-5",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "56",
+                  "label": "Grades 6-8",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "960",
+                  "label": "High School",
+                },
+              ],
+              "label": "Grade",
+              "optionType": 3,
+              "show": true,
+            },
+            Object {
+              "code": "Subject",
+              "disabled": false,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "ELA",
+                  "label": "English Literacy/ Arts",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Math",
+                  "label": "Mathematics",
+                },
+              ],
+              "label": "Subjects",
+              "optionType": 2,
+              "show": true,
+            },
+            Object {
+              "code": "TechnologyType",
+              "disabled": false,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "TechnologyType",
+                  "isSelected": false,
+                  "key": "tech2",
+                  "label": "tech2",
+                },
+                Object {
+                  "filterType": "TechnologyType",
+                  "isSelected": false,
+                  "key": "tech1",
+                  "label": "tech1",
+                },
+              ],
+              "label": "TechType",
+              "optionType": 4,
+              "show": true,
+            },
+          ],
+          Array [
+            Object {
+              "code": "Grade",
+              "disabled": false,
+              "displayAllButton": true,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "7",
+                  "label": "Grades 3-5",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "56",
+                  "label": "Grades 6-8",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "960",
+                  "label": "High School",
+                },
+              ],
+              "helpText": "Grade Help",
+              "isMultiSelect": false,
+              "label": "Grade",
+              "show": true,
+            },
+            Object {
+              "code": "Subject",
+              "disabled": false,
+              "displayAllButton": false,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "EL&A",
+                  "label": "English Literacy & Arts",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Mth",
+                  "label": "Maths",
+                },
+              ],
+              "helpText": "Subject Help",
+              "isMultiSelect": true,
+              "label": "Multi",
+              "show": true,
+            },
+            Object {
+              "code": "Subject",
+              "disabled": true,
+              "displayAllButton": false,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Eng",
+                  "label": "English",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Chem",
+                  "label": "Chemistry",
+                },
+              ],
+              "helpText": "Subject Help",
+              "isMultiSelect": false,
+              "label": "Disabled",
+              "show": true,
+            },
+            Object {
+              "code": "Subject",
+              "disabled": true,
+              "displayAllButton": false,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Read",
+                  "label": "Reading",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Hist",
+                  "label": "History",
+                },
+              ],
+              "helpText": "Subject Help",
+              "isMultiSelect": true,
+              "label": "Disabled Multi",
+              "show": true,
+            },
+            Object {
+              "code": "Subject",
+              "disabled": false,
+              "displayAllButton": true,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "USh",
+                  "label": "US History",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Wh",
+                  "label": "World History",
+                },
+              ],
+              "helpText": "Subject Help",
+              "isMultiSelect": true,
+              "label": "Multi All",
+              "show": true,
+            },
+            Object {
+              "code": "Subject",
+              "disabled": false,
+              "displayAllButton": true,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Calc",
+                  "label": "Calculus",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Geom",
+                  "label": "Geometry",
+                },
+              ],
+              "helpText": "Subject Help",
+              "isMultiSelect": true,
+              "label": "Multi All Disabled",
+              "show": true,
+            },
+          ],
+        ],
+      ],
+    }
+  }
+  searchAPI={Object {}}
+>
+  <div
+    className="filter-component-wrapper"
+  >
+    <BasicFilterContainer
+      containsAdvancedFilter={true}
+      filterCategories={
+        Array [
+          Object {
+            "code": "Grade",
+            "disabled": false,
+            "filterOptions": Array [
+              Object {
+                "filterType": "Grade",
+                "isSelected": false,
+                "key": "7",
+                "label": "Grades 3-5",
+              },
+              Object {
+                "filterType": "Grade",
+                "isSelected": false,
+                "key": "56",
+                "label": "Grades 6-8",
+              },
+              Object {
+                "filterType": "Grade",
+                "isSelected": false,
+                "key": "960",
+                "label": "High School",
+              },
+            ],
+            "label": "Grade",
+            "optionType": 3,
+            "show": true,
+          },
+          Object {
+            "code": "Subject",
+            "disabled": false,
+            "filterOptions": Array [
+              Object {
+                "filterType": "Subject",
+                "isSelected": false,
+                "key": "ELA",
+                "label": "English Literacy/ Arts",
+              },
+              Object {
+                "filterType": "Subject",
+                "isSelected": false,
+                "key": "Math",
+                "label": "Mathematics",
+              },
+            ],
+            "label": "Subjects",
+            "optionType": 2,
+            "show": true,
+          },
+          Object {
+            "code": "TechnologyType",
+            "disabled": false,
+            "filterOptions": Array [
+              Object {
+                "filterType": "TechnologyType",
+                "isSelected": false,
+                "key": "tech2",
+                "label": "tech2",
+              },
+              Object {
+                "filterType": "TechnologyType",
+                "isSelected": false,
+                "key": "tech1",
+                "label": "tech1",
+              },
+            ],
+            "label": "TechType",
+            "optionType": 4,
+            "show": true,
+          },
+        ]
+      }
+      filterId=""
+      handleAdvancedFilterExpand={[Function]}
+      onUpdateFilter={[Function]}
+      resetHandler={[Function]}
+    >
+      <div
+        className="bf-container section section-light"
+        id=""
+      >
+        <div
+          className="basic-filter"
+        >
+          <BasicFilter
+            code="Grade"
+            disabled={false}
+            filterOptions={
+              Array [
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "7",
+                  "label": "Grades 3-5",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "56",
+                  "label": "Grades 6-8",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "960",
+                  "label": "High School",
+                },
+              ]
+            }
+            key="0"
+            label="Grade"
+            optionType={3}
+            selectedHandler={[Function]}
+            show={true}
+          >
+            <div
+              className="bf-selection"
+              id="grade-bf"
+              title=""
+            >
+              <Component
+                className="input-sm"
+                disabled={false}
+                key="Grade"
+                label="Grade"
+                onChange={[Function]}
+                options={
+                  Array [
+                    Object {
+                      "disabled": false,
+                      "label": "Select Grade",
+                      "selected": true,
+                      "value": "default",
+                    },
+                    Object {
+                      "disabled": false,
+                      "label": "Grades 3-5",
+                      "selected": false,
+                      "value": "7",
+                    },
+                    Object {
+                      "disabled": false,
+                      "label": "Grades 6-8",
+                      "selected": false,
+                      "value": "56",
+                    },
+                    Object {
+                      "disabled": false,
+                      "label": "High School",
+                      "selected": false,
+                      "value": "960",
+                    },
+                  ]
+                }
+                selected="default"
+              >
+                <div
+                  className=""
+                >
+                  <label
+                    htmlFor="Grade"
+                  >
+                    <span
+                      className=""
+                    >
+                      Grade
+                    </span>
+                  </label>
+                  <select
+                    aria-label="Grade"
+                    className="form-control input-sm"
+                    disabled={false}
+                    id="Grade"
+                    onChange={[Function]}
+                    value="default"
+                  >
+                    <Component
+                      disabled={false}
+                      key="default"
+                      label="Select Grade"
+                      selected={true}
+                      value="default"
+                    >
+                      <option
+                        aria-selected={true}
+                        disabled={false}
+                        label="Select Grade"
+                        value="default"
+                      >
+                        Select Grade
+                      </option>
+                    </Component>
+                    <Component
+                      disabled={false}
+                      key="7"
+                      label="Grades 3-5"
+                      selected={false}
+                      value="7"
+                    >
+                      <option
+                        aria-selected={false}
+                        disabled={false}
+                        label="Grades 3-5"
+                        value="7"
+                      >
+                        Grades 3-5
+                      </option>
+                    </Component>
+                    <Component
+                      disabled={false}
+                      key="56"
+                      label="Grades 6-8"
+                      selected={false}
+                      value="56"
+                    >
+                      <option
+                        aria-selected={false}
+                        disabled={false}
+                        label="Grades 6-8"
+                        value="56"
+                      >
+                        Grades 6-8
+                      </option>
+                    </Component>
+                    <Component
+                      disabled={false}
+                      key="960"
+                      label="High School"
+                      selected={false}
+                      value="960"
+                    >
+                      <option
+                        aria-selected={false}
+                        disabled={false}
+                        label="High School"
+                        value="960"
+                      >
+                        High School
+                      </option>
+                    </Component>
+                  </select>
+                </div>
+              </Component>
+            </div>
+          </BasicFilter>
+          <BasicFilter
+            code="Subject"
+            disabled={false}
+            filterOptions={
+              Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "ELA",
+                  "label": "English Literacy/ Arts",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Math",
+                  "label": "Mathematics",
+                },
+              ]
+            }
+            key="1"
+            label="Subjects"
+            optionType={2}
+            selectedHandler={[Function]}
+            show={true}
+          >
+            <div
+              className="bf-selection"
+              id="subjects-bf"
+              title=""
+            >
+              <label
+                htmlFor="basic-filter-checkbox"
+              >
+                Subjects
+                <div
+                  className="radio"
+                  key="ELA"
+                >
+                  <label>
+                    <input
+                      aria-checked={false}
+                      aria-label="Select Subjects ELA"
+                      checked={false}
+                      id="basic-filter-checkbox"
+                      name="Subjects"
+                      onChange={[Function]}
+                      tabIndex={0}
+                      type="radio"
+                      value="ELA"
+                    />
+                    English Literacy/ Arts
+                  </label>
+                </div>
+                <div
+                  className="radio"
+                  key="Math"
+                >
+                  <label>
+                    <input
+                      aria-checked={false}
+                      aria-label="Select Subjects Math"
+                      checked={false}
+                      id="basic-filter-checkbox"
+                      name="Subjects"
+                      onChange={[Function]}
+                      tabIndex={0}
+                      type="radio"
+                      value="Math"
+                    />
+                    Mathematics
+                  </label>
+                </div>
+              </label>
+            </div>
+          </BasicFilter>
+          <AdvancedFilter
+            code="TechnologyType"
+            disabled={false}
+            displayAllButton={true}
+            filterOptions={
+              Array [
+                Object {
+                  "filterType": "TechnologyType",
+                  "isSelected": false,
+                  "key": "tech2",
+                  "label": "tech2",
+                },
+                Object {
+                  "filterType": "TechnologyType",
+                  "isSelected": false,
+                  "key": "tech1",
+                  "label": "tech1",
+                },
+              ]
+            }
+            isMultiSelect={true}
+            key="2"
+            label="TechType"
+            onFilterOptionSelect={[Function]}
+            optionType={4}
+            show={true}
+          >
+            <div
+              className="filter-selection"
+              id="techtype-filter"
+            >
+              <div
+                className="filter-container-header"
+              >
+                <label
+                  htmlFor="btn-group-filter"
+                >
+                  <span
+                    className="tooltip-label"
+                    info-label="true"
+                  >
+                    TechType
+                  </span>
+                </label>
+              </div>
+              <div
+                className="nested-btn-group btn-group-sm toggle-group vertical"
+                data-toggle="buttons"
+              >
+                <Component
+                  ariaLabel="Select All TechType"
+                  disabled={false}
+                  label="All"
+                  onClick={[Function]}
+                  selected={true}
+                >
+                  <button
+                    aria-checked={true}
+                    aria-label="Select All TechType"
+                    className="btn btn-primary active"
+                    disabled={false}
+                    id="btn-group-filter"
+                    onClick={[Function]}
+                    role="switch"
+                  >
+                    All
+                  </button>
+                </Component>
+                <div
+                  className="btn-group filter-btn-group"
+                >
+                  <Component
+                    ariaLabel="Select TechType tech2"
+                    disabled={false}
+                    key="tech2"
+                    label="tech2"
+                    onClick={[Function]}
+                    selected={false}
+                  >
+                    <button
+                      aria-checked={false}
+                      aria-label="Select TechType tech2"
+                      className="btn btn-primary "
+                      disabled={false}
+                      id="btn-group-filter"
+                      onClick={[Function]}
+                      role="switch"
+                    >
+                      tech2
+                    </button>
+                  </Component>
+                  <Component
+                    ariaLabel="Select TechType tech1"
+                    disabled={false}
+                    key="tech1"
+                    label="tech1"
+                    onClick={[Function]}
+                    selected={false}
+                  >
+                    <button
+                      aria-checked={false}
+                      aria-label="Select TechType tech1"
+                      className="btn btn-primary "
+                      disabled={false}
+                      id="btn-group-filter"
+                      onClick={[Function]}
+                      role="switch"
+                    >
+                      tech1
+                    </button>
+                  </Component>
+                </div>
+              </div>
+            </div>
+          </AdvancedFilter>
+        </div>
+        <div
+          className="bf-button-container"
+        >
+          <span>
+            <button
+              aria-label="Reset filters"
+              className="btn btn-default filter-button"
+              onClick={[Function]}
+              tabIndex={1}
+            >
+              Reset
+            </button>
+          </span>
+          <span>
+            <button
+              aria-label="Advanced filters"
+              className="btn btn-default filter-button af-expand"
+              onClick={[Function]}
+              tabIndex={1}
+            >
+              Advanced Filters 
+              <span
+                aria-hidden="true"
+                className="fa fa-chevron-right"
+              />
+            </button>
+          </span>
+        </div>
+      </div>
+    </BasicFilterContainer>
+  </div>
+</CombinedFilter>
+`;
+
+exports[`FilterContainer toggles the advanced filter 2`] = `
+<CombinedFilter
+  advancedFilter={
+    Array [
+      Object {
+        "code": "Grade",
+        "disabled": false,
+        "displayAllButton": true,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "7",
+            "label": "Grades 3-5",
+          },
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "56",
+            "label": "Grades 6-8",
+          },
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "960",
+            "label": "High School",
+          },
+        ],
+        "helpText": "Grade Help",
+        "isMultiSelect": false,
+        "label": "Grade",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": false,
+        "displayAllButton": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "EL&A",
+            "label": "English Literacy & Arts",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Mth",
+            "label": "Maths",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": true,
+        "label": "Multi",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": true,
+        "displayAllButton": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Eng",
+            "label": "English",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Chem",
+            "label": "Chemistry",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": false,
+        "label": "Disabled",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": true,
+        "displayAllButton": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Read",
+            "label": "Reading",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Hist",
+            "label": "History",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": true,
+        "label": "Disabled Multi",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": false,
+        "displayAllButton": true,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "USh",
+            "label": "US History",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Wh",
+            "label": "World History",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": true,
+        "label": "Multi All",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": false,
+        "displayAllButton": true,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Calc",
+            "label": "Calculus",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Geom",
+            "label": "Geometry",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": true,
+        "label": "Multi All Disabled",
+        "show": true,
+      },
+    ]
+  }
+  basicFilter={
+    Array [
+      Object {
+        "code": "Grade",
+        "disabled": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "7",
+            "label": "Grades 3-5",
+          },
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "56",
+            "label": "Grades 6-8",
+          },
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "960",
+            "label": "High School",
+          },
+        ],
+        "label": "Grade",
+        "optionType": 3,
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "ELA",
+            "label": "English Literacy/ Arts",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Math",
+            "label": "Mathematics",
+          },
+        ],
+        "label": "Subjects",
+        "optionType": 2,
+        "show": true,
+      },
+      Object {
+        "code": "TechnologyType",
+        "disabled": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "TechnologyType",
+            "isSelected": false,
+            "key": "tech2",
+            "label": "tech2",
+          },
+          Object {
+            "filterType": "TechnologyType",
+            "isSelected": false,
+            "key": "tech1",
+            "label": "tech1",
+          },
+        ],
+        "label": "TechType",
+        "optionType": 4,
+        "show": true,
+      },
+    ]
+  }
+  onFilterUpdated={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "catOnly": true,
+            "claims": Array [
+              "t1",
+              "t2",
+            ],
+            "gradeLevels": 3,
+            "interactionTypes": Array [
+              "t1",
+              "t2",
+            ],
+            "itemId": "item1",
+            "performanceOnly": true,
+            "subjects": Array [
+              "t1",
+              "t2",
+            ],
+            "targets": Array [
+              "A",
+              "B",
+            ],
+          },
+          Array [
+            Object {
+              "code": "Grade",
+              "disabled": false,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "7",
+                  "label": "Grades 3-5",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "56",
+                  "label": "Grades 6-8",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "960",
+                  "label": "High School",
+                },
+              ],
+              "label": "Grade",
+              "optionType": 3,
+              "show": true,
+            },
+            Object {
+              "code": "Subject",
+              "disabled": false,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "ELA",
+                  "label": "English Literacy/ Arts",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Math",
+                  "label": "Mathematics",
+                },
+              ],
+              "label": "Subjects",
+              "optionType": 2,
+              "show": true,
+            },
+            Object {
+              "code": "TechnologyType",
+              "disabled": false,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "TechnologyType",
+                  "isSelected": false,
+                  "key": "tech2",
+                  "label": "tech2",
+                },
+                Object {
+                  "filterType": "TechnologyType",
+                  "isSelected": false,
+                  "key": "tech1",
+                  "label": "tech1",
+                },
+              ],
+              "label": "TechType",
+              "optionType": 4,
+              "show": true,
+            },
+          ],
+          Array [
+            Object {
+              "code": "Grade",
+              "disabled": false,
+              "displayAllButton": true,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "7",
+                  "label": "Grades 3-5",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "56",
+                  "label": "Grades 6-8",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "960",
+                  "label": "High School",
+                },
+              ],
+              "helpText": "Grade Help",
+              "isMultiSelect": false,
+              "label": "Grade",
+              "show": true,
+            },
+            Object {
+              "code": "Subject",
+              "disabled": false,
+              "displayAllButton": false,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "EL&A",
+                  "label": "English Literacy & Arts",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Mth",
+                  "label": "Maths",
+                },
+              ],
+              "helpText": "Subject Help",
+              "isMultiSelect": true,
+              "label": "Multi",
+              "show": true,
+            },
+            Object {
+              "code": "Subject",
+              "disabled": true,
+              "displayAllButton": false,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Eng",
+                  "label": "English",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Chem",
+                  "label": "Chemistry",
+                },
+              ],
+              "helpText": "Subject Help",
+              "isMultiSelect": false,
+              "label": "Disabled",
+              "show": true,
+            },
+            Object {
+              "code": "Subject",
+              "disabled": true,
+              "displayAllButton": false,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Read",
+                  "label": "Reading",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Hist",
+                  "label": "History",
+                },
+              ],
+              "helpText": "Subject Help",
+              "isMultiSelect": true,
+              "label": "Disabled Multi",
+              "show": true,
+            },
+            Object {
+              "code": "Subject",
+              "disabled": false,
+              "displayAllButton": true,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "USh",
+                  "label": "US History",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Wh",
+                  "label": "World History",
+                },
+              ],
+              "helpText": "Subject Help",
+              "isMultiSelect": true,
+              "label": "Multi All",
+              "show": true,
+            },
+            Object {
+              "code": "Subject",
+              "disabled": false,
+              "displayAllButton": true,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Calc",
+                  "label": "Calculus",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Geom",
+                  "label": "Geometry",
+                },
+              ],
+              "helpText": "Subject Help",
+              "isMultiSelect": true,
+              "label": "Multi All Disabled",
+              "show": true,
+            },
+          ],
+        ],
+      ],
+    }
+  }
+  searchAPI={Object {}}
+>
+  <div
+    className="filter-component-wrapper"
+  >
+    <BasicFilterContainer
+      containsAdvancedFilter={true}
+      filterCategories={
+        Array [
+          Object {
+            "code": "Grade",
+            "disabled": false,
+            "filterOptions": Array [
+              Object {
+                "filterType": "Grade",
+                "isSelected": false,
+                "key": "7",
+                "label": "Grades 3-5",
+              },
+              Object {
+                "filterType": "Grade",
+                "isSelected": false,
+                "key": "56",
+                "label": "Grades 6-8",
+              },
+              Object {
+                "filterType": "Grade",
+                "isSelected": false,
+                "key": "960",
+                "label": "High School",
+              },
+            ],
+            "label": "Grade",
+            "optionType": 3,
+            "show": true,
+          },
+          Object {
+            "code": "Subject",
+            "disabled": false,
+            "filterOptions": Array [
+              Object {
+                "filterType": "Subject",
+                "isSelected": false,
+                "key": "ELA",
+                "label": "English Literacy/ Arts",
+              },
+              Object {
+                "filterType": "Subject",
+                "isSelected": false,
+                "key": "Math",
+                "label": "Mathematics",
+              },
+            ],
+            "label": "Subjects",
+            "optionType": 2,
+            "show": true,
+          },
+          Object {
+            "code": "TechnologyType",
+            "disabled": false,
+            "filterOptions": Array [
+              Object {
+                "filterType": "TechnologyType",
+                "isSelected": false,
+                "key": "tech2",
+                "label": "tech2",
+              },
+              Object {
+                "filterType": "TechnologyType",
+                "isSelected": false,
+                "key": "tech1",
+                "label": "tech1",
+              },
+            ],
+            "label": "TechType",
+            "optionType": 4,
+            "show": true,
+          },
+        ]
+      }
+      filterId=""
+      handleAdvancedFilterExpand={[Function]}
+      onUpdateFilter={[Function]}
+      resetHandler={[Function]}
+    >
+      <div
+        className="bf-container section section-light bf-expanded"
+        id=""
+      >
+        <div
+          className="basic-filter"
+        >
+          <BasicFilter
+            code="Grade"
+            disabled={false}
+            filterOptions={
+              Array [
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "7",
+                  "label": "Grades 3-5",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "56",
+                  "label": "Grades 6-8",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "960",
+                  "label": "High School",
+                },
+              ]
+            }
+            key="0"
+            label="Grade"
+            optionType={3}
+            selectedHandler={[Function]}
+            show={true}
+          >
+            <div
+              className="bf-selection"
+              id="grade-bf"
+              title=""
+            >
+              <Component
+                className="input-sm"
+                disabled={false}
+                key="Grade"
+                label="Grade"
+                onChange={[Function]}
+                options={
+                  Array [
+                    Object {
+                      "disabled": false,
+                      "label": "Select Grade",
+                      "selected": true,
+                      "value": "default",
+                    },
+                    Object {
+                      "disabled": false,
+                      "label": "Grades 3-5",
+                      "selected": false,
+                      "value": "7",
+                    },
+                    Object {
+                      "disabled": false,
+                      "label": "Grades 6-8",
+                      "selected": false,
+                      "value": "56",
+                    },
+                    Object {
+                      "disabled": false,
+                      "label": "High School",
+                      "selected": false,
+                      "value": "960",
+                    },
+                  ]
+                }
+                selected="default"
+              >
+                <div
+                  className=""
+                >
+                  <label
+                    htmlFor="Grade"
+                  >
+                    <span
+                      className=""
+                    >
+                      Grade
+                    </span>
+                  </label>
+                  <select
+                    aria-label="Grade"
+                    className="form-control input-sm"
+                    disabled={false}
+                    id="Grade"
+                    onChange={[Function]}
+                    value="default"
+                  >
+                    <Component
+                      disabled={false}
+                      key="default"
+                      label="Select Grade"
+                      selected={true}
+                      value="default"
+                    >
+                      <option
+                        aria-selected={true}
+                        disabled={false}
+                        label="Select Grade"
+                        value="default"
+                      >
+                        Select Grade
+                      </option>
+                    </Component>
+                    <Component
+                      disabled={false}
+                      key="7"
+                      label="Grades 3-5"
+                      selected={false}
+                      value="7"
+                    >
+                      <option
+                        aria-selected={false}
+                        disabled={false}
+                        label="Grades 3-5"
+                        value="7"
+                      >
+                        Grades 3-5
+                      </option>
+                    </Component>
+                    <Component
+                      disabled={false}
+                      key="56"
+                      label="Grades 6-8"
+                      selected={false}
+                      value="56"
+                    >
+                      <option
+                        aria-selected={false}
+                        disabled={false}
+                        label="Grades 6-8"
+                        value="56"
+                      >
+                        Grades 6-8
+                      </option>
+                    </Component>
+                    <Component
+                      disabled={false}
+                      key="960"
+                      label="High School"
+                      selected={false}
+                      value="960"
+                    >
+                      <option
+                        aria-selected={false}
+                        disabled={false}
+                        label="High School"
+                        value="960"
+                      >
+                        High School
+                      </option>
+                    </Component>
+                  </select>
+                </div>
+              </Component>
+            </div>
+          </BasicFilter>
+          <BasicFilter
+            code="Subject"
+            disabled={false}
+            filterOptions={
+              Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "ELA",
+                  "label": "English Literacy/ Arts",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Math",
+                  "label": "Mathematics",
+                },
+              ]
+            }
+            key="1"
+            label="Subjects"
+            optionType={2}
+            selectedHandler={[Function]}
+            show={true}
+          >
+            <div
+              className="bf-selection"
+              id="subjects-bf"
+              title=""
+            >
+              <label
+                htmlFor="basic-filter-checkbox"
+              >
+                Subjects
+                <div
+                  className="radio"
+                  key="ELA"
+                >
+                  <label>
+                    <input
+                      aria-checked={false}
+                      aria-label="Select Subjects ELA"
+                      checked={false}
+                      id="basic-filter-checkbox"
+                      name="Subjects"
+                      onChange={[Function]}
+                      tabIndex={0}
+                      type="radio"
+                      value="ELA"
+                    />
+                    English Literacy/ Arts
+                  </label>
+                </div>
+                <div
+                  className="radio"
+                  key="Math"
+                >
+                  <label>
+                    <input
+                      aria-checked={false}
+                      aria-label="Select Subjects Math"
+                      checked={false}
+                      id="basic-filter-checkbox"
+                      name="Subjects"
+                      onChange={[Function]}
+                      tabIndex={0}
+                      type="radio"
+                      value="Math"
+                    />
+                    Mathematics
+                  </label>
+                </div>
+              </label>
+            </div>
+          </BasicFilter>
+          <AdvancedFilter
+            code="TechnologyType"
+            disabled={false}
+            displayAllButton={true}
+            filterOptions={
+              Array [
+                Object {
+                  "filterType": "TechnologyType",
+                  "isSelected": false,
+                  "key": "tech2",
+                  "label": "tech2",
+                },
+                Object {
+                  "filterType": "TechnologyType",
+                  "isSelected": false,
+                  "key": "tech1",
+                  "label": "tech1",
+                },
+              ]
+            }
+            isMultiSelect={true}
+            key="2"
+            label="TechType"
+            onFilterOptionSelect={[Function]}
+            optionType={4}
+            show={true}
+          >
+            <div
+              className="filter-selection"
+              id="techtype-filter"
+            >
+              <div
+                className="filter-container-header"
+              >
+                <label
+                  htmlFor="btn-group-filter"
+                >
+                  <span
+                    className="tooltip-label"
+                    info-label="true"
+                  >
+                    TechType
+                  </span>
+                </label>
+              </div>
+              <div
+                className="nested-btn-group btn-group-sm toggle-group vertical"
+                data-toggle="buttons"
+              >
+                <Component
+                  ariaLabel="Select All TechType"
+                  disabled={false}
+                  label="All"
+                  onClick={[Function]}
+                  selected={true}
+                >
+                  <button
+                    aria-checked={true}
+                    aria-label="Select All TechType"
+                    className="btn btn-primary active"
+                    disabled={false}
+                    id="btn-group-filter"
+                    onClick={[Function]}
+                    role="switch"
+                  >
+                    All
+                  </button>
+                </Component>
+                <div
+                  className="btn-group filter-btn-group"
+                >
+                  <Component
+                    ariaLabel="Select TechType tech2"
+                    disabled={false}
+                    key="tech2"
+                    label="tech2"
+                    onClick={[Function]}
+                    selected={false}
+                  >
+                    <button
+                      aria-checked={false}
+                      aria-label="Select TechType tech2"
+                      className="btn btn-primary "
+                      disabled={false}
+                      id="btn-group-filter"
+                      onClick={[Function]}
+                      role="switch"
+                    >
+                      tech2
+                    </button>
+                  </Component>
+                  <Component
+                    ariaLabel="Select TechType tech1"
+                    disabled={false}
+                    key="tech1"
+                    label="tech1"
+                    onClick={[Function]}
+                    selected={false}
+                  >
+                    <button
+                      aria-checked={false}
+                      aria-label="Select TechType tech1"
+                      className="btn btn-primary "
+                      disabled={false}
+                      id="btn-group-filter"
+                      onClick={[Function]}
+                      role="switch"
+                    >
+                      tech1
+                    </button>
+                  </Component>
+                </div>
+              </div>
+            </div>
+          </AdvancedFilter>
+        </div>
+        <div
+          className="bf-button-container"
+        >
+          <span>
+            <button
+              aria-label="Reset filters"
+              className="btn btn-default filter-button"
+              onClick={[Function]}
+              tabIndex={1}
+            >
+              Reset
+            </button>
+          </span>
+          <span>
+            <button
+              aria-label="Advanced filters"
+              className="btn btn-default filter-button af-expand"
+              onClick={[Function]}
+              tabIndex={1}
+            >
+              Advanced Filters 
+              <span
+                aria-hidden="true"
+                className="fa fa-chevron-down"
+              />
+            </button>
+          </span>
+        </div>
+      </div>
+    </BasicFilterContainer>
+    <AdvancedFilterContainer
+      filterCategories={
+        Array [
+          Object {
+            "code": "Grade",
+            "disabled": false,
+            "displayAllButton": true,
+            "filterOptions": Array [
+              Object {
+                "filterType": "Grade",
+                "isSelected": false,
+                "key": "7",
+                "label": "Grades 3-5",
+              },
+              Object {
+                "filterType": "Grade",
+                "isSelected": false,
+                "key": "56",
+                "label": "Grades 6-8",
+              },
+              Object {
+                "filterType": "Grade",
+                "isSelected": false,
+                "key": "960",
+                "label": "High School",
+              },
+            ],
+            "helpText": "Grade Help",
+            "isMultiSelect": false,
+            "label": "Grade",
+            "show": true,
+          },
+          Object {
+            "code": "Subject",
+            "disabled": false,
+            "displayAllButton": false,
+            "filterOptions": Array [
+              Object {
+                "filterType": "Subject",
+                "isSelected": false,
+                "key": "EL&A",
+                "label": "English Literacy & Arts",
+              },
+              Object {
+                "filterType": "Subject",
+                "isSelected": false,
+                "key": "Mth",
+                "label": "Maths",
+              },
+            ],
+            "helpText": "Subject Help",
+            "isMultiSelect": true,
+            "label": "Multi",
+            "show": true,
+          },
+          Object {
+            "code": "Subject",
+            "disabled": true,
+            "displayAllButton": false,
+            "filterOptions": Array [
+              Object {
+                "filterType": "Subject",
+                "isSelected": false,
+                "key": "Eng",
+                "label": "English",
+              },
+              Object {
+                "filterType": "Subject",
+                "isSelected": false,
+                "key": "Chem",
+                "label": "Chemistry",
+              },
+            ],
+            "helpText": "Subject Help",
+            "isMultiSelect": false,
+            "label": "Disabled",
+            "show": true,
+          },
+          Object {
+            "code": "Subject",
+            "disabled": true,
+            "displayAllButton": false,
+            "filterOptions": Array [
+              Object {
+                "filterType": "Subject",
+                "isSelected": false,
+                "key": "Read",
+                "label": "Reading",
+              },
+              Object {
+                "filterType": "Subject",
+                "isSelected": false,
+                "key": "Hist",
+                "label": "History",
+              },
+            ],
+            "helpText": "Subject Help",
+            "isMultiSelect": true,
+            "label": "Disabled Multi",
+            "show": true,
+          },
+          Object {
+            "code": "Subject",
+            "disabled": false,
+            "displayAllButton": true,
+            "filterOptions": Array [
+              Object {
+                "filterType": "Subject",
+                "isSelected": false,
+                "key": "USh",
+                "label": "US History",
+              },
+              Object {
+                "filterType": "Subject",
+                "isSelected": false,
+                "key": "Wh",
+                "label": "World History",
+              },
+            ],
+            "helpText": "Subject Help",
+            "isMultiSelect": true,
+            "label": "Multi All",
+            "show": true,
+          },
+          Object {
+            "code": "Subject",
+            "disabled": false,
+            "displayAllButton": true,
+            "filterOptions": Array [
+              Object {
+                "filterType": "Subject",
+                "isSelected": false,
+                "key": "Calc",
+                "label": "Calculus",
+              },
+              Object {
+                "filterType": "Subject",
+                "isSelected": false,
+                "key": "Geom",
+                "label": "Geometry",
+              },
+            ],
+            "helpText": "Subject Help",
+            "isMultiSelect": true,
+            "label": "Multi All Disabled",
+            "show": true,
+          },
+        ]
+      }
+      isNested={true}
+      onUpdateFilter={[Function]}
+    >
+      <div
+        className="section section-light adv-filter-container"
+        id=""
+      >
+        <div
+          className="adv-filter-group"
+        >
+          <div
+            className="adv-filter-header"
+          >
+            <div
+              className="adv-filter-title"
+            >
+              <h3>
+                <span
+                  className="fa fa-tasks"
+                />
+                 Advanced Filters
+              </h3>
+            </div>
+            <div
+              className="adv-control-btns"
+            >
+              <button
+                className="btn btn-default filter-expand-btn"
+                onClick={[Function]}
+              >
+                Collapse 
+                <span
+                  className="fa fa-chevron-down"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="filter-status"
+          />
+        </div>
+        <div
+          className="adv-filter-container-expanded"
+        >
+          <div
+            aria-live="polite"
+            aria-relevant="additions"
+            className="filter-body"
+          >
+            <AdvancedFilter
+              code="Grade"
+              disabled={false}
+              displayAllButton={true}
+              filterOptions={
+                Array [
+                  Object {
+                    "filterType": "Grade",
+                    "isSelected": false,
+                    "key": "7",
+                    "label": "Grades 3-5",
+                  },
+                  Object {
+                    "filterType": "Grade",
+                    "isSelected": false,
+                    "key": "56",
+                    "label": "Grades 6-8",
+                  },
+                  Object {
+                    "filterType": "Grade",
+                    "isSelected": false,
+                    "key": "960",
+                    "label": "High School",
+                  },
+                ]
+              }
+              helpText="Grade Help"
+              isMultiSelect={false}
+              key="0"
+              label="Grade"
+              onFilterOptionSelect={[Function]}
+              show={true}
+            >
+              <div
+                className="filter-selection"
+                id="grade-filter"
+              >
+                <div
+                  className="filter-container-header"
+                >
+                  <label
+                    htmlFor="btn-group-filter"
+                  >
+                    <ToolTip
+                      displayIcon={true}
+                      displayText={
+                        <span
+                          className="tooltip-label"
+                          info-label="true"
+                        >
+                          Grade
+                        </span>
+                      }
+                      helpText={
+                        <p>
+                          Grade Help
+                        </p>
+                      }
+                    >
+                      <span
+                        className="tool-tip-links "
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        tabIndex={0}
+                      >
+                        <span
+                          className="tool-tip-hoverable"
+                        >
+                          <span
+                            className="tooltip-label"
+                            info-label="true"
+                          >
+                            Grade
+                          </span>
+                           
+                          <span
+                            aria-hidden="true"
+                            className="fa fa-info-circle fa-sm"
+                          />
+                        </span>
+                        <span
+                          className="tool-tip-details"
+                        >
+                          <span
+                            className="tool-tip-message  "
+                          >
+                            <p>
+                              Grade Help
+                            </p>
+                          </span>
+                        </span>
+                      </span>
+                    </ToolTip>
+                  </label>
+                </div>
+                <div
+                  className="nested-btn-group btn-group-sm toggle-group vertical"
+                  data-toggle="buttons"
+                >
+                  <Component
+                    ariaLabel="Select All Grade"
+                    disabled={false}
+                    label="All"
+                    onClick={[Function]}
+                    selected={true}
+                  >
+                    <button
+                      aria-checked={true}
+                      aria-label="Select All Grade"
+                      className="btn btn-primary active"
+                      disabled={false}
+                      id="btn-group-filter"
+                      onClick={[Function]}
+                      role="switch"
+                    >
+                      All
+                    </button>
+                  </Component>
+                  <div
+                    className="btn-group filter-btn-group"
+                  >
+                    <Component
+                      ariaLabel="Select Grade Grades 3-5"
+                      disabled={false}
+                      key="7"
+                      label="Grades 3-5"
+                      onClick={[Function]}
+                      selected={false}
+                    >
+                      <button
+                        aria-checked={false}
+                        aria-label="Select Grade Grades 3-5"
+                        className="btn btn-primary "
+                        disabled={false}
+                        id="btn-group-filter"
+                        onClick={[Function]}
+                        role="switch"
+                      >
+                        Grades 3-5
+                      </button>
+                    </Component>
+                    <Component
+                      ariaLabel="Select Grade Grades 6-8"
+                      disabled={false}
+                      key="56"
+                      label="Grades 6-8"
+                      onClick={[Function]}
+                      selected={false}
+                    >
+                      <button
+                        aria-checked={false}
+                        aria-label="Select Grade Grades 6-8"
+                        className="btn btn-primary "
+                        disabled={false}
+                        id="btn-group-filter"
+                        onClick={[Function]}
+                        role="switch"
+                      >
+                        Grades 6-8
+                      </button>
+                    </Component>
+                    <Component
+                      ariaLabel="Select Grade High School"
+                      disabled={false}
+                      key="960"
+                      label="High School"
+                      onClick={[Function]}
+                      selected={false}
+                    >
+                      <button
+                        aria-checked={false}
+                        aria-label="Select Grade High School"
+                        className="btn btn-primary "
+                        disabled={false}
+                        id="btn-group-filter"
+                        onClick={[Function]}
+                        role="switch"
+                      >
+                        High School
+                      </button>
+                    </Component>
+                  </div>
+                </div>
+              </div>
+            </AdvancedFilter>
+            <AdvancedFilter
+              code="Subject"
+              disabled={false}
+              displayAllButton={false}
+              filterOptions={
+                Array [
+                  Object {
+                    "filterType": "Subject",
+                    "isSelected": false,
+                    "key": "EL&A",
+                    "label": "English Literacy & Arts",
+                  },
+                  Object {
+                    "filterType": "Subject",
+                    "isSelected": false,
+                    "key": "Mth",
+                    "label": "Maths",
+                  },
+                ]
+              }
+              helpText="Subject Help"
+              isMultiSelect={true}
+              key="1"
+              label="Multi"
+              onFilterOptionSelect={[Function]}
+              show={true}
+            >
+              <div
+                className="filter-selection"
+                id="multi-filter"
+              >
+                <div
+                  className="filter-container-header"
+                >
+                  <label
+                    htmlFor="btn-group-filter"
+                  >
+                    <ToolTip
+                      displayIcon={true}
+                      displayText={
+                        <span
+                          className="tooltip-label"
+                          info-label="true"
+                        >
+                          Multi
+                        </span>
+                      }
+                      helpText={
+                        <p>
+                          Subject Help
+                        </p>
+                      }
+                    >
+                      <span
+                        className="tool-tip-links "
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        tabIndex={0}
+                      >
+                        <span
+                          className="tool-tip-hoverable"
+                        >
+                          <span
+                            className="tooltip-label"
+                            info-label="true"
+                          >
+                            Multi
+                          </span>
+                           
+                          <span
+                            aria-hidden="true"
+                            className="fa fa-info-circle fa-sm"
+                          />
+                        </span>
+                        <span
+                          className="tool-tip-details"
+                        >
+                          <span
+                            className="tool-tip-message  "
+                          >
+                            <p>
+                              Subject Help
+                            </p>
+                          </span>
+                        </span>
+                      </span>
+                    </ToolTip>
+                  </label>
+                </div>
+                <div
+                  className="nested-btn-group btn-group-sm toggle-group vertical"
+                  data-toggle="buttons"
+                >
+                  <div
+                    className="btn-group filter-btn-group"
+                  >
+                    <Component
+                      ariaLabel="Select Multi English Literacy & Arts"
+                      disabled={false}
+                      key="EL&A"
+                      label="English Literacy & Arts"
+                      onClick={[Function]}
+                      selected={false}
+                    >
+                      <button
+                        aria-checked={false}
+                        aria-label="Select Multi English Literacy & Arts"
+                        className="btn btn-primary "
+                        disabled={false}
+                        id="btn-group-filter"
+                        onClick={[Function]}
+                        role="switch"
+                      >
+                        English Literacy & Arts
+                      </button>
+                    </Component>
+                    <Component
+                      ariaLabel="Select Multi Maths"
+                      disabled={false}
+                      key="Mth"
+                      label="Maths"
+                      onClick={[Function]}
+                      selected={false}
+                    >
+                      <button
+                        aria-checked={false}
+                        aria-label="Select Multi Maths"
+                        className="btn btn-primary "
+                        disabled={false}
+                        id="btn-group-filter"
+                        onClick={[Function]}
+                        role="switch"
+                      >
+                        Maths
+                      </button>
+                    </Component>
+                  </div>
+                </div>
+              </div>
+            </AdvancedFilter>
+            <AdvancedFilter
+              code="Subject"
+              disabled={true}
+              displayAllButton={false}
+              filterOptions={
+                Array [
+                  Object {
+                    "filterType": "Subject",
+                    "isSelected": false,
+                    "key": "Eng",
+                    "label": "English",
+                  },
+                  Object {
+                    "filterType": "Subject",
+                    "isSelected": false,
+                    "key": "Chem",
+                    "label": "Chemistry",
+                  },
+                ]
+              }
+              helpText="Subject Help"
+              isMultiSelect={false}
+              key="2"
+              label="Disabled"
+              onFilterOptionSelect={[Function]}
+              show={true}
+            />
+            <AdvancedFilter
+              code="Subject"
+              disabled={true}
+              displayAllButton={false}
+              filterOptions={
+                Array [
+                  Object {
+                    "filterType": "Subject",
+                    "isSelected": false,
+                    "key": "Read",
+                    "label": "Reading",
+                  },
+                  Object {
+                    "filterType": "Subject",
+                    "isSelected": false,
+                    "key": "Hist",
+                    "label": "History",
+                  },
+                ]
+              }
+              helpText="Subject Help"
+              isMultiSelect={true}
+              key="3"
+              label="Disabled Multi"
+              onFilterOptionSelect={[Function]}
+              show={true}
+            />
+            <AdvancedFilter
+              code="Subject"
+              disabled={false}
+              displayAllButton={true}
+              filterOptions={
+                Array [
+                  Object {
+                    "filterType": "Subject",
+                    "isSelected": false,
+                    "key": "USh",
+                    "label": "US History",
+                  },
+                  Object {
+                    "filterType": "Subject",
+                    "isSelected": false,
+                    "key": "Wh",
+                    "label": "World History",
+                  },
+                ]
+              }
+              helpText="Subject Help"
+              isMultiSelect={true}
+              key="4"
+              label="Multi All"
+              onFilterOptionSelect={[Function]}
+              show={true}
+            >
+              <div
+                className="filter-selection"
+                id="multi-all-filter"
+              >
+                <div
+                  className="filter-container-header"
+                >
+                  <label
+                    htmlFor="btn-group-filter"
+                  >
+                    <ToolTip
+                      displayIcon={true}
+                      displayText={
+                        <span
+                          className="tooltip-label"
+                          info-label="true"
+                        >
+                          Multi All
+                        </span>
+                      }
+                      helpText={
+                        <p>
+                          Subject Help
+                        </p>
+                      }
+                    >
+                      <span
+                        className="tool-tip-links "
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        tabIndex={0}
+                      >
+                        <span
+                          className="tool-tip-hoverable"
+                        >
+                          <span
+                            className="tooltip-label"
+                            info-label="true"
+                          >
+                            Multi All
+                          </span>
+                           
+                          <span
+                            aria-hidden="true"
+                            className="fa fa-info-circle fa-sm"
+                          />
+                        </span>
+                        <span
+                          className="tool-tip-details"
+                        >
+                          <span
+                            className="tool-tip-message  "
+                          >
+                            <p>
+                              Subject Help
+                            </p>
+                          </span>
+                        </span>
+                      </span>
+                    </ToolTip>
+                  </label>
+                </div>
+                <div
+                  className="nested-btn-group btn-group-sm toggle-group vertical"
+                  data-toggle="buttons"
+                >
+                  <Component
+                    ariaLabel="Select All Multi All"
+                    disabled={false}
+                    label="All"
+                    onClick={[Function]}
+                    selected={true}
+                  >
+                    <button
+                      aria-checked={true}
+                      aria-label="Select All Multi All"
+                      className="btn btn-primary active"
+                      disabled={false}
+                      id="btn-group-filter"
+                      onClick={[Function]}
+                      role="switch"
+                    >
+                      All
+                    </button>
+                  </Component>
+                  <div
+                    className="btn-group filter-btn-group"
+                  >
+                    <Component
+                      ariaLabel="Select Multi All US History"
+                      disabled={false}
+                      key="USh"
+                      label="US History"
+                      onClick={[Function]}
+                      selected={false}
+                    >
+                      <button
+                        aria-checked={false}
+                        aria-label="Select Multi All US History"
+                        className="btn btn-primary "
+                        disabled={false}
+                        id="btn-group-filter"
+                        onClick={[Function]}
+                        role="switch"
+                      >
+                        US History
+                      </button>
+                    </Component>
+                    <Component
+                      ariaLabel="Select Multi All World History"
+                      disabled={false}
+                      key="Wh"
+                      label="World History"
+                      onClick={[Function]}
+                      selected={false}
+                    >
+                      <button
+                        aria-checked={false}
+                        aria-label="Select Multi All World History"
+                        className="btn btn-primary "
+                        disabled={false}
+                        id="btn-group-filter"
+                        onClick={[Function]}
+                        role="switch"
+                      >
+                        World History
+                      </button>
+                    </Component>
+                  </div>
+                </div>
+              </div>
+            </AdvancedFilter>
+            <AdvancedFilter
+              code="Subject"
+              disabled={false}
+              displayAllButton={true}
+              filterOptions={
+                Array [
+                  Object {
+                    "filterType": "Subject",
+                    "isSelected": false,
+                    "key": "Calc",
+                    "label": "Calculus",
+                  },
+                  Object {
+                    "filterType": "Subject",
+                    "isSelected": false,
+                    "key": "Geom",
+                    "label": "Geometry",
+                  },
+                ]
+              }
+              helpText="Subject Help"
+              isMultiSelect={true}
+              key="5"
+              label="Multi All Disabled"
+              onFilterOptionSelect={[Function]}
+              show={true}
+            >
+              <div
+                className="filter-selection"
+                id="multi-all-disabled-filter"
+              >
+                <div
+                  className="filter-container-header"
+                >
+                  <label
+                    htmlFor="btn-group-filter"
+                  >
+                    <ToolTip
+                      displayIcon={true}
+                      displayText={
+                        <span
+                          className="tooltip-label"
+                          info-label="true"
+                        >
+                          Multi All Disabled
+                        </span>
+                      }
+                      helpText={
+                        <p>
+                          Subject Help
+                        </p>
+                      }
+                    >
+                      <span
+                        className="tool-tip-links "
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        tabIndex={0}
+                      >
+                        <span
+                          className="tool-tip-hoverable"
+                        >
+                          <span
+                            className="tooltip-label"
+                            info-label="true"
+                          >
+                            Multi All Disabled
+                          </span>
+                           
+                          <span
+                            aria-hidden="true"
+                            className="fa fa-info-circle fa-sm"
+                          />
+                        </span>
+                        <span
+                          className="tool-tip-details"
+                        >
+                          <span
+                            className="tool-tip-message  "
+                          >
+                            <p>
+                              Subject Help
+                            </p>
+                          </span>
+                        </span>
+                      </span>
+                    </ToolTip>
+                  </label>
+                </div>
+                <div
+                  className="nested-btn-group btn-group-sm toggle-group vertical"
+                  data-toggle="buttons"
+                >
+                  <Component
+                    ariaLabel="Select All Multi All Disabled"
+                    disabled={false}
+                    label="All"
+                    onClick={[Function]}
+                    selected={true}
+                  >
+                    <button
+                      aria-checked={true}
+                      aria-label="Select All Multi All Disabled"
+                      className="btn btn-primary active"
+                      disabled={false}
+                      id="btn-group-filter"
+                      onClick={[Function]}
+                      role="switch"
+                    >
+                      All
+                    </button>
+                  </Component>
+                  <div
+                    className="btn-group filter-btn-group"
+                  >
+                    <Component
+                      ariaLabel="Select Multi All Disabled Calculus"
+                      disabled={false}
+                      key="Calc"
+                      label="Calculus"
+                      onClick={[Function]}
+                      selected={false}
+                    >
+                      <button
+                        aria-checked={false}
+                        aria-label="Select Multi All Disabled Calculus"
+                        className="btn btn-primary "
+                        disabled={false}
+                        id="btn-group-filter"
+                        onClick={[Function]}
+                        role="switch"
+                      >
+                        Calculus
+                      </button>
+                    </Component>
+                    <Component
+                      ariaLabel="Select Multi All Disabled Geometry"
+                      disabled={false}
+                      key="Geom"
+                      label="Geometry"
+                      onClick={[Function]}
+                      selected={false}
+                    >
+                      <button
+                        aria-checked={false}
+                        aria-label="Select Multi All Disabled Geometry"
+                        className="btn btn-primary "
+                        disabled={false}
+                        id="btn-group-filter"
+                        onClick={[Function]}
+                        role="switch"
+                      >
+                        Geometry
+                      </button>
+                    </Component>
+                  </div>
+                </div>
+              </div>
+            </AdvancedFilter>
+          </div>
+        </div>
+      </div>
+    </AdvancedFilterContainer>
+  </div>
+</CombinedFilter>
+`;
+
+exports[`FilterContainer toggles the advanced filter 3`] = `
+<CombinedFilter
+  advancedFilter={
+    Array [
+      Object {
+        "code": "Grade",
+        "disabled": false,
+        "displayAllButton": true,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "7",
+            "label": "Grades 3-5",
+          },
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "56",
+            "label": "Grades 6-8",
+          },
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "960",
+            "label": "High School",
+          },
+        ],
+        "helpText": "Grade Help",
+        "isMultiSelect": false,
+        "label": "Grade",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": false,
+        "displayAllButton": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "EL&A",
+            "label": "English Literacy & Arts",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Mth",
+            "label": "Maths",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": true,
+        "label": "Multi",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": true,
+        "displayAllButton": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Eng",
+            "label": "English",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Chem",
+            "label": "Chemistry",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": false,
+        "label": "Disabled",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": true,
+        "displayAllButton": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Read",
+            "label": "Reading",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Hist",
+            "label": "History",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": true,
+        "label": "Disabled Multi",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": false,
+        "displayAllButton": true,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "USh",
+            "label": "US History",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Wh",
+            "label": "World History",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": true,
+        "label": "Multi All",
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": false,
+        "displayAllButton": true,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Calc",
+            "label": "Calculus",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Geom",
+            "label": "Geometry",
+          },
+        ],
+        "helpText": "Subject Help",
+        "isMultiSelect": true,
+        "label": "Multi All Disabled",
+        "show": true,
+      },
+    ]
+  }
+  basicFilter={
+    Array [
+      Object {
+        "code": "Grade",
+        "disabled": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "7",
+            "label": "Grades 3-5",
+          },
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "56",
+            "label": "Grades 6-8",
+          },
+          Object {
+            "filterType": "Grade",
+            "isSelected": false,
+            "key": "960",
+            "label": "High School",
+          },
+        ],
+        "label": "Grade",
+        "optionType": 3,
+        "show": true,
+      },
+      Object {
+        "code": "Subject",
+        "disabled": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "ELA",
+            "label": "English Literacy/ Arts",
+          },
+          Object {
+            "filterType": "Subject",
+            "isSelected": false,
+            "key": "Math",
+            "label": "Mathematics",
+          },
+        ],
+        "label": "Subjects",
+        "optionType": 2,
+        "show": true,
+      },
+      Object {
+        "code": "TechnologyType",
+        "disabled": false,
+        "filterOptions": Array [
+          Object {
+            "filterType": "TechnologyType",
+            "isSelected": false,
+            "key": "tech2",
+            "label": "tech2",
+          },
+          Object {
+            "filterType": "TechnologyType",
+            "isSelected": false,
+            "key": "tech1",
+            "label": "tech1",
+          },
+        ],
+        "label": "TechType",
+        "optionType": 4,
+        "show": true,
+      },
+    ]
+  }
+  onFilterUpdated={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "catOnly": true,
+            "claims": Array [
+              "t1",
+              "t2",
+            ],
+            "gradeLevels": 3,
+            "interactionTypes": Array [
+              "t1",
+              "t2",
+            ],
+            "itemId": "item1",
+            "performanceOnly": true,
+            "subjects": Array [
+              "t1",
+              "t2",
+            ],
+            "targets": Array [
+              "A",
+              "B",
+            ],
+          },
+          Array [
+            Object {
+              "code": "Grade",
+              "disabled": false,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "7",
+                  "label": "Grades 3-5",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "56",
+                  "label": "Grades 6-8",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "960",
+                  "label": "High School",
+                },
+              ],
+              "label": "Grade",
+              "optionType": 3,
+              "show": true,
+            },
+            Object {
+              "code": "Subject",
+              "disabled": false,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "ELA",
+                  "label": "English Literacy/ Arts",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Math",
+                  "label": "Mathematics",
+                },
+              ],
+              "label": "Subjects",
+              "optionType": 2,
+              "show": true,
+            },
+            Object {
+              "code": "TechnologyType",
+              "disabled": false,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "TechnologyType",
+                  "isSelected": false,
+                  "key": "tech2",
+                  "label": "tech2",
+                },
+                Object {
+                  "filterType": "TechnologyType",
+                  "isSelected": false,
+                  "key": "tech1",
+                  "label": "tech1",
+                },
+              ],
+              "label": "TechType",
+              "optionType": 4,
+              "show": true,
+            },
+          ],
+          Array [
+            Object {
+              "code": "Grade",
+              "disabled": false,
+              "displayAllButton": true,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "7",
+                  "label": "Grades 3-5",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "56",
+                  "label": "Grades 6-8",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "960",
+                  "label": "High School",
+                },
+              ],
+              "helpText": "Grade Help",
+              "isMultiSelect": false,
+              "label": "Grade",
+              "show": true,
+            },
+            Object {
+              "code": "Subject",
+              "disabled": false,
+              "displayAllButton": false,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "EL&A",
+                  "label": "English Literacy & Arts",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Mth",
+                  "label": "Maths",
+                },
+              ],
+              "helpText": "Subject Help",
+              "isMultiSelect": true,
+              "label": "Multi",
+              "show": true,
+            },
+            Object {
+              "code": "Subject",
+              "disabled": true,
+              "displayAllButton": false,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Eng",
+                  "label": "English",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Chem",
+                  "label": "Chemistry",
+                },
+              ],
+              "helpText": "Subject Help",
+              "isMultiSelect": false,
+              "label": "Disabled",
+              "show": true,
+            },
+            Object {
+              "code": "Subject",
+              "disabled": true,
+              "displayAllButton": false,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Read",
+                  "label": "Reading",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Hist",
+                  "label": "History",
+                },
+              ],
+              "helpText": "Subject Help",
+              "isMultiSelect": true,
+              "label": "Disabled Multi",
+              "show": true,
+            },
+            Object {
+              "code": "Subject",
+              "disabled": false,
+              "displayAllButton": true,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "USh",
+                  "label": "US History",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Wh",
+                  "label": "World History",
+                },
+              ],
+              "helpText": "Subject Help",
+              "isMultiSelect": true,
+              "label": "Multi All",
+              "show": true,
+            },
+            Object {
+              "code": "Subject",
+              "disabled": false,
+              "displayAllButton": true,
+              "filterOptions": Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Calc",
+                  "label": "Calculus",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Geom",
+                  "label": "Geometry",
+                },
+              ],
+              "helpText": "Subject Help",
+              "isMultiSelect": true,
+              "label": "Multi All Disabled",
+              "show": true,
+            },
+          ],
+        ],
+      ],
+    }
+  }
+  searchAPI={Object {}}
+>
+  <div
+    className="filter-component-wrapper"
+  >
+    <BasicFilterContainer
+      containsAdvancedFilter={true}
+      filterCategories={
+        Array [
+          Object {
+            "code": "Grade",
+            "disabled": false,
+            "filterOptions": Array [
+              Object {
+                "filterType": "Grade",
+                "isSelected": false,
+                "key": "7",
+                "label": "Grades 3-5",
+              },
+              Object {
+                "filterType": "Grade",
+                "isSelected": false,
+                "key": "56",
+                "label": "Grades 6-8",
+              },
+              Object {
+                "filterType": "Grade",
+                "isSelected": false,
+                "key": "960",
+                "label": "High School",
+              },
+            ],
+            "label": "Grade",
+            "optionType": 3,
+            "show": true,
+          },
+          Object {
+            "code": "Subject",
+            "disabled": false,
+            "filterOptions": Array [
+              Object {
+                "filterType": "Subject",
+                "isSelected": false,
+                "key": "ELA",
+                "label": "English Literacy/ Arts",
+              },
+              Object {
+                "filterType": "Subject",
+                "isSelected": false,
+                "key": "Math",
+                "label": "Mathematics",
+              },
+            ],
+            "label": "Subjects",
+            "optionType": 2,
+            "show": true,
+          },
+          Object {
+            "code": "TechnologyType",
+            "disabled": false,
+            "filterOptions": Array [
+              Object {
+                "filterType": "TechnologyType",
+                "isSelected": false,
+                "key": "tech2",
+                "label": "tech2",
+              },
+              Object {
+                "filterType": "TechnologyType",
+                "isSelected": false,
+                "key": "tech1",
+                "label": "tech1",
+              },
+            ],
+            "label": "TechType",
+            "optionType": 4,
+            "show": true,
+          },
+        ]
+      }
+      filterId=""
+      handleAdvancedFilterExpand={[Function]}
+      onUpdateFilter={[Function]}
+      resetHandler={[Function]}
+    >
+      <div
+        className="bf-container section section-light"
+        id=""
+      >
+        <div
+          className="basic-filter"
+        >
+          <BasicFilter
+            code="Grade"
+            disabled={false}
+            filterOptions={
+              Array [
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "7",
+                  "label": "Grades 3-5",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "56",
+                  "label": "Grades 6-8",
+                },
+                Object {
+                  "filterType": "Grade",
+                  "isSelected": false,
+                  "key": "960",
+                  "label": "High School",
+                },
+              ]
+            }
+            key="0"
+            label="Grade"
+            optionType={3}
+            selectedHandler={[Function]}
+            show={true}
+          >
+            <div
+              className="bf-selection"
+              id="grade-bf"
+              title=""
+            >
+              <Component
+                className="input-sm"
+                disabled={false}
+                key="Grade"
+                label="Grade"
+                onChange={[Function]}
+                options={
+                  Array [
+                    Object {
+                      "disabled": false,
+                      "label": "Select Grade",
+                      "selected": true,
+                      "value": "default",
+                    },
+                    Object {
+                      "disabled": false,
+                      "label": "Grades 3-5",
+                      "selected": false,
+                      "value": "7",
+                    },
+                    Object {
+                      "disabled": false,
+                      "label": "Grades 6-8",
+                      "selected": false,
+                      "value": "56",
+                    },
+                    Object {
+                      "disabled": false,
+                      "label": "High School",
+                      "selected": false,
+                      "value": "960",
+                    },
+                  ]
+                }
+                selected="default"
+              >
+                <div
+                  className=""
+                >
+                  <label
+                    htmlFor="Grade"
+                  >
+                    <span
+                      className=""
+                    >
+                      Grade
+                    </span>
+                  </label>
+                  <select
+                    aria-label="Grade"
+                    className="form-control input-sm"
+                    disabled={false}
+                    id="Grade"
+                    onChange={[Function]}
+                    value="default"
+                  >
+                    <Component
+                      disabled={false}
+                      key="default"
+                      label="Select Grade"
+                      selected={true}
+                      value="default"
+                    >
+                      <option
+                        aria-selected={true}
+                        disabled={false}
+                        label="Select Grade"
+                        value="default"
+                      >
+                        Select Grade
+                      </option>
+                    </Component>
+                    <Component
+                      disabled={false}
+                      key="7"
+                      label="Grades 3-5"
+                      selected={false}
+                      value="7"
+                    >
+                      <option
+                        aria-selected={false}
+                        disabled={false}
+                        label="Grades 3-5"
+                        value="7"
+                      >
+                        Grades 3-5
+                      </option>
+                    </Component>
+                    <Component
+                      disabled={false}
+                      key="56"
+                      label="Grades 6-8"
+                      selected={false}
+                      value="56"
+                    >
+                      <option
+                        aria-selected={false}
+                        disabled={false}
+                        label="Grades 6-8"
+                        value="56"
+                      >
+                        Grades 6-8
+                      </option>
+                    </Component>
+                    <Component
+                      disabled={false}
+                      key="960"
+                      label="High School"
+                      selected={false}
+                      value="960"
+                    >
+                      <option
+                        aria-selected={false}
+                        disabled={false}
+                        label="High School"
+                        value="960"
+                      >
+                        High School
+                      </option>
+                    </Component>
+                  </select>
+                </div>
+              </Component>
+            </div>
+          </BasicFilter>
+          <BasicFilter
+            code="Subject"
+            disabled={false}
+            filterOptions={
+              Array [
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "ELA",
+                  "label": "English Literacy/ Arts",
+                },
+                Object {
+                  "filterType": "Subject",
+                  "isSelected": false,
+                  "key": "Math",
+                  "label": "Mathematics",
+                },
+              ]
+            }
+            key="1"
+            label="Subjects"
+            optionType={2}
+            selectedHandler={[Function]}
+            show={true}
+          >
+            <div
+              className="bf-selection"
+              id="subjects-bf"
+              title=""
+            >
+              <label
+                htmlFor="basic-filter-checkbox"
+              >
+                Subjects
+                <div
+                  className="radio"
+                  key="ELA"
+                >
+                  <label>
+                    <input
+                      aria-checked={false}
+                      aria-label="Select Subjects ELA"
+                      checked={false}
+                      id="basic-filter-checkbox"
+                      name="Subjects"
+                      onChange={[Function]}
+                      tabIndex={0}
+                      type="radio"
+                      value="ELA"
+                    />
+                    English Literacy/ Arts
+                  </label>
+                </div>
+                <div
+                  className="radio"
+                  key="Math"
+                >
+                  <label>
+                    <input
+                      aria-checked={false}
+                      aria-label="Select Subjects Math"
+                      checked={false}
+                      id="basic-filter-checkbox"
+                      name="Subjects"
+                      onChange={[Function]}
+                      tabIndex={0}
+                      type="radio"
+                      value="Math"
+                    />
+                    Mathematics
+                  </label>
+                </div>
+              </label>
+            </div>
+          </BasicFilter>
+          <AdvancedFilter
+            code="TechnologyType"
+            disabled={false}
+            displayAllButton={true}
+            filterOptions={
+              Array [
+                Object {
+                  "filterType": "TechnologyType",
+                  "isSelected": false,
+                  "key": "tech2",
+                  "label": "tech2",
+                },
+                Object {
+                  "filterType": "TechnologyType",
+                  "isSelected": false,
+                  "key": "tech1",
+                  "label": "tech1",
+                },
+              ]
+            }
+            isMultiSelect={true}
+            key="2"
+            label="TechType"
+            onFilterOptionSelect={[Function]}
+            optionType={4}
+            show={true}
+          >
+            <div
+              className="filter-selection"
+              id="techtype-filter"
+            >
+              <div
+                className="filter-container-header"
+              >
+                <label
+                  htmlFor="btn-group-filter"
+                >
+                  <span
+                    className="tooltip-label"
+                    info-label="true"
+                  >
+                    TechType
+                  </span>
+                </label>
+              </div>
+              <div
+                className="nested-btn-group btn-group-sm toggle-group vertical"
+                data-toggle="buttons"
+              >
+                <Component
+                  ariaLabel="Select All TechType"
+                  disabled={false}
+                  label="All"
+                  onClick={[Function]}
+                  selected={true}
+                >
+                  <button
+                    aria-checked={true}
+                    aria-label="Select All TechType"
+                    className="btn btn-primary active"
+                    disabled={false}
+                    id="btn-group-filter"
+                    onClick={[Function]}
+                    role="switch"
+                  >
+                    All
+                  </button>
+                </Component>
+                <div
+                  className="btn-group filter-btn-group"
+                >
+                  <Component
+                    ariaLabel="Select TechType tech2"
+                    disabled={false}
+                    key="tech2"
+                    label="tech2"
+                    onClick={[Function]}
+                    selected={false}
+                  >
+                    <button
+                      aria-checked={false}
+                      aria-label="Select TechType tech2"
+                      className="btn btn-primary "
+                      disabled={false}
+                      id="btn-group-filter"
+                      onClick={[Function]}
+                      role="switch"
+                    >
+                      tech2
+                    </button>
+                  </Component>
+                  <Component
+                    ariaLabel="Select TechType tech1"
+                    disabled={false}
+                    key="tech1"
+                    label="tech1"
+                    onClick={[Function]}
+                    selected={false}
+                  >
+                    <button
+                      aria-checked={false}
+                      aria-label="Select TechType tech1"
+                      className="btn btn-primary "
+                      disabled={false}
+                      id="btn-group-filter"
+                      onClick={[Function]}
+                      role="switch"
+                    >
+                      tech1
+                    </button>
+                  </Component>
+                </div>
+              </div>
+            </div>
+          </AdvancedFilter>
+        </div>
+        <div
+          className="bf-button-container"
+        >
+          <span>
+            <button
+              aria-label="Reset filters"
+              className="btn btn-default filter-button"
+              onClick={[Function]}
+              tabIndex={1}
+            >
+              Reset
+            </button>
+          </span>
+          <span>
+            <button
+              aria-label="Advanced filters"
+              className="btn btn-default filter-button af-expand"
+              onClick={[Function]}
+              tabIndex={1}
+            >
+              Advanced Filters 
+              <span
+                aria-hidden="true"
+                className="fa fa-chevron-right"
+              />
+            </button>
+          </span>
+        </div>
+      </div>
+    </BasicFilterContainer>
+  </div>
+</CombinedFilter>
+`;

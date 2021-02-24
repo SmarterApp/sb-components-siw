@@ -1,0 +1,509 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots SIW-Filter Container Default 1`] = `
+<div
+  className="filter-component-wrapper"
+>
+  <div
+    className="bf-container section section-light"
+    id=""
+  >
+    <div
+      className="basic-filter"
+    >
+      <div
+        className="bf-selection"
+        id="grade-bf"
+        title=""
+      >
+        <div
+          className=""
+        >
+          <label
+            htmlFor="Grade"
+          >
+            <span
+              className=""
+            >
+              Grade
+            </span>
+          </label>
+          <select
+            aria-label="Grade"
+            className="form-control input-sm"
+            disabled={false}
+            id="Grade"
+            onChange={[Function]}
+            tabIndex={undefined}
+            value="default"
+          >
+            <option
+              aria-selected={true}
+              disabled={false}
+              label="Select Grade"
+              value="default"
+            >
+              Select Grade
+            </option>
+            <option
+              aria-selected={false}
+              disabled={false}
+              label="Grades 3-5"
+              value="7"
+            >
+              Grades 3-5
+            </option>
+            <option
+              aria-selected={false}
+              disabled={false}
+              label="Grades 6-8"
+              value="56"
+            >
+              Grades 6-8
+            </option>
+            <option
+              aria-selected={false}
+              disabled={false}
+              label="High School"
+              value="960"
+            >
+              High School
+            </option>
+          </select>
+        </div>
+      </div>
+      <div
+        className="filter-selection"
+        id="subjects-filter"
+      >
+        <div
+          className="filter-container-header"
+        >
+          <label
+            htmlFor="btn-group-filter"
+          >
+            <span
+              className="tooltip-label"
+              info-label="true"
+            >
+              Subjects
+            </span>
+          </label>
+        </div>
+        <div
+          className="nested-btn-group btn-group-sm toggle-group vertical"
+          data-toggle="buttons"
+        >
+          <button
+            aria-checked={true}
+            aria-label="Select All Subjects"
+            className="btn btn-primary active"
+            disabled={false}
+            id="btn-group-filter"
+            onClick={[Function]}
+            role="switch"
+          >
+            All
+          </button>
+          <div
+            className="btn-group filter-btn-group"
+          >
+            <button
+              aria-checked={false}
+              aria-label="Select Subjects English Literacy/ Arts"
+              className="btn btn-primary "
+              disabled={false}
+              id="btn-group-filter"
+              onClick={[Function]}
+              role="switch"
+            >
+              English Literacy/ Arts
+            </button>
+            <button
+              aria-checked={false}
+              aria-label="Select Subjects Mathematics"
+              className="btn btn-primary "
+              disabled={false}
+              id="btn-group-filter"
+              onClick={[Function]}
+              role="switch"
+            >
+              Mathematics
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="bf-selection"
+        id="test-name-bf"
+        title=""
+      >
+        <div
+          className=""
+        >
+          <label
+            htmlFor="Test Name"
+          >
+            <span
+              className=""
+            >
+              Test Name
+            </span>
+          </label>
+          <select
+            aria-label="Test Name"
+            className="form-control input-sm"
+            disabled={false}
+            id="Test Name"
+            onChange={[Function]}
+            tabIndex={undefined}
+            value="default"
+          >
+            <option
+              aria-selected={true}
+              disabled={false}
+              label="Select Test Name"
+              value="default"
+            >
+              Select Test Name
+            </option>
+            <option
+              aria-selected={false}
+              disabled={false}
+              label="Test 1"
+              value="Test 1"
+            >
+              Test 1
+            </option>
+            <option
+              aria-selected={false}
+              disabled={false}
+              label="Test 2"
+              value="Test 1"
+            >
+              Test 2
+            </option>
+          </select>
+        </div>
+      </div>
+      <div
+        className="filter-selection"
+        id="claims-filter"
+      >
+        <div
+          className="filter-container-header"
+        >
+          <label
+            htmlFor="btn-group-filter"
+          >
+            <span
+              className="tooltip-label"
+              info-label="true"
+            >
+              Claims
+            </span>
+          </label>
+        </div>
+        <div
+          className="nested-btn-group btn-group-sm toggle-group vertical"
+          data-toggle="buttons"
+        >
+          <button
+            aria-checked={true}
+            aria-label="Select All Claims"
+            className="btn btn-primary active"
+            disabled={false}
+            id="btn-group-filter"
+            onClick={[Function]}
+            role="switch"
+          >
+            All
+          </button>
+          <div
+            className="btn-group filter-btn-group"
+          >
+            <button
+              aria-checked={false}
+              aria-label="Select Claims Problem Solving"
+              className="btn btn-primary "
+              disabled={false}
+              id="btn-group-filter"
+              onClick={[Function]}
+              role="switch"
+            >
+              Problem Solving
+            </button>
+            <button
+              aria-checked={false}
+              aria-label="Select Claims Concepts and Procedures"
+              className="btn btn-primary "
+              disabled={false}
+              id="btn-group-filter"
+              onClick={[Function]}
+              role="switch"
+            >
+              Concepts and Procedures
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="filter-selection"
+        id="item-types-filter"
+      >
+        <div
+          className="filter-container-header"
+        >
+          <label
+            htmlFor="btn-group-filter"
+          >
+            <span
+              className="tooltip-label"
+              info-label="true"
+            >
+              Item Types
+            </span>
+          </label>
+        </div>
+        <div
+          className="nested-btn-group btn-group-sm toggle-group vertical"
+          data-toggle="buttons"
+        >
+          <button
+            aria-checked={true}
+            aria-label="Select All Item Types"
+            className="btn btn-primary active"
+            disabled={false}
+            id="btn-group-filter"
+            onClick={[Function]}
+            role="switch"
+          >
+            All
+          </button>
+          <div
+            className="btn-group filter-btn-group"
+          >
+            <button
+              aria-checked={false}
+              aria-label="Select Item Types Equation"
+              className="btn btn-primary "
+              disabled={false}
+              id="btn-group-filter"
+              onClick={[Function]}
+              role="switch"
+            >
+              Equation
+            </button>
+            <button
+              aria-checked={false}
+              aria-label="Select Item Types Grid Item"
+              className="btn btn-primary "
+              disabled={false}
+              id="btn-group-filter"
+              onClick={[Function]}
+              role="switch"
+            >
+              Grid Item
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="bf-selection"
+        id="techtype-bf"
+        title=""
+      >
+        <div
+          className=""
+        >
+          <label
+            htmlFor="TechType"
+          >
+            <span
+              className=""
+            >
+              TechType
+            </span>
+          </label>
+          <select
+            aria-label="TechType"
+            className="form-control input-sm"
+            disabled={false}
+            id="TechType"
+            onChange={[Function]}
+            tabIndex={undefined}
+            value="default"
+          >
+            <option
+              aria-selected={true}
+              disabled={false}
+              label="Select TechType"
+              value="default"
+            >
+              Select TechType
+            </option>
+            <option
+              aria-selected={false}
+              disabled={false}
+              label="tech1"
+              value="tech1"
+            >
+              tech1
+            </option>
+            <option
+              aria-selected={false}
+              disabled={false}
+              label="tech2"
+              value="tech2"
+            >
+              tech2
+            </option>
+          </select>
+        </div>
+      </div>
+      <div
+        className="filter-selection"
+        id="targets-filter"
+      >
+        <div
+          className="filter-container-header"
+        >
+          <label
+            htmlFor="btn-group-filter"
+          >
+            <span
+              className="tooltip-label"
+              info-label="true"
+            >
+              Targets
+            </span>
+          </label>
+        </div>
+        <div
+          className="nested-btn-group btn-group-sm toggle-group vertical"
+          data-toggle="buttons"
+        >
+          <button
+            aria-checked={true}
+            aria-label="Select All Targets"
+            className="btn btn-primary active"
+            disabled={false}
+            id="btn-group-filter"
+            onClick={[Function]}
+            role="switch"
+          >
+            All
+          </button>
+          <div
+            className="btn-group filter-btn-group"
+          >
+            <button
+              aria-checked={false}
+              aria-label="Select Targets t1"
+              className="btn btn-primary "
+              disabled={false}
+              id="btn-group-filter"
+              onClick={[Function]}
+              role="switch"
+            >
+              t1
+            </button>
+            <button
+              aria-checked={false}
+              aria-label="Select Targets t2"
+              className="btn btn-primary "
+              disabled={false}
+              id="btn-group-filter"
+              onClick={[Function]}
+              role="switch"
+            >
+              t2
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="bf-selection"
+        id="calculator-bf"
+        title=""
+      >
+        <div
+          className=""
+        >
+          <label
+            htmlFor="Calculator"
+          >
+            <span
+              className=""
+            >
+              Calculator
+            </span>
+          </label>
+          <select
+            aria-label="Calculator"
+            className="form-control input-sm"
+            disabled={false}
+            id="Calculator"
+            onChange={[Function]}
+            tabIndex={undefined}
+            value="default"
+          >
+            <option
+              aria-selected={true}
+              disabled={false}
+              label="Select Calculator"
+              value="default"
+            >
+              Select Calculator
+            </option>
+            <option
+              aria-selected={false}
+              disabled={false}
+              label="On"
+              value="on"
+            >
+              On
+            </option>
+            <option
+              aria-selected={false}
+              disabled={false}
+              label="Off"
+              value="off"
+            >
+              Off
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div
+      className="bf-button-container"
+    >
+      <span>
+        <button
+          aria-label="Reset filters"
+          className="btn btn-default filter-button"
+          onClick={[Function]}
+          tabIndex={1}
+        >
+          Reset
+        </button>
+      </span>
+      <span>
+        <button
+          aria-label="Advanced filters"
+          className="btn btn-default filter-button af-expand"
+          onClick={[Function]}
+          tabIndex={1}
+        >
+          Advanced Filters 
+          <span
+            aria-hidden="true"
+            className="fa fa-chevron-right"
+          />
+        </button>
+      </span>
+    </div>
+  </div>
+</div>
+`;

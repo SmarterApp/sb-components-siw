@@ -1,0 +1,272 @@
+//** Item Card styles
+
+@import "constants";
+
+.card {
+  border: 2px solid;
+  border-radius: 6px;
+  background-color: @sb-white;
+  color: hsl(0, 0%, 27%);
+  width: 300px;
+  -webkit-transition-duration: 0.2s; // Safari
+  transition-duration: 0.2s;
+  cursor: pointer;
+  margin: 26px;
+  font-size: @font-size-base;
+  box-shadow: @card-shadow;
+
+  &:focus,
+  &:hover {
+    box-shadow: 0 0px 20px #959595;
+  }
+}
+
+.card.math {
+  border-color: @sb-green;
+}
+
+.card.ela {
+  border-color: @sb-blue;
+}
+
+.card.condensed {
+  margin: @spacing-unit/2;
+  width: 215px;
+  font-size: 95%; // SB
+
+  h4.card-title {
+    padding: @spacing-unit/2;
+  }
+
+  .card-contents {
+    p {
+      padding: 0px @spacing-unit/2 0px @spacing-unit/2;
+      margin: 0px 0px 5px 0px;
+    }
+    p:first-of-type {
+      padding-top: @spacing-item;
+    }
+  }
+}
+
+.card-static {
+  cursor: default;
+
+  &:hover {
+    box-shadow: @card-shadow;
+  }
+}
+
+.card-icon {
+  filter: drop-shadow(0 0 2px rgb(43, 43, 43));
+  margin: 0px 7.5px;
+}
+
+.card-grade-tag {
+  background-color: @sb-white;
+  border-radius: 5px;
+  padding: 0px 7px;
+  font-family: "PT Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.card-title {
+  font-family: "PT Sans", sans-serif;
+  color: @sb-white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 15px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .math & {
+    background-color: @sb-green;
+  }
+  .ela & {
+    background-color: @sb-blue;
+  }
+}
+
+.card-icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px 7.5px;
+}
+
+@media (max-width: 370px) {
+  h4.card-title {
+    font-size: 86%;
+  }
+}
+
+.card-text-label {
+  text-transform: uppercase;
+  font-size: 80%;
+  font-weight: bold;
+  color: #6d6d6d;
+  padding-right: 0.25em;
+  font-family: "PT Sans", sans-serif;
+  letter-spacing: 0.04em;
+}
+
+.card-text-value {
+  color: #000000;
+}
+
+.card-contents p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.card-contents p:first-of-type {
+  padding-top: @spacing-item;
+}
+.card-contents p:last-of-type {
+  margin-bottom: 60px;
+}
+
+/* container - checkbox  */
+.custom-checkbox {
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+  outline-color: black;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.custom-checkbox input {
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+  background-color: #b1b1b1;
+  border-radius: 4px;
+  outline-color: black;
+}
+
+/* On mouse-over, add a grey background color */
+.custom-checkbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.custom-checkbox input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.custom-checkbox input:checked ~ .checkmark:after {
+  display: inline-block;
+}
+
+/* Style the checkmark/indicator */
+.custom-checkbox .checkmark:after {
+  left: 7px;
+  top: 2px;
+  width: 7px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.btn-add-remove-print-selection {
+  width: auto;
+  border-radius: 6px;
+  font-family: PTSans-Bold;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.tooltip-item-card-button {
+  position: absolute !important;
+  bottom: 5px;
+  right: 22%;
+  left: 25%;
+  float: bottom !important;
+}
+
+.btn-add-remove-disabled-print-selection {
+  background-color: lightgrey !important;
+}
+
+.btn.math {
+  border: 2px solid @sb-green;
+  color: @sb-green;
+}
+
+.btn.ela {
+  border: 2px solid @sb-blue;
+  color: @sb-blue;
+}
+
+.btn.math:hover {
+  background-color: white;
+}
+
+.btn.ela:hover {
+  background-color: white;
+}
+
+.btn.math.btn-selected {
+  background: @sb-green;
+  color: white;
+}
+.btn.ela.btn-selected {
+  background: @sb-blue;
+  color: white;
+}
+
+.btn-unselected {
+  background: #ffffff;
+}
+
+.card-block {
+  position: relative;
+  min-height: 320px;
+}
+
+.btn:focus,
+.btn:active {
+  outline: dotted !important;
+  // box-shadow: ;
+}

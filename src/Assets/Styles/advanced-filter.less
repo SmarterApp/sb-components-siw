@@ -1,0 +1,162 @@
+@import "constants";
+
+.adv-filter-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid @grey-border-color;
+  box-shadow: @box-shadow;
+  flex-basis: 300px;
+  padding: 0;
+  overflow: hidden;
+
+  *:not(span) {
+    font-family: inherit;
+  }
+}
+
+.adv-filter-container-expanded {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: @sb-white;
+}
+
+div.adv-filter-group {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  z-index: 1;
+  background-color: @sb-white;
+  padding: @spacing-unit @spacing-unit 0 @spacing-unit;
+  background-color: @background-color-base;
+  border-bottom: 1px solid @grey-border-color;
+}
+
+div.filter-title-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-shadow: @box-shadow;
+}
+
+div.adv-filter-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.adv-filter-title {
+  display: flex;
+  flex-flow: row nowrap;
+  color: @text-color-gray;
+  align-items: center;
+  margin-left: @spacing-unit/2;
+  white-space: nowrap;
+}
+
+div.filter-status {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  margin: 3px;
+}
+
+div.filter-status > button.btn {
+  margin: @spacing-item/2 @spacing-item/2;
+}
+
+.filter-subheader {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-body {
+  display: inline-flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: @spacing-unit/2;
+}
+
+.filter-button-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  border-left: 1px solid @sb-gray;
+  flex-grow: 1;
+  max-width: 175px;
+}
+
+.filter-selection {
+  padding: @spacing-unit/2;
+  flex-shrink: 0;
+  flex-basis: 290px;
+}
+
+.filter-selection button.btn:focus {
+  color: #ffffff;
+  background-color: @sb-gray;
+  border-color: @sb-gray;
+}
+
+.child-filter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.filter-btn {
+  max-width: max-content;
+  min-width: 50px;
+}
+
+div.filter-selection > div.nested-btn-group > button.btn-primary {
+  max-height: fit-content;
+}
+
+div.filter-selection > div.nested-btn-group {
+  align-items: flex-start;
+}
+
+@supports (-ms-ime-align: auto) {
+  #subject-filter div.filter-btn-group > button.btn {
+    width: 195px;
+  }
+  #claims-filter div.filter-btn-group > button.btn {
+    width: 150px;
+  }
+}
+div.filter-btn-group > button.btn {
+  min-width: fill-available;
+
+  //min-width: auto;
+  white-space: normal;
+  margin-right: 0 !important; //overwriting bootstrap
+}
+#subject-filter div.filter-btn-group > button.btn {
+  width: 195px;
+}
+#claims-filter div.filter-btn-group > button.btn {
+  min-width: fill-available;
+}
+#targets-filter .filter-btn-group {
+  flex-wrap: wrap;
+  max-height: 30vh;
+  flex-basis: 150px;
+  align-content: flex-start;
+}
+
+#core-standards-filter .filter-btn-group {
+  flex-wrap: wrap;
+  max-height: 35vh;
+  flex-basis: 150px;
+  align-content: flex-start;
+}

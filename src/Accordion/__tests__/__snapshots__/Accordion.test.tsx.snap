@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion matches closed snapshot 1`] = `
+<div
+  className="accordion-container"
+>
+  <div
+    className="accordion-bar"
+    onClick={[MockFunction]}
+    role="button"
+  >
+    <div
+      className="accordion-content"
+    >
+      testAccordion
+      <span
+        aria-hidden="true"
+        className="fa fa-chevron-down carat"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion matches open snapshot 1`] = `
+<div
+  className="accordion-container"
+>
+  <div
+    className="accordion-bar"
+    onClick={[MockFunction]}
+    role="button"
+  >
+    <div
+      className="accordion-content"
+    >
+      testAccordion
+      <span
+        aria-hidden="true"
+        className="fa fa-chevron-up carat"
+      />
+    </div>
+  </div>
+  <div
+    className="accordion-content"
+  >
+    <div
+      id="test-content"
+    >
+      test
+      <p>
+        I'm open
+      </p>
+    </div>
+  </div>
+</div>
+`;

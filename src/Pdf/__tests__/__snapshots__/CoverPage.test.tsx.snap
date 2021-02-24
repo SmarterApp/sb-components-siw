@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`First page matches snapshot 1`] = `
+<div
+  className="page first-page"
+>
+  <div
+    className="first-page-title"
+  >
+    Smarter Balanced
+    <br />
+    Assessment Consortium
+  </div>
+  <div
+    className="first-page-subtitle"
+  >
+    math
+     Practice Test Scoring Guide
+    <br />
+    <strong>
+      grade 3
+    </strong>
+  </div>
+  <div
+    className="first-page-date"
+  >
+    01/12/2017
+  </div>
+</div>
+`;

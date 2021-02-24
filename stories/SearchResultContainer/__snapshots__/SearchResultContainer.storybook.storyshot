@@ -1,0 +1,1369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Search Result Container normal render 1`] = `
+<div
+  className="section section-dark"
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexFlow": "column nowrap",
+      "height": "100%",
+      "justifyContent": "center",
+      "paddingTop": "300px",
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="search-result-container"
+  >
+    <div
+      className="search-result-container"
+    />
+    <div
+      className="search-result-container"
+    />
+    <div
+      className="search-result-container"
+    />
+    <div
+      className="search-result-container"
+    />
+    <div
+      className="row search-result-header-row"
+    >
+      <div
+        className="col-sm-4 header-grid-div header-print-button-groups"
+      >
+        <button
+          aria-label="Select all to print"
+          className="btn btn-default search-result-container-header-button  "
+          onClick={[Function]}
+          title="Select all to print"
+        >
+          <i
+            aria-hidden="true"
+            className="fa fa-check"
+          />
+           Select All
+        </button>
+      </div>
+      <div
+        className="col-sm-3 header-grid-div  "
+      >
+        <button
+          aria-label="table view toggle"
+          className="btn btn-gray"
+          onClick={[Function]}
+          value={0}
+        >
+          <i
+            aria-hidden="true"
+            className="fa fa-table"
+          />
+        </button>
+        <button
+          aria-label="item card view toggle"
+          className="btn btn-white"
+          onClick={[Function]}
+          value={1}
+        >
+          <i
+            aria-hidden="true"
+            className="glyphicon glyphicon-th-large glyphicon-pad"
+          />
+        </button>
+      </div>
+      <div
+        className="col-sm-5 header-grid-div header-print-button-groups"
+      >
+        <button
+          aria-label="Clear items from print cart"
+          className="btn btn-default search-result-container-header-button disabled btn-sm"
+          onClick={[Function]}
+          title="Clear items from print cart"
+        >
+          <i
+            aria-hidden="true"
+            className="fa fa-eraser"
+          />
+           Clear
+        </button>
+        <button
+          aria-label="Open print cart popup"
+          className="btn btn-default btn-sm btn-print-cart"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="glyphicon glyphicon-print"
+          />
+           
+          Print Cart
+           
+          <span
+            className="circle "
+          >
+            0
+          </span>
+        </button>
+        <button
+          aria-label="Open barille cart modal"
+          className="btn btn-default btn-sm "
+          onClick={[Function]}
+          title="Open barille cart modal"
+        >
+          <i
+            aria-hidden="true"
+            className="fa fa-braille"
+          />
+           Braille Cart
+        </button>
+      </div>
+    </div>
+    <div
+      className="search-result-body"
+    >
+      <div
+        className="section item-table-container"
+      >
+        <table
+          className="item-table"
+        >
+          <thead>
+            <tr
+              className="primary"
+            >
+              <td
+                className="td-header"
+                colSpan={1}
+              />
+              <th
+                className="item"
+                onClick={[Function]}
+                onKeyUp={[Function]}
+                scope="col"
+                tabIndex={0}
+              >
+                <div
+                  className="item"
+                >
+                  <span>
+                    Item
+                  </span>
+                  <span
+                    aria-hidden="true"
+                    className="fa fa-sort sort-icon"
+                    style={
+                      Object {
+                        "color": "gray",
+                      }
+                    }
+                  />
+                </div>
+              </th>
+              <th
+                className="stimulus"
+                onClick={[Function]}
+                onKeyUp={[Function]}
+                scope="col"
+                tabIndex={0}
+              >
+                <div
+                  className="stimulus"
+                >
+                  <span>
+                    Stimulus ID
+                  </span>
+                  <span
+                    aria-hidden="true"
+                    className="fa fa-sort sort-icon"
+                    style={
+                      Object {
+                        "color": "gray",
+                      }
+                    }
+                  />
+                </div>
+              </th>
+              <th
+                className="item-position-in-test"
+                onClick={[Function]}
+                onKeyUp={[Function]}
+                scope="col"
+                tabIndex={0}
+              >
+                <div
+                  className="item-position-in-test"
+                >
+                  <span>
+                    Item position in test
+                  </span>
+                  <span
+                    aria-hidden="true"
+                    className="fa fa-sort sort-icon"
+                    style={
+                      Object {
+                        "color": "gray",
+                      }
+                    }
+                  />
+                </div>
+              </th>
+              <th
+                className="subject"
+                onClick={[Function]}
+                onKeyUp={[Function]}
+                scope="col"
+                tabIndex={0}
+              >
+                <div
+                  className="subject"
+                >
+                  <span>
+                    Subject
+                  </span>
+                  <span
+                    aria-hidden="true"
+                    className="fa fa-sort sort-icon"
+                    style={
+                      Object {
+                        "color": "gray",
+                      }
+                    }
+                  />
+                </div>
+              </th>
+              <th
+                className="grade"
+                onClick={[Function]}
+                onKeyUp={[Function]}
+                scope="col"
+                tabIndex={0}
+              >
+                <div
+                  className="grade"
+                >
+                  <span>
+                    Grade
+                  </span>
+                  <span
+                    aria-hidden="true"
+                    className="fa fa-sort sort-icon"
+                    style={
+                      Object {
+                        "color": "gray",
+                      }
+                    }
+                  />
+                </div>
+              </th>
+              <th
+                className="testname"
+                onClick={[Function]}
+                onKeyUp={[Function]}
+                scope="col"
+                tabIndex={0}
+              >
+                <div
+                  className="testname"
+                >
+                  <span>
+                    Test name
+                  </span>
+                  <span
+                    aria-hidden="true"
+                    className="fa fa-sort sort-icon"
+                    style={
+                      Object {
+                        "color": "gray",
+                      }
+                    }
+                  />
+                </div>
+              </th>
+              <th
+                className="claim"
+                onClick={[Function]}
+                onKeyUp={[Function]}
+                scope="col"
+                tabIndex={0}
+              >
+                <div
+                  className="claim"
+                >
+                  <span>
+                    Claim
+                  </span>
+                  <span
+                    aria-hidden="true"
+                    className="fa fa-sort sort-icon"
+                    style={
+                      Object {
+                        "color": "gray",
+                      }
+                    }
+                  />
+                </div>
+              </th>
+              <th
+                className="Target"
+                onClick={[Function]}
+                onKeyUp={[Function]}
+                scope="col"
+                tabIndex={0}
+              >
+                <div
+                  className="Target"
+                >
+                  <span>
+                    Target
+                  </span>
+                  <span
+                    aria-hidden="true"
+                    className="fa fa-sort sort-icon"
+                    style={
+                      Object {
+                        "color": "gray",
+                      }
+                    }
+                  />
+                </div>
+              </th>
+              <th
+                className="standard"
+                onClick={[Function]}
+                onKeyUp={[Function]}
+                scope="col"
+                tabIndex={0}
+              >
+                <div
+                  className="standard"
+                >
+                  <span>
+                    Standard
+                  </span>
+                  <span
+                    aria-hidden="true"
+                    className="fa fa-sort sort-icon"
+                    style={
+                      Object {
+                        "color": "gray",
+                      }
+                    }
+                  />
+                </div>
+              </th>
+              <th
+                className="dok"
+                onClick={[Function]}
+                onKeyUp={[Function]}
+                scope="col"
+                tabIndex={0}
+              >
+                <div
+                  className="dok"
+                >
+                  <span>
+                    DOK
+                  </span>
+                  <span
+                    aria-hidden="true"
+                    className="fa fa-sort sort-icon"
+                    style={
+                      Object {
+                        "color": "gray",
+                      }
+                    }
+                  />
+                </div>
+              </th>
+              <th
+                className="difficulty"
+                onClick={[Function]}
+                onKeyUp={[Function]}
+                scope="col"
+                tabIndex={0}
+              >
+                <div
+                  className="difficulty"
+                >
+                  <span>
+                    Difficulty
+                  </span>
+                  <span
+                    aria-hidden="true"
+                    className="fa fa-sort sort-icon"
+                    style={
+                      Object {
+                        "color": "gray",
+                      }
+                    }
+                  />
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              className=""
+              onClick={[Function]}
+              onKeyUp={[Function]}
+            >
+              <td
+                aria-label="Select item to print cart"
+                className="item-checkbox"
+                onClick={[Function]}
+              >
+                <span
+                  className="tool-tip-links btn-table-cell"
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  tabIndex={0}
+                >
+                  <span
+                    className="tool-tip-hoverable"
+                  >
+                    <button
+                      className="btn btn  btn-item-add-remove-grid btn-sm btn-blue-border"
+                      tabIndex={-1}
+                      type="button"
+                    >
+                      <i
+                        className="fa fa-2x fa-plus-circle"
+                      />
+                    </button>
+                     
+                  </span>
+                  <span
+                    className="tool-tip-details"
+                  >
+                    <span
+                      className="tool-tip-message  "
+                    >
+                      <label>
+                        Add item to print queue
+                      </label>
+                    </span>
+                  </span>
+                </span>
+              </td>
+              <td
+                className="item"
+                role="gridcell"
+              >
+                <span>
+                  <a
+                    role="link"
+                    tabIndex={0}
+                  >
+                    3206
+                  </a>
+                </span>
+              </td>
+              <td
+                className="stimulus"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    56900
+                  </span>
+                </span>
+              </td>
+              <td
+                className="item-position-in-test"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    1
+                  </span>
+                </span>
+              </td>
+              <td
+                className="subject"
+                role="gridcell"
+              >
+                <span>
+                  <span
+                    className="table-subject-highlight math"
+                  >
+                    Math
+                  </span>
+                </span>
+              </td>
+              <td
+                className="grade"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    6
+                  </span>
+                </span>
+              </td>
+              <td
+                className="testname"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    Test 1
+                  </span>
+                </span>
+              </td>
+              <td
+                className="claim"
+                role="gridcell"
+              >
+                <span>
+                  <span
+                    className="tool-tip-links box"
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    tabIndex={0}
+                  >
+                    <span
+                      className="tool-tip-hoverable"
+                    >
+                      1
+                       
+                      <span
+                        aria-hidden="true"
+                        className="fa fa-info-circle fa-sm"
+                      />
+                    </span>
+                    <span
+                      className="tool-tip-details"
+                    >
+                      <span
+                        className="tool-tip-message bottom "
+                      >
+                        <p>
+                          1.Concepts and Procedures and Logical
+                        </p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </td>
+              <td
+                className="Target"
+                role="gridcell"
+              >
+                <span>
+                  <span
+                    className="tool-tip-links box"
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    tabIndex={0}
+                  >
+                    <span
+                      className="tool-tip-hoverable"
+                    >
+                      A
+                       
+                      <span
+                        aria-hidden="true"
+                        className="fa fa-info-circle fa-sm"
+                      />
+                    </span>
+                    <span
+                      className="tool-tip-details"
+                    >
+                      <span
+                        className="tool-tip-message bottom "
+                      >
+                        <p>
+                          Target A description with extra text for testing
+                        </p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </td>
+              <td
+                className="standard"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    6.M.1a
+                  </span>
+                </span>
+                <span>
+                  <span
+                    className="tool-tip-links box"
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    tabIndex={0}
+                  >
+                    <span
+                      className="tool-tip-hoverable"
+                    >
+                      
+                       
+                      <span
+                        aria-hidden="true"
+                        className="fa fa-info-circle fa-sm"
+                      />
+                    </span>
+                    <span
+                      className="tool-tip-details"
+                    >
+                      <span
+                        className="tool-tip-message bottom "
+                      >
+                        <p>
+                          Content Standard information is currently unavailable for this item.
+                        </p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </td>
+              <td
+                className="dok"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    
+                  </span>
+                </span>
+              </td>
+              <td
+                className="difficulty"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    Moderate
+                  </span>
+                </span>
+              </td>
+            </tr>
+            <tr
+              className=""
+              onClick={[Function]}
+              onKeyUp={[Function]}
+            >
+              <td
+                aria-label="Select item to print cart"
+                className="item-checkbox"
+                onClick={[Function]}
+              >
+                <span
+                  className="tool-tip-links btn-table-cell"
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  tabIndex={0}
+                >
+                  <span
+                    className="tool-tip-hoverable"
+                  >
+                    <button
+                      className="btn btn  btn-item-add-remove-grid btn-sm btn-blue-border"
+                      tabIndex={-1}
+                      type="button"
+                    >
+                      <i
+                        className="fa fa-2x fa-plus-circle"
+                      />
+                    </button>
+                     
+                  </span>
+                  <span
+                    className="tool-tip-details"
+                  >
+                    <span
+                      className="tool-tip-message  "
+                    >
+                      <label>
+                        Add item to print queue
+                      </label>
+                    </span>
+                  </span>
+                </span>
+              </td>
+              <td
+                className="item"
+                role="gridcell"
+              >
+                <span>
+                  <a
+                    role="link"
+                    tabIndex={0}
+                  >
+                    3163
+                  </a>
+                </span>
+              </td>
+              <td
+                className="stimulus"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    58679
+                  </span>
+                </span>
+              </td>
+              <td
+                className="item-position-in-test"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    2
+                  </span>
+                </span>
+              </td>
+              <td
+                className="subject"
+                role="gridcell"
+              >
+                <span>
+                  <span
+                    className="table-subject-highlight ela"
+                  >
+                    ELA
+                  </span>
+                </span>
+              </td>
+              <td
+                className="grade"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    3
+                  </span>
+                </span>
+              </td>
+              <td
+                className="testname"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    Test 1
+                  </span>
+                </span>
+              </td>
+              <td
+                className="claim"
+                role="gridcell"
+              >
+                <span>
+                  <span
+                    className="tool-tip-links box"
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    tabIndex={0}
+                  >
+                    <span
+                      className="tool-tip-hoverable"
+                    >
+                      1
+                       
+                      <span
+                        aria-hidden="true"
+                        className="fa fa-info-circle fa-sm"
+                      />
+                    </span>
+                    <span
+                      className="tool-tip-details"
+                    >
+                      <span
+                        className="tool-tip-message bottom "
+                      >
+                        <p>
+                          1.Reading
+                        </p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </td>
+              <td
+                className="Target"
+                role="gridcell"
+              >
+                <span>
+                  <span
+                    className="tool-tip-links box"
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    tabIndex={0}
+                  >
+                    <span
+                      className="tool-tip-hoverable"
+                    >
+                      B
+                       
+                      <span
+                        aria-hidden="true"
+                        className="fa fa-info-circle fa-sm"
+                      />
+                    </span>
+                    <span
+                      className="tool-tip-details"
+                    >
+                      <span
+                        className="tool-tip-message bottom "
+                      >
+                        <p>
+                          Target B description
+                        </p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </td>
+              <td
+                className="standard"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    3.R.2a
+                  </span>
+                </span>
+                <span>
+                  <span
+                    className="tool-tip-links box"
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    tabIndex={0}
+                  >
+                    <span
+                      className="tool-tip-hoverable"
+                    >
+                      
+                       
+                      <span
+                        aria-hidden="true"
+                        className="fa fa-info-circle fa-sm"
+                      />
+                    </span>
+                    <span
+                      className="tool-tip-details"
+                    >
+                      <span
+                        className="tool-tip-message bottom "
+                      >
+                        <p>
+                          Content Standard information is currently unavailable for this item.
+                        </p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </td>
+              <td
+                className="dok"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    
+                  </span>
+                </span>
+              </td>
+              <td
+                className="difficulty"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    Easy
+                  </span>
+                </span>
+              </td>
+            </tr>
+            <tr
+              className=""
+              onClick={[Function]}
+              onKeyUp={[Function]}
+            >
+              <td
+                aria-label="Select item to print cart"
+                className="item-checkbox"
+                onClick={[Function]}
+              >
+                <span
+                  className="tool-tip-links btn-table-cell"
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  tabIndex={0}
+                >
+                  <span
+                    className="tool-tip-hoverable"
+                  >
+                    <button
+                      className="btn btn  btn-item-add-remove-grid btn-sm btn-blue-border"
+                      tabIndex={-1}
+                      type="button"
+                    >
+                      <i
+                        className="fa fa-2x fa-plus-circle"
+                      />
+                    </button>
+                     
+                  </span>
+                  <span
+                    className="tool-tip-details"
+                  >
+                    <span
+                      className="tool-tip-message  "
+                    >
+                      <label>
+                        Add item to print queue
+                      </label>
+                    </span>
+                  </span>
+                </span>
+              </td>
+              <td
+                className="item"
+                role="gridcell"
+              >
+                <span>
+                  <a
+                    role="link"
+                    tabIndex={0}
+                  >
+                    3615
+                  </a>
+                </span>
+              </td>
+              <td
+                className="stimulus"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    23461
+                  </span>
+                </span>
+              </td>
+              <td
+                className="item-position-in-test"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    3
+                  </span>
+                </span>
+              </td>
+              <td
+                className="subject"
+                role="gridcell"
+              >
+                <span>
+                  <span
+                    className="table-subject-highlight math"
+                  >
+                    Math
+                  </span>
+                </span>
+              </td>
+              <td
+                className="grade"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    6
+                  </span>
+                </span>
+              </td>
+              <td
+                className="testname"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    Test 1
+                  </span>
+                </span>
+              </td>
+              <td
+                className="claim"
+                role="gridcell"
+              >
+                <span>
+                  <span
+                    className="tool-tip-links box"
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    tabIndex={0}
+                  >
+                    <span
+                      className="tool-tip-hoverable"
+                    >
+                      3
+                       
+                      <span
+                        aria-hidden="true"
+                        className="fa fa-info-circle fa-sm"
+                      />
+                    </span>
+                    <span
+                      className="tool-tip-details"
+                    >
+                      <span
+                        className="tool-tip-message bottom "
+                      >
+                        <p>
+                          3.Modeling/Data Analysis
+                        </p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </td>
+              <td
+                className="Target"
+                role="gridcell"
+              >
+                <span>
+                  <span
+                    className="tool-tip-links box"
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    tabIndex={0}
+                  >
+                    <span
+                      className="tool-tip-hoverable"
+                    >
+                      C
+                       
+                      <span
+                        aria-hidden="true"
+                        className="fa fa-info-circle fa-sm"
+                      />
+                    </span>
+                    <span
+                      className="tool-tip-details"
+                    >
+                      <span
+                        className="tool-tip-message bottom "
+                      >
+                        <p>
+                          target C description
+                        </p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </td>
+              <td
+                className="standard"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    Math Practice
+                  </span>
+                </span>
+                <span>
+                  <span
+                    className="tool-tip-links box"
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    tabIndex={0}
+                  >
+                    <span
+                      className="tool-tip-hoverable"
+                    >
+                      
+                       
+                      <span
+                        aria-hidden="true"
+                        className="fa fa-info-circle fa-sm"
+                      />
+                    </span>
+                    <span
+                      className="tool-tip-details"
+                    >
+                      <span
+                        className="tool-tip-message bottom "
+                      >
+                        <p>
+                          Items in this claim primarily measure the Standards for Mathematical Practice rather than Content Standards.
+                        </p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </td>
+              <td
+                className="dok"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    
+                  </span>
+                </span>
+              </td>
+              <td
+                className="difficulty"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    
+                  </span>
+                </span>
+              </td>
+            </tr>
+            <tr
+              className=""
+              onClick={[Function]}
+              onKeyUp={[Function]}
+            >
+              <td
+                aria-label="Select item to print cart"
+                className="item-checkbox"
+                onClick={[Function]}
+              >
+                <span
+                  className="tool-tip-links btn-table-cell"
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  tabIndex={0}
+                >
+                  <span
+                    className="tool-tip-hoverable"
+                  >
+                    <button
+                      className="btn btn  btn-item-add-remove-grid btn-sm btn-blue-border"
+                      tabIndex={-1}
+                      type="button"
+                    >
+                      <i
+                        className="fa fa-2x fa-plus-circle"
+                      />
+                    </button>
+                     
+                  </span>
+                  <span
+                    className="tool-tip-details"
+                  >
+                    <span
+                      className="tool-tip-message  "
+                    >
+                      <label>
+                        Add item to print queue
+                      </label>
+                    </span>
+                  </span>
+                </span>
+              </td>
+              <td
+                className="item"
+                role="gridcell"
+              >
+                <span>
+                  <a
+                    role="link"
+                    tabIndex={0}
+                  >
+                    2928
+                  </a>
+                </span>
+              </td>
+              <td
+                className="stimulus"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    87679
+                  </span>
+                </span>
+              </td>
+              <td
+                className="item-position-in-test"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    2
+                  </span>
+                </span>
+              </td>
+              <td
+                className="subject"
+                role="gridcell"
+              >
+                <span>
+                  <span
+                    className="table-subject-highlight ela"
+                  >
+                    ELA
+                  </span>
+                </span>
+              </td>
+              <td
+                className="grade"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    4
+                  </span>
+                </span>
+              </td>
+              <td
+                className="testname"
+                role="gridcell"
+              >
+                <span>
+                  <span />
+                </span>
+              </td>
+              <td
+                className="claim"
+                role="gridcell"
+              >
+                <span>
+                  <span
+                    className="tool-tip-links box"
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    tabIndex={0}
+                  >
+                    <span
+                      className="tool-tip-hoverable"
+                    >
+                      4
+                       
+                      <span
+                        aria-hidden="true"
+                        className="fa fa-info-circle fa-sm"
+                      />
+                    </span>
+                    <span
+                      className="tool-tip-details"
+                    >
+                      <span
+                        className="tool-tip-message bottom "
+                      >
+                        <p>
+                          4.Research/Inquiry
+                        </p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </td>
+              <td
+                className="Target"
+                role="gridcell"
+              >
+                <span>
+                  <span
+                    className="tool-tip-links box"
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    tabIndex={0}
+                  >
+                    <span
+                      className="tool-tip-hoverable"
+                    >
+                      D
+                       
+                      <span
+                        aria-hidden="true"
+                        className="fa fa-info-circle fa-sm"
+                      />
+                    </span>
+                    <span
+                      className="tool-tip-details"
+                    >
+                      <span
+                        className="tool-tip-message bottom "
+                      >
+                        <p>
+                          target D description
+                        </p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </td>
+              <td
+                className="standard"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    4.E.4a
+                  </span>
+                </span>
+                <span>
+                  <span
+                    className="tool-tip-links box"
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    tabIndex={0}
+                  >
+                    <span
+                      className="tool-tip-hoverable"
+                    >
+                      
+                       
+                      <span
+                        aria-hidden="true"
+                        className="fa fa-info-circle fa-sm"
+                      />
+                    </span>
+                    <span
+                      className="tool-tip-details"
+                    >
+                      <span
+                        className="tool-tip-message bottom "
+                      >
+                        <p>
+                          Content Standard information is currently unavailable for this item.
+                        </p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </td>
+              <td
+                className="dok"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    
+                  </span>
+                </span>
+              </td>
+              <td
+                className="difficulty"
+                role="gridcell"
+              >
+                <span>
+                  <span>
+                    Hard
+                  </span>
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;

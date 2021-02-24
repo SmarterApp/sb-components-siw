@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select handles on change event 1`] = `
+<div
+  className=""
+>
+  <label
+    htmlFor="select"
+  >
+    <span
+      className=""
+    >
+      select
+    </span>
+  </label>
+  <select
+    aria-label="select"
+    className="form-control "
+    id="select"
+    onChange={[Function]}
+    value="default"
+  >
+    <Component
+      key="one"
+      label="one"
+      selected={false}
+      value="one"
+    />
+    <Component
+      key="two"
+      label="two"
+      selected={false}
+      value="two"
+    />
+  </select>
+</div>
+`;
+
+exports[`Select handles on change event 2`] = `
+<div
+  className=""
+>
+  <label
+    htmlFor="select"
+  >
+    <span
+      className=""
+    >
+      select
+    </span>
+  </label>
+  <select
+    aria-label="select"
+    className="form-control "
+    id="select"
+    onChange={[Function]}
+    value="default"
+  >
+    <Component
+      key="one"
+      label="one"
+      selected={false}
+      value="one"
+    />
+    <Component
+      key="two"
+      label="two"
+      selected={false}
+      value="two"
+    />
+  </select>
+</div>
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RubricEntryComponent matches snapshot 1`] = `
+<Collapsible
+  label="Steve Harvey (123 points)"
+>
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "val",
+      }
+    }
+  />
+</Collapsible>
+`;
+
+exports[`SampleResponseComponent matches snapshot 1`] = `
+<Collapsible
+  label="name (scorePoint points)"
+>
+  <div
+    className="sample-response"
+  >
+    <b>
+      Purpose: 
+    </b>
+     
+    purpose
+     
+    <br />
+    <b>
+      Sample Response: 
+    </b>
+     
+    <br />
+    <div
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "sampleContent",
+        }
+      }
+    />
+  </div>
+</Collapsible>
+`;
+
+exports[`rubric component matches snapshot 1`] = `
+<Collapsible
+  label="english Rubric"
+>
+  <div>
+    <h4>
+      Rubrics
+    </h4>
+    <RubricEntry
+      key="0"
+      name="Steve Harvey"
+      scorepoint="123"
+      value="val"
+    />
+  </div>
+</Collapsible>
+`;

@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CsvEntry calls handle csv apply 1`] = `
+<div
+  className="csv-entry-wrapper"
+>
+  <div
+    className="csv-button-row"
+  >
+    <span
+      className="csv-button-left"
+    >
+      <ToolTip
+        displayText={
+          <button
+            aria-label="Open help text"
+            className="item-nav-btn btn btn-default btn-sm"
+            role="button"
+          >
+            <span
+              aria-hidden="true"
+              className="fa fa-info-circle"
+            />
+            Help
+          </button>
+        }
+        helpText={
+          <p>
+            Enter namespace, bank key, item id, and section for the namespace which has a bank key. Or,
+            <br />
+            Enter namespace , item id, and section for the namespace which doesn't have a bank key.
+          </p>
+        }
+      />
+    </span>
+    <span
+      className="csv-button-right"
+    >
+      <button
+        aria-label="Apply text"
+        className="item-nav-btn btn btn-primary btn-sm csv-apply-button"
+        onClick={[Function]}
+        role="button"
+      >
+        <span
+          aria-hidden="true"
+          className="fa fa-check-circle"
+        />
+        Apply
+      </button>
+    </span>
+  </div>
+  <textarea
+    className="csv-text-entry"
+    onChange={[Function]}
+    value="itemreviewviewer,187,3000,SIW"
+  />
+</div>
+`;
+
+exports[`CsvEntry calls handle csv change 1`] = `
+<div
+  className="csv-entry-wrapper"
+>
+  <div
+    className="csv-button-row"
+  >
+    <span
+      className="csv-button-left"
+    >
+      <ToolTip
+        displayText={
+          <button
+            aria-label="Open help text"
+            className="item-nav-btn btn btn-default btn-sm"
+            role="button"
+          >
+            <span
+              aria-hidden="true"
+              className="fa fa-info-circle"
+            />
+            Help
+          </button>
+        }
+        helpText={
+          <p>
+            Enter namespace, bank key, item id, and section for the namespace which has a bank key. Or,
+            <br />
+            Enter namespace , item id, and section for the namespace which doesn't have a bank key.
+          </p>
+        }
+      />
+    </span>
+    <span
+      className="csv-button-right"
+    >
+      <button
+        aria-label="Apply text"
+        className="item-nav-btn btn btn-primary btn-sm csv-apply-button"
+        onClick={[Function]}
+        role="button"
+      >
+        <span
+          aria-hidden="true"
+          className="fa fa-check-circle"
+        />
+        Apply
+      </button>
+    </span>
+  </div>
+  <textarea
+    className="csv-text-entry"
+    onChange={[Function]}
+    value="hello"
+  />
+</div>
+`;
+
+exports[`CsvEntry matches snapshot 1`] = `
+<div
+  className="csv-entry-wrapper"
+>
+  <div
+    className="csv-button-row"
+  >
+    <span
+      className="csv-button-left"
+    >
+      <ToolTip
+        displayText={
+          <button
+            aria-label="Open help text"
+            className="item-nav-btn btn btn-default btn-sm"
+            role="button"
+          >
+            <span
+              aria-hidden="true"
+              className="fa fa-info-circle"
+            />
+            Help
+          </button>
+        }
+        helpText={
+          <p>
+            Enter namespace, bank key, item id, and section for the namespace which has a bank key. Or,
+            <br />
+            Enter namespace , item id, and section for the namespace which doesn't have a bank key.
+          </p>
+        }
+      />
+    </span>
+    <span
+      className="csv-button-right"
+    >
+      <button
+        aria-label="Apply text"
+        className="item-nav-btn btn btn-primary btn-sm csv-apply-button"
+        onClick={[Function]}
+        role="button"
+      >
+        <span
+          aria-hidden="true"
+          className="fa fa-check-circle"
+        />
+        Apply
+      </button>
+    </span>
+  </div>
+  <textarea
+    className="csv-text-entry"
+    onChange={[Function]}
+    value="undefined,3000,187
+undefined,2332,187
+"
+  />
+</div>
+`;

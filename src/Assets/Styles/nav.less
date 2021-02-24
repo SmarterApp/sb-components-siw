@@ -1,0 +1,218 @@
+﻿@import "constants";
+
+.nav-container {
+  border-radius: 0px; // SB
+  padding: @spacing-unit/2;
+  box-shadow: @sb-shadow; // SB
+  background-color: @sb-white; // SB
+  border-color: @sb-white; // SB
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+}
+
+.nav-content,
+.nav-content.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.nav-content,
+.nav-content.container,
+.footer-content,
+.footer-content.container {
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.nav-titleGroup,
+.nav-linksGroup {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.nav-linksGroup {
+  justify-content: flex-end;
+}
+
+.nav-linksGroup-item {
+  font-size: @font-size-larger; // SB
+  color: @link-color; //SB
+  margin: @spacing-unit/2 @spacing-unit;
+  white-space: nowrap;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.nav-titleGroup-item {
+  margin: @spacing-item;
+
+  h1,
+  h2,
+  h3 {
+    margin: 0 @spacing-unit/2;
+    letter-spacing: @sb-letter-spacing; // SB
+  }
+  img {
+    width: 183px;
+    padding-right: @spacing-unit;
+    border-right: 1px solid @sb-gray;
+  }
+}
+
+@media screen and (max-width: @nav-min-width) {
+  .nav-content,
+  .nav-content.container {
+    flex-flow: column;
+  }
+  .nav-titleGroup,
+  .nav-linksGroup {
+    flex-flow: column;
+    justify-content: center;
+  }
+  .nav-titleGroup-item img {
+    border-right: none;
+  }
+  .nav-container {
+    margin: 0;
+  }
+}
+
+.footer-container {
+  border: 1px solid @sb-white;
+  background-color: @sb-white;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  min-height: @footer-height;
+  justify-content: center;
+  box-shadow: @box-shadow;
+}
+
+.footer-content,
+.footer-content.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.footer-copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: "PT Sans";
+  color: @text-color-gray;
+  font-size: @font-size-smaller;
+  letter-spacing: 0pt;
+  flex-grow: 2;
+  flex-shrink: 1;
+
+  p {
+    margin: 0;
+  }
+  .footer-sbLink {
+    margin-left: @spacing-unit;
+  }
+}
+
+.footer-practiceTests {
+  font-size: @font-size-smaller; // SB
+  text-decoration: underline;
+  flex-grow: 1;
+}
+
+.footer-sbLink {
+  text-decoration: underline;
+}
+
+a.skip-link {
+  padding: 15px;
+  position: absolute;
+  top: -40px;
+  left: 0px;
+  background: #005f7b;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-bottom-right-radius: 8px;
+  background: transparent;
+  -webkit-transition: top 0.1s ease-out, background 0.1s linear;
+  transition: top 0.1s ease-out, background 0.1s linear;
+
+  &:focus,
+  &:active {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #005f7b;
+    outline: 0;
+    -webkit-transition: top 0.1s ease-in, background 0.1s linear;
+    transition: top 0.1s ease-in, background 0.1s linear;
+    z-index: 3;
+  }
+}
+
+.dropbtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}

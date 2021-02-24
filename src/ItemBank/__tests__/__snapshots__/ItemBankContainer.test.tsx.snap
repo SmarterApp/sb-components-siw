@@ -1,0 +1,809 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemBankContainer default wrapper 1`] = `
+<ItemBankContainer
+  aboutItemRevisionClient={[MockFunction]}
+  accessibilityClient={[MockFunction]}
+  itemViewUrl="hello"
+  items={
+    Array [
+      Object {
+        "bankKey": 3000,
+        "hasBankKey": true,
+        "isaap": "",
+        "itemKey": 187,
+        "namespace": "itemreviewviewer",
+        "revision": "asfe",
+      },
+      Object {
+        "bankKey": 2332,
+        "hasBankKey": true,
+        "isaap": "",
+        "itemKey": 187,
+        "namespace": "itemreviewviewer",
+        "revision": "asdf",
+      },
+    ]
+  }
+  namespaces={
+    Array [
+      Object {
+        "bankKey": 991,
+        "hasBankKey": false,
+        "id": "37",
+        "name": "iat-staging",
+      },
+      Object {
+        "bankKey": 0,
+        "hasBankKey": true,
+        "id": "26",
+        "name": "ELA",
+      },
+      Object {
+        "bankKey": 992,
+        "hasBankKey": false,
+        "id": "19",
+        "name": "iat-uat",
+      },
+      Object {
+        "bankKey": 990,
+        "hasBankKey": false,
+        "id": "14",
+        "name": "iat-development",
+      },
+      Object {
+        "bankKey": 0,
+        "hasBankKey": true,
+        "id": "12",
+        "name": "itemreviewviewer",
+      },
+    ]
+  }
+  resetUrl={[Function]}
+  revisionsClient={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "bankKey": 3000,
+            "hasBankKey": true,
+            "isaap": "",
+            "itemKey": 187,
+            "namespace": "itemreviewviewer",
+            "revision": "asfe",
+          },
+        ],
+      ],
+    }
+  }
+  sectionsClient={[MockFunction]}
+  setUrl={[MockFunction]}
+>
+  <div
+    className="item-container container"
+  >
+    <div>
+      <ItemBankEntry
+        clearItems={[Function]}
+        deleteItem={[Function]}
+        items={
+          Array [
+            Object {
+              "bankKey": 3000,
+              "hasBankKey": true,
+              "isaap": "",
+              "itemKey": 187,
+              "namespace": "itemreviewviewer",
+              "revision": "asfe",
+            },
+            Object {
+              "bankKey": 2332,
+              "hasBankKey": true,
+              "isaap": "",
+              "itemKey": 187,
+              "namespace": "itemreviewviewer",
+              "revision": "asdf",
+            },
+          ]
+        }
+        namespaces={
+          Array [
+            Object {
+              "bankKey": 991,
+              "hasBankKey": false,
+              "id": "37",
+              "name": "iat-staging",
+            },
+            Object {
+              "bankKey": 0,
+              "hasBankKey": true,
+              "id": "26",
+              "name": "ELA",
+            },
+            Object {
+              "bankKey": 992,
+              "hasBankKey": false,
+              "id": "19",
+              "name": "iat-uat",
+            },
+            Object {
+              "bankKey": 990,
+              "hasBankKey": false,
+              "id": "14",
+              "name": "iat-development",
+            },
+            Object {
+              "bankKey": 0,
+              "hasBankKey": true,
+              "id": "12",
+              "name": "itemreviewviewer",
+            },
+          ]
+        }
+        submitItems={[Function]}
+      >
+        <div>
+          <Accordion
+            accordionTitle="CSV Entry"
+            isOpen={false}
+            toggleExpand={[Function]}
+          >
+            <div
+              className="accordion-container"
+            >
+              <div
+                className="accordion-bar"
+                onClick={[Function]}
+                role="button"
+              >
+                <div
+                  className="accordion-content"
+                >
+                  CSV Entry
+                  <span
+                    aria-hidden="true"
+                    className="fa fa-chevron-down carat"
+                  />
+                </div>
+              </div>
+            </div>
+          </Accordion>
+          <Accordion
+            accordionTitle="Items Entry"
+            isOpen={false}
+            toggleExpand={[Function]}
+          >
+            <div
+              className="accordion-container"
+            >
+              <div
+                className="accordion-bar"
+                onClick={[Function]}
+                role="button"
+              >
+                <div
+                  className="accordion-content"
+                >
+                  Items Entry
+                  <span
+                    aria-hidden="true"
+                    className="fa fa-chevron-down carat"
+                  />
+                </div>
+              </div>
+            </div>
+          </Accordion>
+        </div>
+      </ItemBankEntry>
+      <ItemBankViewer
+        currentItem={
+          Object {
+            "bankKey": 3000,
+            "hasBankKey": true,
+            "isaap": "",
+            "itemKey": 187,
+            "namespace": "itemreviewviewer",
+            "revision": "asfe",
+          }
+        }
+        itemUrl="hello"
+        items={
+          Array [
+            Object {
+              "bankKey": 3000,
+              "hasBankKey": true,
+              "isaap": "",
+              "itemKey": 187,
+              "namespace": "itemreviewviewer",
+              "revision": "asfe",
+            },
+            Object {
+              "bankKey": 2332,
+              "hasBankKey": true,
+              "isaap": "",
+              "itemKey": 187,
+              "namespace": "itemreviewviewer",
+              "revision": "asdf",
+            },
+          ]
+        }
+        onAccessibilityReset={[Function]}
+        onAccessibilityUpdate={[Function]}
+        onDirectionSelect={[Function]}
+        onItemSelect={[Function]}
+        onRevisionSelect={[Function]}
+      >
+        <div
+          className="section revisions-items"
+        >
+          <RevisionContainer
+            onRevisionSelect={[Function]}
+            revisions={Array []}
+          >
+            <div
+              className="revisions section section-light section-compact"
+            >
+              <h3
+                className="revisions-header"
+              >
+                Revisions
+              </h3>
+              <ul />
+            </div>
+          </RevisionContainer>
+          <div
+            aria-live="polite"
+            aria-relevant="additions"
+            className="section item-map-iframe"
+          >
+            <div
+              aria-label="Toolbar with button groups"
+              className="item-nav"
+              role="toolbar"
+            >
+              <div
+                aria-label="First group"
+                className="item-nav-left-group"
+                role="group"
+              />
+              <div
+                className="nav-buttons"
+              >
+                <button
+                  className="btn btn-link previous"
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <div
+                    className="nav-button-container"
+                  >
+                    <span
+                      aria-hidden="true"
+                      className="fa fa-arrow-left"
+                    />
+                    <div
+                      className="nav-item-name"
+                    >
+                      Previous
+                    </div>
+                  </div>
+                </button>
+                <Component
+                  className="item-dropdown"
+                  label="Items"
+                  labelClass="display-none"
+                  onChange={[Function]}
+                  options={
+                    Array [
+                      Object {
+                        "disabled": true,
+                        "label": "Select an Item",
+                        "selected": false,
+                        "value": "N/A",
+                      },
+                      Object {
+                        "key": "3000-187",
+                        "label": "itemreviewviewer:3000-187",
+                        "selected": true,
+                        "value": "3000-187",
+                      },
+                      Object {
+                        "key": "2332-187",
+                        "label": "itemreviewviewer:2332-187",
+                        "selected": false,
+                        "value": "2332-187",
+                      },
+                    ]
+                  }
+                  selected="3000-187"
+                  wrapperClass="select-dd"
+                >
+                  <div
+                    className="select-dd"
+                  >
+                    <label
+                      htmlFor="Items"
+                    >
+                      <span
+                        className="display-none"
+                      >
+                        Items
+                      </span>
+                    </label>
+                    <select
+                      aria-label="Items"
+                      className="form-control item-dropdown"
+                      id="Items"
+                      onChange={[Function]}
+                      value="3000-187"
+                    >
+                      <Component
+                        disabled={true}
+                        key="N/A"
+                        label="Select an Item"
+                        selected={false}
+                        value="N/A"
+                      >
+                        <option
+                          aria-selected={false}
+                          disabled={true}
+                          label="Select an Item"
+                          value="N/A"
+                        >
+                          Select an Item
+                        </option>
+                      </Component>
+                      <Component
+                        key="3000-187"
+                        label="itemreviewviewer:3000-187"
+                        selected={true}
+                        value="3000-187"
+                      >
+                        <option
+                          aria-selected={true}
+                          label="itemreviewviewer:3000-187"
+                          value="3000-187"
+                        >
+                          itemreviewviewer:3000-187
+                        </option>
+                      </Component>
+                      <Component
+                        key="2332-187"
+                        label="itemreviewviewer:2332-187"
+                        selected={false}
+                        value="2332-187"
+                      >
+                        <option
+                          aria-selected={false}
+                          label="itemreviewviewer:2332-187"
+                          value="2332-187"
+                        >
+                          itemreviewviewer:2332-187
+                        </option>
+                      </Component>
+                    </select>
+                  </div>
+                </Component>
+                <button
+                  className="btn btn-link next"
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <div
+                    className="nav-button-container"
+                  >
+                    <span
+                      aria-hidden="true"
+                      className="fa fa-arrow-right"
+                    />
+                    <div
+                      className="nav-item-name"
+                    >
+                      Next
+                    </div>
+                  </div>
+                </button>
+              </div>
+              <div
+                aria-label="Second group"
+                className="item-nav-right-group"
+                role="group"
+              />
+            </div>
+            <ItemViewerFrame
+              title="item viewer"
+              url="hello"
+            >
+              <div
+                aria-hidden={false}
+                className="itemViewerFrame"
+                tabIndex={0}
+              >
+                <div
+                  className="loader-icon"
+                >
+                  <div
+                    className="loader"
+                  />
+                </div>
+                <iframe
+                  className="itemviewer-iframe"
+                  id="itemviewer-iframe"
+                  onLoad={[Function]}
+                  onLoadStart={[Function]}
+                  scrolling="no"
+                  src="hello"
+                  title="item viewer"
+                />
+              </div>
+            </ItemViewerFrame>
+          </div>
+        </div>
+      </ItemBankViewer>
+    </div>
+  </div>
+</ItemBankContainer>
+`;
+
+exports[`ItemBankContainer has item bank viewer 1`] = `
+<ItemBankViewer
+  currentItem={
+    Object {
+      "bankKey": 3000,
+      "hasBankKey": true,
+      "isaap": "",
+      "itemKey": 187,
+      "namespace": "itemreviewviewer",
+      "revision": "asfe",
+    }
+  }
+  itemUrl="hello"
+  items={
+    Array [
+      Object {
+        "bankKey": 3000,
+        "hasBankKey": true,
+        "isaap": "",
+        "itemKey": 187,
+        "namespace": "itemreviewviewer",
+        "revision": "asfe",
+      },
+      Object {
+        "bankKey": 2332,
+        "hasBankKey": true,
+        "isaap": "",
+        "itemKey": 187,
+        "namespace": "itemreviewviewer",
+        "revision": "asdf",
+      },
+    ]
+  }
+  onAccessibilityReset={[Function]}
+  onAccessibilityUpdate={[Function]}
+  onDirectionSelect={[Function]}
+  onItemSelect={[Function]}
+  onRevisionSelect={[Function]}
+>
+  <div
+    className="section revisions-items"
+  >
+    <RevisionContainer
+      onRevisionSelect={[Function]}
+      revisions={Array []}
+    >
+      <div
+        className="revisions section section-light section-compact"
+      >
+        <h3
+          className="revisions-header"
+        >
+          Revisions
+        </h3>
+        <ul />
+      </div>
+    </RevisionContainer>
+    <div
+      aria-live="polite"
+      aria-relevant="additions"
+      className="section item-map-iframe"
+    >
+      <div
+        aria-label="Toolbar with button groups"
+        className="item-nav"
+        role="toolbar"
+      >
+        <div
+          aria-label="First group"
+          className="item-nav-left-group"
+          role="group"
+        />
+        <div
+          className="nav-buttons"
+        >
+          <button
+            className="btn btn-link previous"
+            disabled={true}
+            onClick={[Function]}
+          >
+            <div
+              className="nav-button-container"
+            >
+              <span
+                aria-hidden="true"
+                className="fa fa-arrow-left"
+              />
+              <div
+                className="nav-item-name"
+              >
+                Previous
+              </div>
+            </div>
+          </button>
+          <Component
+            className="item-dropdown"
+            label="Items"
+            labelClass="display-none"
+            onChange={[Function]}
+            options={
+              Array [
+                Object {
+                  "disabled": true,
+                  "label": "Select an Item",
+                  "selected": false,
+                  "value": "N/A",
+                },
+                Object {
+                  "key": "3000-187",
+                  "label": "itemreviewviewer:3000-187",
+                  "selected": true,
+                  "value": "3000-187",
+                },
+                Object {
+                  "key": "2332-187",
+                  "label": "itemreviewviewer:2332-187",
+                  "selected": false,
+                  "value": "2332-187",
+                },
+              ]
+            }
+            selected="3000-187"
+            wrapperClass="select-dd"
+          >
+            <div
+              className="select-dd"
+            >
+              <label
+                htmlFor="Items"
+              >
+                <span
+                  className="display-none"
+                >
+                  Items
+                </span>
+              </label>
+              <select
+                aria-label="Items"
+                className="form-control item-dropdown"
+                id="Items"
+                onChange={[Function]}
+                value="3000-187"
+              >
+                <Component
+                  disabled={true}
+                  key="N/A"
+                  label="Select an Item"
+                  selected={false}
+                  value="N/A"
+                >
+                  <option
+                    aria-selected={false}
+                    disabled={true}
+                    label="Select an Item"
+                    value="N/A"
+                  >
+                    Select an Item
+                  </option>
+                </Component>
+                <Component
+                  key="3000-187"
+                  label="itemreviewviewer:3000-187"
+                  selected={true}
+                  value="3000-187"
+                >
+                  <option
+                    aria-selected={true}
+                    label="itemreviewviewer:3000-187"
+                    value="3000-187"
+                  >
+                    itemreviewviewer:3000-187
+                  </option>
+                </Component>
+                <Component
+                  key="2332-187"
+                  label="itemreviewviewer:2332-187"
+                  selected={false}
+                  value="2332-187"
+                >
+                  <option
+                    aria-selected={false}
+                    label="itemreviewviewer:2332-187"
+                    value="2332-187"
+                  >
+                    itemreviewviewer:2332-187
+                  </option>
+                </Component>
+              </select>
+            </div>
+          </Component>
+          <button
+            className="btn btn-link next"
+            disabled={true}
+            onClick={[Function]}
+          >
+            <div
+              className="nav-button-container"
+            >
+              <span
+                aria-hidden="true"
+                className="fa fa-arrow-right"
+              />
+              <div
+                className="nav-item-name"
+              >
+                Next
+              </div>
+            </div>
+          </button>
+        </div>
+        <div
+          aria-label="Second group"
+          className="item-nav-right-group"
+          role="group"
+        />
+      </div>
+      <ItemViewerFrame
+        title="item viewer"
+        url="hello"
+      >
+        <div
+          aria-hidden={false}
+          className="itemViewerFrame"
+          tabIndex={0}
+        >
+          <div
+            className="loader-icon"
+          >
+            <div
+              className="loader"
+            />
+          </div>
+          <iframe
+            className="itemviewer-iframe"
+            id="itemviewer-iframe"
+            onLoad={[Function]}
+            onLoadStart={[Function]}
+            scrolling="no"
+            src="hello"
+            title="item viewer"
+          />
+        </div>
+      </ItemViewerFrame>
+    </div>
+  </div>
+</ItemBankViewer>
+`;
+
+exports[`ItemBankContainer item bank entry 1`] = `
+<ItemBankEntry
+  clearItems={[Function]}
+  deleteItem={[Function]}
+  items={
+    Array [
+      Object {
+        "bankKey": 3000,
+        "hasBankKey": true,
+        "isaap": "",
+        "itemKey": 187,
+        "namespace": "itemreviewviewer",
+        "revision": "asfe",
+      },
+      Object {
+        "bankKey": 2332,
+        "hasBankKey": true,
+        "isaap": "",
+        "itemKey": 187,
+        "namespace": "itemreviewviewer",
+        "revision": "asdf",
+      },
+    ]
+  }
+  namespaces={
+    Array [
+      Object {
+        "bankKey": 991,
+        "hasBankKey": false,
+        "id": "37",
+        "name": "iat-staging",
+      },
+      Object {
+        "bankKey": 0,
+        "hasBankKey": true,
+        "id": "26",
+        "name": "ELA",
+      },
+      Object {
+        "bankKey": 992,
+        "hasBankKey": false,
+        "id": "19",
+        "name": "iat-uat",
+      },
+      Object {
+        "bankKey": 990,
+        "hasBankKey": false,
+        "id": "14",
+        "name": "iat-development",
+      },
+      Object {
+        "bankKey": 0,
+        "hasBankKey": true,
+        "id": "12",
+        "name": "itemreviewviewer",
+      },
+    ]
+  }
+  submitItems={[Function]}
+>
+  <div>
+    <Accordion
+      accordionTitle="CSV Entry"
+      isOpen={false}
+      toggleExpand={[Function]}
+    >
+      <div
+        className="accordion-container"
+      >
+        <div
+          className="accordion-bar"
+          onClick={[Function]}
+          role="button"
+        >
+          <div
+            className="accordion-content"
+          >
+            CSV Entry
+            <span
+              aria-hidden="true"
+              className="fa fa-chevron-down carat"
+            />
+          </div>
+        </div>
+      </div>
+    </Accordion>
+    <Accordion
+      accordionTitle="Items Entry"
+      isOpen={false}
+      toggleExpand={[Function]}
+    >
+      <div
+        className="accordion-container"
+      >
+        <div
+          className="accordion-bar"
+          onClick={[Function]}
+          role="button"
+        >
+          <div
+            className="accordion-content"
+          >
+            Items Entry
+            <span
+              aria-hidden="true"
+              className="fa fa-chevron-down carat"
+            />
+          </div>
+        </div>
+      </div>
+    </Accordion>
+  </div>
+</ItemBankEntry>
+`;

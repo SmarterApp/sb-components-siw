@@ -1,0 +1,440 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Layout name links body 1`] = `
+<div
+  className="site-body"
+  id="site-body"
+>
+  <header
+    role="navigation"
+  >
+    <nav
+      className="nav-container"
+      role="navigation"
+    >
+      <div
+        className="nav-content container"
+      >
+        <div
+          className="nav-titleGroup"
+        >
+          <div
+            className="nav-titleGroup-item"
+          >
+            <a
+              href="https://smartertoolsforteachers.org/"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Smarter Balanced Tools For Teachers"
+            >
+              <img
+                alt="Smarter Balanced Tools for Teachers Logo"
+                src="test-file-stub"
+              />
+            </a>
+          </div>
+          <div
+            className="nav-titleGroup-item"
+          >
+            <h1
+              className="application-title"
+            >
+              SB-Components
+            </h1>
+          </div>
+        </div>
+        <div
+          className="nav-linksGroup"
+        >
+          <a
+            aria-current={false}
+            className="nav-linksGroup-item"
+            href="url1"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            style={undefined}
+          >
+            <span
+              className=""
+            />
+             
+            Home
+          </a>
+          <a
+            aria-current={false}
+            className="nav-linksGroup-item"
+            href="url2"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            style={undefined}
+          >
+            <span
+              className=""
+            />
+             
+            About Test Items
+          </a>
+          <a
+            aria-current={false}
+            className="nav-linksGroup-item"
+            href="url3"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            style={undefined}
+          >
+            <span
+              className=""
+            />
+             
+            Browse Items
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main
+    className="site-content"
+    id="main"
+    role="main"
+  >
+    <div
+      className="container test-container"
+    >
+      <div
+        className="section section-light"
+        style={
+          Object {
+            "height": "70vh",
+            "width": "100%",
+          }
+        }
+      >
+        <p>
+          Test Body...
+        </p>
+      </div>
+    </div>
+  </main>
+  <footer
+    className="footer-container"
+    role="contentinfo"
+  >
+    <div
+      className="footer-content container"
+    >
+      <a
+        className="footer-sbLink footer-practiceTests"
+        href="http://practice.smarterbalanced.org/"
+      >
+        Practice and training tests are available here.
+      </a>
+      <div
+        className="footer-copyright"
+      >
+        <p>
+          © The Regents of the University of California.
+        </p>
+        <a
+          className="footer-sbLink"
+          href="//www.smarterbalanced.org"
+        >
+          www.SmarterBalanced.org
+        </a>
+        <div>
+          <div>
+            <button
+              aria-label="Open Website Privacy Policy Modal"
+              className="btn btn-link btn-sm footer-sbLink"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Website Privacy Policy
+            </button>
+          </div>
+        </div>
+      </div>
+      <div>
+        IAIP v1.0.0
+      </div>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`Storyshots Layout name links header and body 1`] = `
+<div
+  className="site-body"
+  id="site-body"
+>
+  <header
+    role="navigation"
+  >
+    <nav
+      className="nav-container"
+      role="navigation"
+    >
+      <div
+        className="nav-content container"
+      >
+        <div
+          className="nav-titleGroup"
+        >
+          <div
+            className="nav-titleGroup-item"
+          >
+            <a
+              href="https://smartertoolsforteachers.org/"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Smarter Balanced Tools For Teachers"
+            >
+              <img
+                alt="Smarter Balanced Tools for Teachers Logo"
+                src="test-file-stub"
+              />
+            </a>
+          </div>
+          <div
+            className="nav-titleGroup-item"
+          >
+            <h1
+              className="application-title"
+            >
+              SB-Components
+            </h1>
+          </div>
+        </div>
+        <div
+          className="nav-linksGroup"
+        >
+          <a
+            aria-current={false}
+            className="nav-linksGroup-item"
+            href="url1"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            style={undefined}
+          >
+            <span
+              className=""
+            />
+             
+            Home
+          </a>
+          <a
+            aria-current={false}
+            className="nav-linksGroup-item"
+            href="url2"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            style={undefined}
+          >
+            <span
+              className=""
+            />
+             
+            About Test Items
+          </a>
+          <a
+            aria-current={false}
+            className="nav-linksGroup-item"
+            href="url3"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            style={undefined}
+          >
+            <span
+              className=""
+            />
+             
+            Browse Items
+          </a>
+        </div>
+        <div
+          className="nav-linksGroup-item"
+        >
+          <span>
+            <a
+              href="https://smarterbalanced.oktapreview.com/home/smarterbalanced_siwdev_1/0oaqpsj0nhzFufP1G0h7/alnqptcba9kPYvTVf0h7?fromHome=true"
+              target="_blank"
+            >
+              Login
+            </a>
+          </span>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main
+    className="site-content"
+    id="main"
+    role="main"
+  >
+    <div
+      className="container test-container"
+    >
+      <h2
+        className="page-title"
+      >
+        Page Title
+      </h2>
+      <div
+        className="section section-light"
+        style={
+          Object {
+            "height": "70vh",
+            "width": "100%",
+          }
+        }
+      >
+        <p>
+          Test Body...
+        </p>
+      </div>
+    </div>
+  </main>
+  <footer
+    className="footer-container"
+    role="contentinfo"
+  >
+    <div
+      className="footer-content container"
+    >
+      <a
+        className="footer-sbLink footer-practiceTests"
+        href="http://practice.smarterbalanced.org/"
+      >
+        Practice and training tests are available here.
+      </a>
+      <div
+        className="footer-copyright"
+      >
+        <p>
+          © The Regents of the University of California.
+        </p>
+        <a
+          className="footer-sbLink"
+          href="//www.smarterbalanced.org"
+        >
+          www.SmarterBalanced.org
+        </a>
+        <div>
+          <div>
+            <button
+              aria-label="Open Website Privacy Policy Modal"
+              className="btn btn-link btn-sm footer-sbLink"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Website Privacy Policy
+            </button>
+          </div>
+        </div>
+      </div>
+      <div>
+        IAIP v1.0.0
+      </div>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`Storyshots Layout name no links no body 1`] = `
+<div
+  className="site-body"
+  id="site-body"
+>
+  <header
+    role="navigation"
+  >
+    <nav
+      className="nav-container"
+      role="navigation"
+    >
+      <div
+        className="nav-content container"
+      >
+        <div
+          className="nav-titleGroup"
+        >
+          <div
+            className="nav-titleGroup-item"
+          >
+            <a
+              href="https://smartertoolsforteachers.org/"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Smarter Balanced Tools For Teachers"
+            >
+              <img
+                alt="Smarter Balanced Tools for Teachers Logo"
+                src="test-file-stub"
+              />
+            </a>
+          </div>
+          <div
+            className="nav-titleGroup-item"
+          >
+            <h1
+              className="application-title"
+            >
+              Test
+            </h1>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main
+    className="site-content"
+    id="main"
+    role="main"
+  />
+  <footer
+    className="footer-container"
+    role="contentinfo"
+  >
+    <div
+      className="footer-content container"
+    >
+      <a
+        className="footer-sbLink footer-practiceTests"
+        href="http://practice.smarterbalanced.org/"
+      >
+        Practice and training tests are available here.
+      </a>
+      <div
+        className="footer-copyright"
+      >
+        <p>
+          © The Regents of the University of California.
+        </p>
+        <a
+          className="footer-sbLink"
+          href="//www.smarterbalanced.org"
+        >
+          www.SmarterBalanced.org
+        </a>
+        <div>
+          <div>
+            <button
+              aria-label="Open Website Privacy Policy Modal"
+              className="btn btn-link btn-sm footer-sbLink"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Website Privacy Policy
+            </button>
+          </div>
+        </div>
+      </div>
+      <div>
+        IAIP v1.0.0
+      </div>
+    </div>
+  </footer>
+</div>
+`;

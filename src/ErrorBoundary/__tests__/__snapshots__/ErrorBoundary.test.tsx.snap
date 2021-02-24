@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorBoundary after the error is thrown 1`] = `
+<ErrorBoundary
+  fallbackUI={<ErrorMssg />}
+>
+  <ErrorThrower>
+    <div>
+      <button
+        className="test-button"
+        onClick={[Function]}
+      >
+        Click Me!
+      </button>
+    </div>
+  </ErrorThrower>
+</ErrorBoundary>
+`;
+
+exports[`ErrorBoundary before error is thrown 1`] = `
+<ErrorBoundary
+  fallbackUI={<ErrorMssg />}
+>
+  <ErrorThrower>
+    <div>
+      <button
+        className="test-button"
+        onClick={[Function]}
+      >
+        Click Me!
+      </button>
+    </div>
+  </ErrorThrower>
+</ErrorBoundary>
+`;
