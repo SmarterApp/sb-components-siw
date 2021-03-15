@@ -5,16 +5,8 @@ import {
 } from "@src/index";
 import { aboutItemMockModel } from "@mocks/AboutItem/mocks";
 import { itemCardList, sortableItemCards } from "@mocks/index";
+import { ItemColumnHeadersConfig, itemColumnsName_NonInterim } from "@src/SearchResultContainer/SearchResultModels";
 
-export const tabClassNames = [
-  "item",
-  "claim",
-  "standard",
-  "subject",
-  "grade",
-  "item-type",
-  "Target"
-];
 
 export const itemTableProps: ItemTableContainerProps = {
   isInterimSite: false,
@@ -56,10 +48,39 @@ export const itemTableSortProps: ItemTableContainerProps = {
   itemCards: sortableItemCards
 };
 
+export const tabClassNames = [ 
+  "item",
+  "stimulus",
+  "subject",
+  "grade",
+  "claim",
+  "Target",
+  "standard",
+  "item-type",
+  "answerkeys"
+];
+
 export const itemTableSelectProps: ItemTableContainerProps = {
   ...itemTableProps,
   item: {
     kind: "success",
     content: aboutItemMockModel
   }
+};
+
+export function getColumnsHeaderConfig_mock() {
+  
+  const headerModel: ItemColumnHeadersConfig[] = [];
+  let i = 0;
+  const itemsHeaderName = itemColumnsName_NonInterim;
+  itemsHeaderName.forEach(element => {
+    let column: ItemColumnHeadersConfig = {
+      headerName: element,
+      columnIndex: ++i,
+      isHidden: false,
+      isSortable: true
+    };
+    headerModel.push(column);
+  });
+  return headerModel;
 };

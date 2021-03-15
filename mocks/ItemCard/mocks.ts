@@ -1,5 +1,6 @@
 import { ItemCardModel, ItemTableContainerProps } from "@src/index";
 import { ItemCardProps } from "@src/ItemCard/ItemCard";
+import { TestCodeToLabel } from "@src/ItemSearch/ItemSearchModels";
 
 export const completeItemCard: ItemCardModel = {
   selected: false,
@@ -707,3 +708,11 @@ export const PTassociatedItems: any = {
     ]
   ]
 };
+
+export const testCodeToLabelMap_mock: TestCodeToLabel=  
+{ 
+  "Test-Name-1": 
+  "Test 1", 
+  "Test-Name-2": 
+  "Test 2" 
+}

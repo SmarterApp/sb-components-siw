@@ -12,6 +12,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
           "3206": Array [
             Array [
               Object {
+                "answerKeys": "C,D",
                 "availableBrailleTypes": Array [
                   Object {
                     "disabled": false,
@@ -67,6 +68,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
             ],
             Array [
               Object {
+                "answerKeys": "",
                 "availableBrailleTypes": Array [
                   Object {
                     "disabled": false,
@@ -124,6 +126,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
             ],
             Array [
               Object {
+                "answerKeys": "",
                 "availableBrailleTypes": Array [
                   Object {
                     "disabled": false,
@@ -180,7 +183,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
         }
       }
       handleUpdateItemsinPrintCart={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       isSelectedItemsHaveMathItem={true}
       itemIdToTestNameMap={
         Object {
@@ -202,9 +205,68 @@ exports[`SearchResultContainer card to table transition 1`] = `
           },
         }
       }
+      itemTableConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
+          },
+        ]
+      }
       itemsInCart={
         Array [
           Object {
+            "answerKeys": "",
             "availableBrailleTypes": Array [
               Object {
                 "disabled": false,
@@ -260,9 +322,10 @@ exports[`SearchResultContainer card to table transition 1`] = `
             "title": "Math Grade 6 Claim 1",
           },
           Object {
+            "answerKeys": "",
             "availableBrailleTypes": Array [
               Object {
-                "disabled": false,
+                "disabled": true,
                 "hidden": false,
                 "label": "TDS BT ECN",
                 "selectionCode": "TDS_BT_ECN",
@@ -327,6 +390,87 @@ exports[`SearchResultContainer card to table transition 1`] = `
         }
       }
       totalSelectedItemsCount={4}
+      translationAccessibility={
+        Array [
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "None",
+            "order": 1,
+            "selectionCode": "DISABLED",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Arabic",
+            "order": 2,
+            "selectionCode": "TDS_WL_ArabicGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Cantonese",
+            "order": 3,
+            "selectionCode": "TDS_WL_CantoneseGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Spanish",
+            "order": 4,
+            "selectionCode": "TDS_WL_ESNGlossary",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Korean",
+            "order": 5,
+            "selectionCode": "TDS_WL_KoreanGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Mandarin",
+            "order": 6,
+            "selectionCode": "TDS_WL_MandarinGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Punjabi",
+            "order": 7,
+            "selectionCode": "TDS_WL_PunjabiGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Russian",
+            "order": 8,
+            "selectionCode": "TDS_WL_RussianGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Filipino (Ilokano and Tagalog)",
+            "order": 9,
+            "selectionCode": "TDS_WL_TagalGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Ukrainian",
+            "order": 10,
+            "selectionCode": "TDS_WL_UkrainianGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Vietnamese",
+            "order": 11,
+            "selectionCode": "TDS_WL_VietnameseGloss",
+          },
+        ]
+      }
     />
     <ErrorMessageModal
       StatusMessage=""
@@ -342,6 +486,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
           "3206": Array [
             Array [
               Object {
+                "answerKeys": "C,D",
                 "availableBrailleTypes": Array [
                   Object {
                     "disabled": false,
@@ -397,6 +542,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
             ],
             Array [
               Object {
+                "answerKeys": "",
                 "availableBrailleTypes": Array [
                   Object {
                     "disabled": false,
@@ -454,6 +600,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
             ],
             Array [
               Object {
+                "answerKeys": "",
                 "availableBrailleTypes": Array [
                   Object {
                     "disabled": false,
@@ -510,7 +657,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
         }
       }
       handleUpdateItemsinPrintCart={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       itemIdToTestNameMap={
         Object {
           "2928": Object {
@@ -531,9 +678,68 @@ exports[`SearchResultContainer card to table transition 1`] = `
           },
         }
       }
+      itemTableConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
+          },
+        ]
+      }
       itemsInCart={
         Array [
           Object {
+            "answerKeys": "",
             "availableBrailleTypes": Array [
               Object {
                 "disabled": false,
@@ -589,9 +795,10 @@ exports[`SearchResultContainer card to table transition 1`] = `
             "title": "Math Grade 6 Claim 1",
           },
           Object {
+            "answerKeys": "",
             "availableBrailleTypes": Array [
               Object {
-                "disabled": false,
+                "disabled": true,
                 "hidden": false,
                 "label": "TDS BT ECN",
                 "selectionCode": "TDS_BT_ECN",
@@ -671,7 +878,8 @@ exports[`SearchResultContainer card to table transition 1`] = `
     >
       <button
         aria-label="Select all to print"
-        className="btn btn-default search-result-container-header-button disabled "
+        className="btn btn-default btn-sm search-result-container-header-button disabled "
+        id="select-all-items-btn"
         onClick={[Function]}
         title="Select all to print"
       >
@@ -681,6 +889,86 @@ exports[`SearchResultContainer card to table transition 1`] = `
         />
          Select All
       </button>
+      <DataFieldMultiSelect
+        onChange={[Function]}
+        options={
+          Array [
+            Object {
+              "disabled": true,
+              "isDefault": true,
+              "label": "Item",
+              "selected": true,
+              "shouldHidden": true,
+              "value": "Item",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Stimulus ID",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Stimulus ID",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Subject",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Subject",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Grade",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Grade",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Claim",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Claim",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Target",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Target",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Standard",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Standard",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Item Type",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Item Type",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Answer key",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Answer key",
+            },
+          ]
+        }
+        uniqueId={9502}
+      />
     </div>
     <div
       className="col-sm-3 header-grid-div  "
@@ -730,7 +1018,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
       />
       <button
         aria-label="Open barille cart modal"
-        className="btn btn-default btn-sm "
+        className="btn btn-default btn-sm search-result-container-header-button"
         onClick={[Function]}
         title="Open barille cart modal"
       >
@@ -751,6 +1039,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
           "3206": Array [
             Array [
               Object {
+                "answerKeys": "C,D",
                 "availableBrailleTypes": Array [
                   Object {
                     "disabled": false,
@@ -806,6 +1095,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
             ],
             Array [
               Object {
+                "answerKeys": "",
                 "availableBrailleTypes": Array [
                   Object {
                     "disabled": false,
@@ -863,6 +1153,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
             ],
             Array [
               Object {
+                "answerKeys": "",
                 "availableBrailleTypes": Array [
                   Object {
                     "disabled": false,
@@ -920,12 +1211,71 @@ exports[`SearchResultContainer card to table transition 1`] = `
       }
       countNumberOfItemsAfterSelection={[Function]}
       getSelectedItemCount={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       isPrintLimitEnabled={true}
+      itemHeaderConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
+          },
+        ]
+      }
       key="187 - 3206"
       onRowSelect={[Function]}
       rowData={
         Object {
+          "answerKeys": "",
           "availableBrailleTypes": Array [
             Object {
               "disabled": false,
@@ -995,6 +1345,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
           "3206": Array [
             Array [
               Object {
+                "answerKeys": "C,D",
                 "availableBrailleTypes": Array [
                   Object {
                     "disabled": false,
@@ -1050,6 +1401,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
             ],
             Array [
               Object {
+                "answerKeys": "",
                 "availableBrailleTypes": Array [
                   Object {
                     "disabled": false,
@@ -1107,6 +1459,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
             ],
             Array [
               Object {
+                "answerKeys": "",
                 "availableBrailleTypes": Array [
                   Object {
                     "disabled": false,
@@ -1164,12 +1517,71 @@ exports[`SearchResultContainer card to table transition 1`] = `
       }
       countNumberOfItemsAfterSelection={[Function]}
       getSelectedItemCount={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       isPrintLimitEnabled={true}
+      itemHeaderConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
+          },
+        ]
+      }
       key="187 - 3163"
       onRowSelect={[Function]}
       rowData={
         Object {
+          "answerKeys": "C,D",
           "availableBrailleTypes": Array [
             Object {
               "disabled": false,
@@ -1237,6 +1649,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
           "3206": Array [
             Array [
               Object {
+                "answerKeys": "C,D",
                 "availableBrailleTypes": Array [
                   Object {
                     "disabled": false,
@@ -1292,6 +1705,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
             ],
             Array [
               Object {
+                "answerKeys": "",
                 "availableBrailleTypes": Array [
                   Object {
                     "disabled": false,
@@ -1349,6 +1763,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
             ],
             Array [
               Object {
+                "answerKeys": "",
                 "availableBrailleTypes": Array [
                   Object {
                     "disabled": false,
@@ -1406,12 +1821,71 @@ exports[`SearchResultContainer card to table transition 1`] = `
       }
       countNumberOfItemsAfterSelection={[Function]}
       getSelectedItemCount={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       isPrintLimitEnabled={true}
+      itemHeaderConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
+          },
+        ]
+      }
       key="187 - 3615"
       onRowSelect={[Function]}
       rowData={
         Object {
+          "answerKeys": "",
           "availableBrailleTypes": Array [
             Object {
               "disabled": false,
@@ -1478,6 +1952,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
           "3206": Array [
             Array [
               Object {
+                "answerKeys": "C,D",
                 "availableBrailleTypes": Array [
                   Object {
                     "disabled": false,
@@ -1533,6 +2008,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
             ],
             Array [
               Object {
+                "answerKeys": "",
                 "availableBrailleTypes": Array [
                   Object {
                     "disabled": false,
@@ -1590,6 +2066,7 @@ exports[`SearchResultContainer card to table transition 1`] = `
             ],
             Array [
               Object {
+                "answerKeys": "",
                 "availableBrailleTypes": Array [
                   Object {
                     "disabled": false,
@@ -1647,15 +2124,74 @@ exports[`SearchResultContainer card to table transition 1`] = `
       }
       countNumberOfItemsAfterSelection={[Function]}
       getSelectedItemCount={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       isPrintLimitEnabled={true}
+      itemHeaderConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
+          },
+        ]
+      }
       key="187 - 2928"
       onRowSelect={[Function]}
       rowData={
         Object {
+          "answerKeys": "",
           "availableBrailleTypes": Array [
             Object {
-              "disabled": false,
+              "disabled": true,
               "hidden": false,
               "label": "TDS BT ECN",
               "selectionCode": "TDS_BT_ECN",
@@ -1728,7 +2264,7 @@ exports[`SearchResultContainer empty itemCards 1`] = `
       StatusMessage=""
       associatedItemsInPrintCart={Object {}}
       handleUpdateItemsinPrintCart={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       isSelectedItemsHaveMathItem={false}
       itemIdToTestNameMap={
         Object {
@@ -1750,6 +2286,64 @@ exports[`SearchResultContainer empty itemCards 1`] = `
           },
         }
       }
+      itemTableConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
+          },
+        ]
+      }
       itemsInCart={Array []}
       onAddOrRemoveSelectedItems={[Function]}
       onChangeModelState={[Function]}
@@ -1763,6 +2357,87 @@ exports[`SearchResultContainer empty itemCards 1`] = `
         }
       }
       totalSelectedItemsCount={0}
+      translationAccessibility={
+        Array [
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "None",
+            "order": 1,
+            "selectionCode": "DISABLED",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Arabic",
+            "order": 2,
+            "selectionCode": "TDS_WL_ArabicGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Cantonese",
+            "order": 3,
+            "selectionCode": "TDS_WL_CantoneseGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Spanish",
+            "order": 4,
+            "selectionCode": "TDS_WL_ESNGlossary",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Korean",
+            "order": 5,
+            "selectionCode": "TDS_WL_KoreanGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Mandarin",
+            "order": 6,
+            "selectionCode": "TDS_WL_MandarinGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Punjabi",
+            "order": 7,
+            "selectionCode": "TDS_WL_PunjabiGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Russian",
+            "order": 8,
+            "selectionCode": "TDS_WL_RussianGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Filipino (Ilokano and Tagalog)",
+            "order": 9,
+            "selectionCode": "TDS_WL_TagalGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Ukrainian",
+            "order": 10,
+            "selectionCode": "TDS_WL_UkrainianGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Vietnamese",
+            "order": 11,
+            "selectionCode": "TDS_WL_VietnameseGloss",
+          },
+        ]
+      }
     />
     <ErrorMessageModal
       StatusMessage=""
@@ -1775,7 +2450,7 @@ exports[`SearchResultContainer empty itemCards 1`] = `
       StatusMessage=""
       associatedItemsInPrintCart={Object {}}
       handleUpdateItemsinPrintCart={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       itemIdToTestNameMap={
         Object {
           "2928": Object {
@@ -1795,6 +2470,64 @@ exports[`SearchResultContainer empty itemCards 1`] = `
             "testOrder": 3,
           },
         }
+      }
+      itemTableConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
+          },
+        ]
       }
       itemsInCart={Array []}
       onAddOrRemoveSelectedItems={[Function]}
@@ -1824,7 +2557,8 @@ exports[`SearchResultContainer empty itemCards 1`] = `
     >
       <button
         aria-label="Select all to print"
-        className="btn btn-default search-result-container-header-button disabled "
+        className="btn btn-default btn-sm search-result-container-header-button disabled "
+        id="select-all-items-btn"
         onClick={[Function]}
         title="Select all to print"
       >
@@ -1834,6 +2568,86 @@ exports[`SearchResultContainer empty itemCards 1`] = `
         />
          Select All
       </button>
+      <DataFieldMultiSelect
+        onChange={[Function]}
+        options={
+          Array [
+            Object {
+              "disabled": true,
+              "isDefault": true,
+              "label": "Item",
+              "selected": true,
+              "shouldHidden": true,
+              "value": "Item",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Stimulus ID",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Stimulus ID",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Subject",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Subject",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Grade",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Grade",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Claim",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Claim",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Target",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Target",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Standard",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Standard",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Item Type",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Item Type",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Answer key",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Answer key",
+            },
+          ]
+        }
+        uniqueId={9502}
+      />
     </div>
     <div
       className="col-sm-3 header-grid-div  "
@@ -1867,6 +2681,7 @@ exports[`SearchResultContainer empty itemCards 1`] = `
       <button
         aria-label="Clear items from print cart"
         className="btn btn-default search-result-container-header-button disabled btn-sm"
+        id="reset-item-selection"
         onClick={[Function]}
         title="Clear items from print cart"
       >
@@ -1883,7 +2698,7 @@ exports[`SearchResultContainer empty itemCards 1`] = `
       />
       <button
         aria-label="Open barille cart modal"
-        className="btn btn-default btn-sm "
+        className="btn btn-default btn-sm search-result-container-header-button"
         onClick={[Function]}
         title="Open barille cart modal"
       >
@@ -1914,7 +2729,7 @@ exports[`SearchResultContainer onload matches snapshot ItemCards 1`] = `
       StatusMessage=""
       associatedItemsInPrintCart={Object {}}
       handleUpdateItemsinPrintCart={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       isSelectedItemsHaveMathItem={false}
       itemIdToTestNameMap={
         Object {
@@ -1936,6 +2751,64 @@ exports[`SearchResultContainer onload matches snapshot ItemCards 1`] = `
           },
         }
       }
+      itemTableConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
+          },
+        ]
+      }
       itemsInCart={Array []}
       onAddOrRemoveSelectedItems={[Function]}
       onChangeModelState={[Function]}
@@ -1949,6 +2822,87 @@ exports[`SearchResultContainer onload matches snapshot ItemCards 1`] = `
         }
       }
       totalSelectedItemsCount={0}
+      translationAccessibility={
+        Array [
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "None",
+            "order": 1,
+            "selectionCode": "DISABLED",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Arabic",
+            "order": 2,
+            "selectionCode": "TDS_WL_ArabicGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Cantonese",
+            "order": 3,
+            "selectionCode": "TDS_WL_CantoneseGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Spanish",
+            "order": 4,
+            "selectionCode": "TDS_WL_ESNGlossary",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Korean",
+            "order": 5,
+            "selectionCode": "TDS_WL_KoreanGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Mandarin",
+            "order": 6,
+            "selectionCode": "TDS_WL_MandarinGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Punjabi",
+            "order": 7,
+            "selectionCode": "TDS_WL_PunjabiGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Russian",
+            "order": 8,
+            "selectionCode": "TDS_WL_RussianGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Filipino (Ilokano and Tagalog)",
+            "order": 9,
+            "selectionCode": "TDS_WL_TagalGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Ukrainian",
+            "order": 10,
+            "selectionCode": "TDS_WL_UkrainianGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Vietnamese",
+            "order": 11,
+            "selectionCode": "TDS_WL_VietnameseGloss",
+          },
+        ]
+      }
     />
     <ErrorMessageModal
       StatusMessage=""
@@ -1961,7 +2915,7 @@ exports[`SearchResultContainer onload matches snapshot ItemCards 1`] = `
       StatusMessage=""
       associatedItemsInPrintCart={Object {}}
       handleUpdateItemsinPrintCart={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       itemIdToTestNameMap={
         Object {
           "2928": Object {
@@ -1981,6 +2935,64 @@ exports[`SearchResultContainer onload matches snapshot ItemCards 1`] = `
             "testOrder": 3,
           },
         }
+      }
+      itemTableConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
+          },
+        ]
       }
       itemsInCart={Array []}
       onAddOrRemoveSelectedItems={[Function]}
@@ -2010,7 +3022,8 @@ exports[`SearchResultContainer onload matches snapshot ItemCards 1`] = `
     >
       <button
         aria-label="Select all to print"
-        className="btn btn-default search-result-container-header-button  "
+        className="btn btn-default btn-sm search-result-container-header-button  "
+        id="select-all-items-btn"
         onClick={[Function]}
         title="Select all to print"
       >
@@ -2020,6 +3033,86 @@ exports[`SearchResultContainer onload matches snapshot ItemCards 1`] = `
         />
          Select All
       </button>
+      <DataFieldMultiSelect
+        onChange={[Function]}
+        options={
+          Array [
+            Object {
+              "disabled": true,
+              "isDefault": true,
+              "label": "Item",
+              "selected": true,
+              "shouldHidden": true,
+              "value": "Item",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Stimulus ID",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Stimulus ID",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Subject",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Subject",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Grade",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Grade",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Claim",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Claim",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Target",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Target",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Standard",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Standard",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Item Type",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Item Type",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Answer key",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Answer key",
+            },
+          ]
+        }
+        uniqueId={9502}
+      />
     </div>
     <div
       className="col-sm-3 header-grid-div  "
@@ -2053,6 +3146,7 @@ exports[`SearchResultContainer onload matches snapshot ItemCards 1`] = `
       <button
         aria-label="Clear items from print cart"
         className="btn btn-default search-result-container-header-button disabled btn-sm"
+        id="reset-item-selection"
         onClick={[Function]}
         title="Clear items from print cart"
       >
@@ -2069,7 +3163,7 @@ exports[`SearchResultContainer onload matches snapshot ItemCards 1`] = `
       />
       <button
         aria-label="Open barille cart modal"
-        className="btn btn-default btn-sm "
+        className="btn btn-default btn-sm search-result-container-header-button"
         onClick={[Function]}
         title="Open barille cart modal"
       >
@@ -2088,12 +3182,71 @@ exports[`SearchResultContainer onload matches snapshot ItemCards 1`] = `
       associatedItems={Object {}}
       countNumberOfItemsAfterSelection={[Function]}
       getSelectedItemCount={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       isPrintLimitEnabled={true}
+      itemHeaderConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
+          },
+        ]
+      }
       key="187 - 3206"
       onRowSelect={[Function]}
       rowData={
         Object {
+          "answerKeys": "",
           "availableBrailleTypes": Array [
             Object {
               "disabled": false,
@@ -2157,12 +3310,71 @@ exports[`SearchResultContainer onload matches snapshot ItemCards 1`] = `
       associatedItems={Object {}}
       countNumberOfItemsAfterSelection={[Function]}
       getSelectedItemCount={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       isPrintLimitEnabled={true}
+      itemHeaderConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
+          },
+        ]
+      }
       key="187 - 3163"
       onRowSelect={[Function]}
       rowData={
         Object {
+          "answerKeys": "C,D",
           "availableBrailleTypes": Array [
             Object {
               "disabled": false,
@@ -2226,12 +3438,71 @@ exports[`SearchResultContainer onload matches snapshot ItemCards 1`] = `
       associatedItems={Object {}}
       countNumberOfItemsAfterSelection={[Function]}
       getSelectedItemCount={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       isPrintLimitEnabled={true}
+      itemHeaderConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
+          },
+        ]
+      }
       key="187 - 3615"
       onRowSelect={[Function]}
       rowData={
         Object {
+          "answerKeys": "",
           "availableBrailleTypes": Array [
             Object {
               "disabled": false,
@@ -2294,15 +3565,74 @@ exports[`SearchResultContainer onload matches snapshot ItemCards 1`] = `
       associatedItems={Object {}}
       countNumberOfItemsAfterSelection={[Function]}
       getSelectedItemCount={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       isPrintLimitEnabled={true}
+      itemHeaderConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
+          },
+        ]
+      }
       key="187 - 2928"
       onRowSelect={[Function]}
       rowData={
         Object {
+          "answerKeys": "",
           "availableBrailleTypes": Array [
             Object {
-              "disabled": false,
+              "disabled": true,
               "hidden": false,
               "label": "TDS BT ECN",
               "selectionCode": "TDS_BT_ECN",
@@ -2371,7 +3701,7 @@ exports[`SearchResultContainer onload matches snapshot table 1`] = `
       StatusMessage=""
       associatedItemsInPrintCart={Object {}}
       handleUpdateItemsinPrintCart={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       isSelectedItemsHaveMathItem={false}
       itemIdToTestNameMap={
         Object {
@@ -2393,6 +3723,64 @@ exports[`SearchResultContainer onload matches snapshot table 1`] = `
           },
         }
       }
+      itemTableConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
+          },
+        ]
+      }
       itemsInCart={Array []}
       onAddOrRemoveSelectedItems={[Function]}
       onChangeModelState={[Function]}
@@ -2406,6 +3794,87 @@ exports[`SearchResultContainer onload matches snapshot table 1`] = `
         }
       }
       totalSelectedItemsCount={0}
+      translationAccessibility={
+        Array [
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "None",
+            "order": 1,
+            "selectionCode": "DISABLED",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Arabic",
+            "order": 2,
+            "selectionCode": "TDS_WL_ArabicGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Cantonese",
+            "order": 3,
+            "selectionCode": "TDS_WL_CantoneseGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Spanish",
+            "order": 4,
+            "selectionCode": "TDS_WL_ESNGlossary",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Korean",
+            "order": 5,
+            "selectionCode": "TDS_WL_KoreanGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Mandarin",
+            "order": 6,
+            "selectionCode": "TDS_WL_MandarinGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Punjabi",
+            "order": 7,
+            "selectionCode": "TDS_WL_PunjabiGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Russian",
+            "order": 8,
+            "selectionCode": "TDS_WL_RussianGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Filipino (Ilokano and Tagalog)",
+            "order": 9,
+            "selectionCode": "TDS_WL_TagalGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Ukrainian",
+            "order": 10,
+            "selectionCode": "TDS_WL_UkrainianGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Vietnamese",
+            "order": 11,
+            "selectionCode": "TDS_WL_VietnameseGloss",
+          },
+        ]
+      }
     />
     <ErrorMessageModal
       StatusMessage=""
@@ -2418,7 +3887,7 @@ exports[`SearchResultContainer onload matches snapshot table 1`] = `
       StatusMessage=""
       associatedItemsInPrintCart={Object {}}
       handleUpdateItemsinPrintCart={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       itemIdToTestNameMap={
         Object {
           "2928": Object {
@@ -2438,6 +3907,64 @@ exports[`SearchResultContainer onload matches snapshot table 1`] = `
             "testOrder": 3,
           },
         }
+      }
+      itemTableConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
+          },
+        ]
       }
       itemsInCart={Array []}
       onAddOrRemoveSelectedItems={[Function]}
@@ -2467,7 +3994,8 @@ exports[`SearchResultContainer onload matches snapshot table 1`] = `
     >
       <button
         aria-label="Select all to print"
-        className="btn btn-default search-result-container-header-button  "
+        className="btn btn-default btn-sm search-result-container-header-button  "
+        id="select-all-items-btn"
         onClick={[Function]}
         title="Select all to print"
       >
@@ -2477,6 +4005,86 @@ exports[`SearchResultContainer onload matches snapshot table 1`] = `
         />
          Select All
       </button>
+      <DataFieldMultiSelect
+        onChange={[Function]}
+        options={
+          Array [
+            Object {
+              "disabled": true,
+              "isDefault": true,
+              "label": "Item",
+              "selected": true,
+              "shouldHidden": true,
+              "value": "Item",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Stimulus ID",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Stimulus ID",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Subject",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Subject",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Grade",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Grade",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Claim",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Claim",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Target",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Target",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Standard",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Standard",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Item Type",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Item Type",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Answer key",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Answer key",
+            },
+          ]
+        }
+        uniqueId={9502}
+      />
     </div>
     <div
       className="col-sm-3 header-grid-div  "
@@ -2510,6 +4118,7 @@ exports[`SearchResultContainer onload matches snapshot table 1`] = `
       <button
         aria-label="Clear items from print cart"
         className="btn btn-default search-result-container-header-button disabled btn-sm"
+        id="reset-item-selection"
         onClick={[Function]}
         title="Clear items from print cart"
       >
@@ -2526,7 +4135,7 @@ exports[`SearchResultContainer onload matches snapshot table 1`] = `
       />
       <button
         aria-label="Open barille cart modal"
-        className="btn btn-default btn-sm "
+        className="btn btn-default btn-sm search-result-container-header-button"
         onClick={[Function]}
         title="Open barille cart modal"
       >
@@ -2545,7 +4154,7 @@ exports[`SearchResultContainer onload matches snapshot table 1`] = `
       associatedItems={Object {}}
       countNumberOfItemsAfterSelection={[Function]}
       getSelectedItemCount={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       isLinkTable={false}
       item={
         Object {
@@ -2555,6 +4164,7 @@ exports[`SearchResultContainer onload matches snapshot table 1`] = `
       itemCards={
         Array [
           Object {
+            "answerKeys": "",
             "availableBrailleTypes": Array [
               Object {
                 "disabled": false,
@@ -2606,6 +4216,7 @@ exports[`SearchResultContainer onload matches snapshot table 1`] = `
             "title": "Math Grade 6 Claim 1",
           },
           Object {
+            "answerKeys": "C,D",
             "availableBrailleTypes": Array [
               Object {
                 "disabled": false,
@@ -2657,6 +4268,7 @@ exports[`SearchResultContainer onload matches snapshot table 1`] = `
             "title": "ELA/ literacy Grade 3 Claim 1",
           },
           Object {
+            "answerKeys": "",
             "availableBrailleTypes": Array [
               Object {
                 "disabled": false,
@@ -2707,9 +4319,10 @@ exports[`SearchResultContainer onload matches snapshot table 1`] = `
             "title": "Math Grade 6 Claim 4",
           },
           Object {
+            "answerKeys": "",
             "availableBrailleTypes": Array [
               Object {
-                "disabled": false,
+                "disabled": true,
                 "hidden": false,
                 "label": "TDS BT ECN",
                 "selectionCode": "TDS_BT_ECN",
@@ -2758,6 +4371,64 @@ exports[`SearchResultContainer onload matches snapshot table 1`] = `
           },
         ]
       }
+      itemColumnHeaderConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
+          },
+        ]
+      }
       numberOfSelectedItem={0}
       onCountNumberOfItemSelection={[Function]}
       onItemSelection={[Function]}
@@ -2783,7 +4454,7 @@ exports[`SearchResultContainer table to card transition 1`] = `
       StatusMessage=""
       associatedItemsInPrintCart={Object {}}
       handleUpdateItemsinPrintCart={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       isSelectedItemsHaveMathItem={false}
       itemIdToTestNameMap={
         Object {
@@ -2805,6 +4476,64 @@ exports[`SearchResultContainer table to card transition 1`] = `
           },
         }
       }
+      itemTableConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
+          },
+        ]
+      }
       itemsInCart={Array []}
       onAddOrRemoveSelectedItems={[Function]}
       onChangeModelState={[Function]}
@@ -2818,6 +4547,87 @@ exports[`SearchResultContainer table to card transition 1`] = `
         }
       }
       totalSelectedItemsCount={0}
+      translationAccessibility={
+        Array [
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "None",
+            "order": 1,
+            "selectionCode": "DISABLED",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Arabic",
+            "order": 2,
+            "selectionCode": "TDS_WL_ArabicGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Cantonese",
+            "order": 3,
+            "selectionCode": "TDS_WL_CantoneseGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Spanish",
+            "order": 4,
+            "selectionCode": "TDS_WL_ESNGlossary",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Korean",
+            "order": 5,
+            "selectionCode": "TDS_WL_KoreanGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Mandarin",
+            "order": 6,
+            "selectionCode": "TDS_WL_MandarinGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Punjabi",
+            "order": 7,
+            "selectionCode": "TDS_WL_PunjabiGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Russian",
+            "order": 8,
+            "selectionCode": "TDS_WL_RussianGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Filipino (Ilokano and Tagalog)",
+            "order": 9,
+            "selectionCode": "TDS_WL_TagalGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Ukrainian",
+            "order": 10,
+            "selectionCode": "TDS_WL_UkrainianGloss",
+          },
+          Object {
+            "disabled": true,
+            "hidden": false,
+            "label": "Vietnamese",
+            "order": 11,
+            "selectionCode": "TDS_WL_VietnameseGloss",
+          },
+        ]
+      }
     />
     <ErrorMessageModal
       StatusMessage=""
@@ -2830,7 +4640,7 @@ exports[`SearchResultContainer table to card transition 1`] = `
       StatusMessage=""
       associatedItemsInPrintCart={Object {}}
       handleUpdateItemsinPrintCart={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       itemIdToTestNameMap={
         Object {
           "2928": Object {
@@ -2850,6 +4660,64 @@ exports[`SearchResultContainer table to card transition 1`] = `
             "testOrder": 3,
           },
         }
+      }
+      itemTableConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
+          },
+        ]
       }
       itemsInCart={Array []}
       onAddOrRemoveSelectedItems={[Function]}
@@ -2879,7 +4747,8 @@ exports[`SearchResultContainer table to card transition 1`] = `
     >
       <button
         aria-label="Select all to print"
-        className="btn btn-default search-result-container-header-button  "
+        className="btn btn-default btn-sm search-result-container-header-button  "
+        id="select-all-items-btn"
         onClick={[Function]}
         title="Select all to print"
       >
@@ -2889,6 +4758,86 @@ exports[`SearchResultContainer table to card transition 1`] = `
         />
          Select All
       </button>
+      <DataFieldMultiSelect
+        onChange={[Function]}
+        options={
+          Array [
+            Object {
+              "disabled": true,
+              "isDefault": true,
+              "label": "Item",
+              "selected": true,
+              "shouldHidden": true,
+              "value": "Item",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Stimulus ID",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Stimulus ID",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Subject",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Subject",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Grade",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Grade",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Claim",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Claim",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Target",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Target",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Standard",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Standard",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Item Type",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Item Type",
+            },
+            Object {
+              "disabled": false,
+              "isDefault": false,
+              "label": "Answer key",
+              "selected": true,
+              "shouldHidden": false,
+              "value": "Answer key",
+            },
+          ]
+        }
+        uniqueId={9502}
+      />
     </div>
     <div
       className="col-sm-3 header-grid-div  "
@@ -2922,6 +4871,7 @@ exports[`SearchResultContainer table to card transition 1`] = `
       <button
         aria-label="Clear items from print cart"
         className="btn btn-default search-result-container-header-button disabled btn-sm"
+        id="reset-item-selection"
         onClick={[Function]}
         title="Clear items from print cart"
       >
@@ -2938,7 +4888,7 @@ exports[`SearchResultContainer table to card transition 1`] = `
       />
       <button
         aria-label="Open barille cart modal"
-        className="btn btn-default btn-sm "
+        className="btn btn-default btn-sm search-result-container-header-button"
         onClick={[Function]}
         title="Open barille cart modal"
       >
@@ -2957,7 +4907,7 @@ exports[`SearchResultContainer table to card transition 1`] = `
       associatedItems={Object {}}
       countNumberOfItemsAfterSelection={[Function]}
       getSelectedItemCount={[Function]}
-      isInterimSite={true}
+      isInterimSite={false}
       isLinkTable={false}
       item={
         Object {
@@ -2967,6 +4917,7 @@ exports[`SearchResultContainer table to card transition 1`] = `
       itemCards={
         Array [
           Object {
+            "answerKeys": "",
             "availableBrailleTypes": Array [
               Object {
                 "disabled": false,
@@ -3018,6 +4969,7 @@ exports[`SearchResultContainer table to card transition 1`] = `
             "title": "Math Grade 6 Claim 1",
           },
           Object {
+            "answerKeys": "C,D",
             "availableBrailleTypes": Array [
               Object {
                 "disabled": false,
@@ -3069,6 +5021,7 @@ exports[`SearchResultContainer table to card transition 1`] = `
             "title": "ELA/ literacy Grade 3 Claim 1",
           },
           Object {
+            "answerKeys": "",
             "availableBrailleTypes": Array [
               Object {
                 "disabled": false,
@@ -3119,9 +5072,10 @@ exports[`SearchResultContainer table to card transition 1`] = `
             "title": "Math Grade 6 Claim 4",
           },
           Object {
+            "answerKeys": "",
             "availableBrailleTypes": Array [
               Object {
-                "disabled": false,
+                "disabled": true,
                 "hidden": false,
                 "label": "TDS BT ECN",
                 "selectionCode": "TDS_BT_ECN",
@@ -3167,6 +5121,64 @@ exports[`SearchResultContainer table to card transition 1`] = `
             "testName": "",
             "testOrder": 2,
             "title": "ELA/ literacy Grade 4 Claim 4",
+          },
+        ]
+      }
+      itemColumnHeaderConfig={
+        Array [
+          Object {
+            "columnIndex": 1,
+            "headerName": "Item",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 2,
+            "headerName": "Stimulus ID",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 3,
+            "headerName": "Subject",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 4,
+            "headerName": "Grade",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 5,
+            "headerName": "Claim",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 6,
+            "headerName": "Target",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 7,
+            "headerName": "Standard",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 8,
+            "headerName": "Item Type",
+            "isHidden": false,
+            "isSortable": true,
+          },
+          Object {
+            "columnIndex": 9,
+            "headerName": "Answer key",
+            "isHidden": false,
+            "isSortable": true,
           },
         ]
       }

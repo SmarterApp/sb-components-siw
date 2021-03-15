@@ -3,8 +3,8 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import * as TestUtils from "react-dom/test-utils";
 import { shallow, mount, render } from "enzyme";
-import { itemCardList } from "@mocks/ItemCard/mocks";
-import { tabClassNames } from "@mocks/ItemTable/mocks";
+import { itemCardList, testCodeToLabelMap_mock } from "@mocks/ItemCard/mocks";
+import { getColumnsHeaderConfig_mock, tabClassNames } from "@mocks/ItemTable/mocks";
 import { itemHandler, getSelectedItemCount } from "./mocks";
 import { aboutItemMockModel } from "@mocks/index";
 import {
@@ -38,7 +38,10 @@ describe("ItemTable", () => {
     getSelectedItemCount: getSelectedItemCount,
     showErrorModalOnPrintItemsCountExceeded: itemHandler,
     associatedItems: [],
-    countNumberOfItemsAfterSelection: itemHandler
+    countNumberOfItemsAfterSelection: itemHandler,
+    isInterimSite: false,
+    testCodeToLabelMap: testCodeToLabelMap_mock,
+    itemTableConfig: getColumnsHeaderConfig_mock()
   };
 
   const propsExpanded: ItemTableProps = {

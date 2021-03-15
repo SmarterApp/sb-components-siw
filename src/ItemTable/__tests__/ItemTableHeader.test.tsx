@@ -9,7 +9,7 @@ import {
   HeaderTable,
   HeaderTableProps
 } from "@src/index";
-import { tabClassNames } from "@mocks/ItemTable/mocks";
+import { getColumnsHeaderConfig_mock, tabClassNames } from "@mocks/ItemTable/mocks";
 import { itemHandler } from "./mocks";
 
 describe("ItemTableHeader", () => {
@@ -25,7 +25,8 @@ describe("ItemTableHeader", () => {
     sorts,
     columns: headerColumns,
     onHeaderClick: itemHandler,
-    isLinkTable: false
+    isLinkTable: false,
+    itemTableConfig: getColumnsHeaderConfig_mock() 
   };
 
   const wrapper = shallow(<HeaderTable {...props} />);
