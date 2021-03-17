@@ -18,7 +18,7 @@ describe("ItemTableRow", () => {
 
   const props: PrintCartItemTableRowProps = {
     ItemCard: selectedItem,
-    isInterimSite: true,
+    isInterimSite: false,
     TotalItemsCard: itemCardList,
     associatedItemsInPrintCart: PTassociatedItems[3206],
     onAddOrRemoveSelectedItems: onAddOrRemoveSelectedItems,

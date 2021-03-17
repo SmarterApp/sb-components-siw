@@ -458,7 +458,7 @@ export class ItemCard extends React.Component<ItemCardProps, ItemCardState> {
 
             {/***** * Answer key --- */}
             {!this.toggleItemLabel("Answer key") && (
-              <p className="card-text interaction-type">
+              <p className="card-text answer">
                 <span className="card-text-label">Answer:</span>
                 <span className="card-text-value">
                   {this.props.rowData.answerKeys.length > 0 ? (
