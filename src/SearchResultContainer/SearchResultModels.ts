@@ -26,7 +26,7 @@ export const itemColumnsName_NonInterim: string[] = [
   "Target",
   "Standard",
   "Item Type",
-  "Answer key"
+  "Answer Key"
 ];
 
 export interface ItemColumnHeadersConfig {
